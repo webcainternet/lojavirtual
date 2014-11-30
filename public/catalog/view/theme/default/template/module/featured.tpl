@@ -1,5 +1,5 @@
 
-      <div id="content" class="<?php echo $class; ?> container-contato" style="min-height: 10px;">
+      <div id="content" class="<?php //echo $class; ?> container-contato" style="min-height: 10px;">
         
         <div class="newsletter">
           <div class="newsletter-col newsletter-col-1">

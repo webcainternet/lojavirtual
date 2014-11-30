@@ -78,8 +78,8 @@ div.required .control-label:before {
 }
 /* top */
 #top {
-	background-color: #EEEEEE;
-	border-bottom: 1px solid #e2e2e2;
+	/* background-color: #EEEEEE;
+	border-bottom: 1px solid #e2e2e2; */
 	padding: 4px 0px 3px 0;
 	margin: 0 0 20px 0;
 	min-height: 40px;
@@ -297,11 +297,12 @@ div.required .control-label:before {
 }
 /* footer */
 footer {
-	margin-top: 30px;
+	margin-top: 0px;
 	padding-top: 30px;
-	background-color: #303030;
-	border-top: 1px solid #ddd;
-	color: #e2e2e2;
+	/* background-color: #303030;
+	border-top: 1px solid #ddd; */
+	color: #303030;
+	text-align: center;
 }
 footer hr {
 	border-top: none;
@@ -857,6 +858,7 @@ h2.price {
 	  background: -o-radial-gradient(#f6ae3b, #f6ae3b); /* For Opera 11.6 to 12.0 */
 	  background: -moz-radial-gradient(#f6ae3b, #f6ae3b); /* For Firefox 3.6 to 15 */
 	  background: radial-gradient(#f6ae3b, #f6ae3b); /* Standard syntax */
+  	border-top-left-radius: 15px; border-top-right-radius: 15px;
 }
 
 .content-incluso {
@@ -868,8 +870,8 @@ h2.price {
 
 
 .container-tema {
-	background-color: #f6ae3b;
-	height: 100px;
+	background-color: #EEEEEE;
+	height: 650px;
 	margin: 0px;
 }
 
@@ -878,14 +880,21 @@ h2.price {
 /* WebCA info Home */
 .container-info {
 	background-color: #171314;
-	height: 580px;
+	height: 625px;
 	margin-bottom: 30px;
 	padding: 10px;
 
-  background: -webkit-radial-gradient(#322c2d, #171314); /* Safari 5.1 to 6.0 */
-  background: -o-radial-gradient(#322c2d, #171314); /* For Opera 11.6 to 12.0 */
-  background: -moz-radial-gradient(#322c2d, #171314); /* For Firefox 3.6 to 15 */
-  background: radial-gradient(#322c2d, #171314); /* Standard syntax */
+	background: -webkit-radial-gradient(#322c2d, #171314); /* Safari 5.1 to 6.0 */
+	background: -o-radial-gradient(#322c2d, #171314); /* For Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(#322c2d, #171314); /* For Firefox 3.6 to 15 */
+	background: radial-gradient(#322c2d, #171314); /* Standard syntax */
+}
+
+
+/* WebCA info Home */
+.container-plan {
+	padding-top: 70px;
+	padding-bottom: 40px;
 }
 
 
@@ -894,6 +903,8 @@ h2.price {
 .container-info2 {
 	background-color: #FFFFFF;
 	margin-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .container-passos {
@@ -970,12 +981,26 @@ h2.price {
 
 .wca-templatethumb {
     display: inline-block;
-    width: 272px;
-    height: 272px;
+    width: 221px;
+    height: 221px;
     background-size: 100%;
+    background-position: center;
     margin: 2px;
-    border: #333 solid 3px;
+    border: #FFF solid 3px;
   }
   .wca-templatethumb:hover {
-    border: #f6ae3b solid 3px;
+  	/* background-size: 120%;
+    border: #FFF solid 3px;  f6ae3b */
   }
+.tema-col-1 {
+  width: 100%;
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: right;
+}
+
+.wca-navtop {
+	border-bottom: 1px solid #e2e2e2;
+}
