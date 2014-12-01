@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:3306
--- Generation Time: Nov 28, 2014 at 05:45 PM
+-- Generation Time: Nov 30, 2014 at 11:12 PM
 -- Server version: 5.5.38
 -- PHP Version: 5.3.29
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `noscript`
+-- Database: `lojavirtual`
 --
 
 -- --------------------------------------------------------
@@ -277,27 +277,27 @@ CREATE TABLE `oc_banner_image` (
   `link` varchar(255) NOT NULL,
   `image` varchar(255) NOT NULL,
   `sort_order` int(3) NOT NULL DEFAULT '0'
-) ENGINE=MyISAM AUTO_INCREMENT=109 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=136 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `oc_banner_image`
 --
 
 INSERT INTO `oc_banner_image` (`banner_image_id`, `banner_id`, `link`, `image`, `sort_order`) VALUES
-(108, 7, '', 'catalog/banners/slider/slide1.png', 0),
+(134, 7, '', 'catalog/banners/slider/slider1-amarelo.png', 0),
 (87, 6, 'index.php?route=product/manufacturer/info&amp;manufacturer_id=7', 'catalog/demo/compaq_presario.jpg', 0),
-(94, 8, '', 'catalog/demo/manufacturer/nfl.png', 0),
-(95, 8, '', 'catalog/demo/manufacturer/redbull.png', 0),
-(96, 8, '', 'catalog/demo/manufacturer/sony.png', 0),
-(91, 8, '', 'catalog/demo/manufacturer/cocacola.png', 0),
-(92, 8, '', 'catalog/demo/manufacturer/burgerking.png', 0),
-(93, 8, '', 'catalog/demo/manufacturer/canon.png', 0),
-(88, 8, '', 'catalog/demo/manufacturer/harley.png', 0),
-(89, 8, '', 'catalog/demo/manufacturer/dell.png', 0),
-(90, 8, '', 'catalog/demo/manufacturer/disney.png', 0),
-(97, 8, '', 'catalog/demo/manufacturer/starbucks.png', 0),
-(98, 8, '', 'catalog/demo/manufacturer/nintendo.png', 0),
-(107, 7, 'index.php?route=product/product&amp;path=57&amp;product_id=49', 'catalog/banners/slider/slide1.png', 0);
+(129, 8, '', 'catalog/demo/manufacturer/starbucks.png', 0),
+(130, 8, '', 'catalog/demo/manufacturer/nintendo.png', 0),
+(128, 8, '', 'catalog/demo/manufacturer/disney.png', 0),
+(127, 8, '', 'catalog/demo/manufacturer/nfl.png', 0),
+(125, 8, '', 'catalog/demo/manufacturer/sony.png', 0),
+(126, 8, '', 'catalog/demo/manufacturer/redbull.png', 0),
+(124, 8, '', 'catalog/demo/manufacturer/cocacola.png', 0),
+(123, 8, '', 'catalog/demo/manufacturer/burgerking.png', 0),
+(135, 7, '', 'catalog/banners/slider/slider1-amarelo.png', 0),
+(122, 8, '', 'catalog/demo/manufacturer/canon.png', 0),
+(121, 8, '', 'catalog/demo/manufacturer/harley.png', 0),
+(120, 8, '', 'catalog/demo/manufacturer/dell.png', 0);
 
 -- --------------------------------------------------------
 
@@ -317,20 +317,20 @@ CREATE TABLE `oc_banner_image_description` (
 --
 
 INSERT INTO `oc_banner_image_description` (`banner_image_id`, `language_id`, `banner_id`, `title`) VALUES
-(108, 2, 7, 'MacBookAir'),
+(135, 2, 7, 'Banner2'),
 (87, 2, 6, 'HP Banner'),
-(93, 2, 8, 'Canon'),
-(92, 2, 8, 'Burger King'),
-(91, 2, 8, 'Coca Cola'),
-(90, 2, 8, 'Disney'),
-(89, 2, 8, 'Dell'),
-(107, 2, 7, 'iPhone 6'),
-(88, 2, 8, 'Harley Davidson'),
-(94, 2, 8, 'NFL'),
-(95, 2, 8, 'RedBull'),
-(96, 2, 8, 'Sony'),
-(97, 2, 8, 'Starbucks'),
-(98, 2, 8, 'Nintendo');
+(128, 2, 8, 'Disney'),
+(127, 2, 8, 'NFL'),
+(126, 2, 8, 'RedBull'),
+(125, 2, 8, 'Sony'),
+(134, 2, 7, 'Banner1'),
+(124, 2, 8, 'Coca Cola'),
+(123, 2, 8, 'Burger King'),
+(122, 2, 8, 'Canon'),
+(121, 2, 8, 'Harley Davidson'),
+(120, 2, 8, 'Dell'),
+(129, 2, 8, 'Starbucks'),
+(130, 2, 8, 'Nintendo');
 
 -- --------------------------------------------------------
 
@@ -989,7 +989,7 @@ CREATE TABLE `oc_currency` (
 --
 
 INSERT INTO `oc_currency` (`currency_id`, `title`, `code`, `symbol_left`, `symbol_right`, `decimal_place`, `value`, `status`, `date_modified`) VALUES
-(4, 'Real', 'BRL', 'R$ ', '', '2', 1.00000000, 1, '2014-11-27 14:07:49');
+(4, 'Real', 'BRL', 'R$ ', '', '2', 1.00000000, 1, '2014-11-30 02:08:40');
 
 -- --------------------------------------------------------
 
@@ -1161,7 +1161,7 @@ CREATE TABLE `oc_customer_online` (
 --
 
 INSERT INTO `oc_customer_online` (`ip`, `customer_id`, `url`, `referer`, `date_added`) VALUES
-('127.0.0.1', 3, 'http://lojavirtual.digital/', '', '2014-11-28 15:36:56');
+('127.0.0.1', 0, 'http://lojavirtual.digital/', 'http://lojavirtual.digital/test?search=a', '2014-11-30 23:05:33');
 
 -- --------------------------------------------------------
 
@@ -2290,7 +2290,7 @@ INSERT INTO `oc_product` (`product_id`, `model`, `sku`, `upc`, `ean`, `jan`, `is
 (36, 'Product 9', '', '', '', '', '', '', '', 994, 6, 'catalog/demo/ipod_nano_1.jpg', 8, 0, 100.0000, 100, 9, '2009-02-03', 5.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 1, 0, '2009-02-03 18:09:19', '2011-09-30 01:07:12'),
 (40, 'product 11', '', '', '', '', '', '', '', 966, 5, 'catalog/demo/iphone_1.jpg', 8, 1, 101.0000, 0, 9, '2009-02-03', 10.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 0, 1, 2, '2009-02-03 21:07:12', '2011-09-30 01:06:53'),
 (41, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/demo/imac_1.jpg', 8, 1, 100.0000, 0, 9, '2009-02-03', 5.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 0, 1, 0, '2009-02-03 21:07:26', '2011-09-30 01:06:44'),
-(42, 'Product 15', '', '', '', '', '', '', '', 990, 5, 'catalog/demo/apple_cinema_30.jpg', 8, 1, 100.0000, 400, 9, '2009-02-04', 12.50000000, 1, 1.00000000, 2.00000000, 3.00000000, 1, 1, 2, 0, 1, 11, '2009-02-03 21:07:37', '2011-09-30 00:46:19'),
+(42, 'Product 15', '', '', '', '', '', '', '', 990, 5, 'catalog/demo/apple_cinema_30.jpg', 8, 1, 100.0000, 400, 9, '2009-02-04', 12.50000000, 1, 1.00000000, 2.00000000, 3.00000000, 1, 1, 2, 0, 1, 15, '2009-02-03 21:07:37', '2011-09-30 00:46:19'),
 (43, 'Product 16', '', '', '', '', '', '', '', 914, 5, 'catalog/demo/macbook_1.jpg', 8, 0, 500.0000, 0, 9, '2009-02-03', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 1, 2, '2009-02-03 21:07:49', '2011-09-30 01:05:46'),
 (44, 'Product 17', '', '', '', '', '', '', '', 1000, 5, 'catalog/demo/macbook_air_1.jpg', 8, 1, 1000.0000, 0, 9, '2009-02-03', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 1, 0, '2009-02-03 21:08:00', '2011-09-30 01:05:53'),
 (45, 'Product 18', '', '', '', '', '', '', '', 998, 5, 'catalog/demo/macbook_pro_1.jpg', 8, 1, 2000.0000, 0, 100, '2009-02-03', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 1, 0, '2009-02-03 21:08:17', '2011-09-15 22:22:01'),
@@ -2932,7 +2932,7 @@ CREATE TABLE `oc_setting` (
   `key` varchar(64) NOT NULL,
   `value` text NOT NULL,
   `serialized` tinyint(1) NOT NULL
-) ENGINE=MyISAM AUTO_INCREMENT=1404 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1622 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `oc_setting`
@@ -2965,10 +2965,7 @@ INSERT INTO `oc_setting` (`setting_id`, `store_id`, `group`, `key`, `value`, `se
 (54, 0, 'reward', 'reward_status', '1', 0),
 (146, 0, 'category', 'category_status', '1', 0),
 (158, 0, 'account', 'account_status', '1', 0),
-(1392, 0, 'config', 'config_seo_url', '1', 0),
-(1393, 0, 'config', 'config_file_max_size', '3000000', 0),
-(1394, 0, 'config', 'config_file_ext_allowed', 'txt\r\npng\r\njpe\r\njpeg\r\njpg\r\ngif\r\nbmp\r\nico\r\ntiff\r\ntif\r\nsvg\r\nsvgz\r\nzip\r\nrar\r\nmsi\r\ncab\r\nmp3\r\nqt\r\nmov\r\npdf\r\npsd\r\nai\r\neps\r\nps\r\ndoc\r\nrtf\r\nxls\r\nppt\r\nodt\r\nods', 0),
-(1395, 0, 'config', 'config_file_mime_allowed', 'text/plain\r\nimage/png\r\nimage/jpeg\r\nimage/gif\r\nimage/bmp\r\nimage/vnd.microsoft.icon\r\nimage/tiff\r\nimage/svg+xml\r\napplication/zip\r\napplication/x-rar-compressed\r\napplication/x-msdownload\r\napplication/vnd.ms-cab-compressed\r\naudio/mpeg\r\nvideo/quicktime\r\napplication/pdf\r\nimage/vnd.adobe.photoshop\r\napplication/postscript\r\napplication/msword\r\napplication/rtf\r\napplication/vnd.ms-excel\r\napplication/vnd.ms-powerpoint\r\napplication/vnd.oasis.opendocument.text\r\napplication/vnd.oasis.opendocument.spreadsheet', 0),
+(1609, 0, 'config', 'config_robots', 'abot\r\ndbot\r\nebot\r\nhbot\r\nkbot\r\nlbot\r\nmbot\r\nnbot\r\nobot\r\npbot\r\nrbot\r\nsbot\r\ntbot\r\nvbot\r\nybot\r\nzbot\r\nbot.\r\nbot/\r\n_bot\r\n.bot\r\n/bot\r\n-bot\r\n:bot\r\n(bot\r\ncrawl\r\nslurp\r\nspider\r\nseek\r\naccoona\r\nacoon\r\nadressendeutschland\r\nah-ha.com\r\nahoy\r\naltavista\r\nananzi\r\nanthill\r\nappie\r\narachnophilia\r\narale\r\naraneo\r\naranha\r\narchitext\r\naretha\r\narks\r\nasterias\r\natlocal\r\natn\r\natomz\r\naugurfind\r\nbackrub\r\nbannana_bot\r\nbaypup\r\nbdfetch\r\nbig brother\r\nbiglotron\r\nbjaaland\r\nblackwidow\r\nblaiz\r\nblog\r\nblo.\r\nbloodhound\r\nboitho\r\nbooch\r\nbradley\r\nbutterfly\r\ncalif\r\ncassandra\r\nccubee\r\ncfetch\r\ncharlotte\r\nchurl\r\ncienciaficcion\r\ncmc\r\ncollective\r\ncomagent\r\ncombine\r\ncomputingsite\r\ncsci\r\ncurl\r\ncusco\r\ndaumoa\r\ndeepindex\r\ndelorie\r\ndepspid\r\ndeweb\r\ndie blinde kuh\r\ndigger\r\nditto\r\ndmoz\r\ndocomo\r\ndownload express\r\ndtaagent\r\ndwcp\r\nebiness\r\nebingbong\r\ne-collector\r\nejupiter\r\nemacs-w3 search engine\r\nesther\r\nevliya celebi\r\nezresult\r\nfalcon\r\nfelix ide\r\nferret\r\nfetchrover\r\nfido\r\nfindlinks\r\nfireball\r\nfish search\r\nfouineur\r\nfunnelweb\r\ngazz\r\ngcreep\r\ngenieknows\r\ngetterroboplus\r\ngeturl\r\nglx\r\ngoforit\r\ngolem\r\ngrabber\r\ngrapnel\r\ngralon\r\ngriffon\r\ngromit\r\ngrub\r\ngulliver\r\nhamahakki\r\nharvest\r\nhavindex\r\nhelix\r\nheritrix\r\nhku www octopus\r\nhomerweb\r\nhtdig\r\nhtml index\r\nhtml_analyzer\r\nhtmlgobble\r\nhubater\r\nhyper-decontextualizer\r\nia_archiver\r\nibm_planetwide\r\nichiro\r\niconsurf\r\niltrovatore\r\nimage.kapsi.net\r\nimagelock\r\nincywincy\r\nindexer\r\ninfobee\r\ninformant\r\ningrid\r\ninktomisearch.com\r\ninspector web\r\nintelliagent\r\ninternet shinchakubin\r\nip3000\r\niron33\r\nisraeli-search\r\nivia\r\njack\r\njakarta\r\njavabee\r\njetbot\r\njumpstation\r\nkatipo\r\nkdd-explorer\r\nkilroy\r\nknowledge\r\nkototoi\r\nkretrieve\r\nlabelgrabber\r\nlachesis\r\nlarbin\r\nlegs\r\nlibwww\r\nlinkalarm\r\nlink validator\r\nlinkscan\r\nlockon\r\nlwp\r\nlycos\r\nmagpie\r\nmantraagent\r\nmapoftheinternet\r\nmarvin/\r\nmattie\r\nmediafox\r\nmediapartners\r\nmercator\r\nmerzscope\r\nmicrosoft url control\r\nminirank\r\nmiva\r\nmj12\r\nmnogosearch\r\nmoget\r\nmonster\r\nmoose\r\nmotor\r\nmultitext\r\nmuncher\r\nmuscatferret\r\nmwd.search\r\nmyweb\r\nnajdi\r\nnameprotect\r\nnationaldirectory\r\nnazilla\r\nncsa beta\r\nnec-meshexplorer\r\nnederland.zoek\r\nnetcarta webmap engine\r\nnetmechanic\r\nnetresearchserver\r\nnetscoop\r\nnewscan-online\r\nnhse\r\nnokia6682/\r\nnomad\r\nnoyona\r\nnutch\r\nnzexplorer\r\nobjectssearch\r\noccam\r\nomni\r\nopen text\r\nopenfind\r\nopenintelligencedata\r\norb search\r\nosis-project\r\npack rat\r\npageboy\r\npagebull\r\npage_verifier\r\npanscient\r\nparasite\r\npartnersite\r\npatric\r\npear.\r\npegasus\r\nperegrinator\r\npgp key agent\r\nphantom\r\nphpdig\r\npicosearch\r\npiltdownman\r\npimptrain\r\npinpoint\r\npioneer\r\npiranha\r\nplumtreewebaccessor\r\npogodak\r\npoirot\r\npompos\r\npoppelsdorf\r\npoppi\r\npopular iconoclast\r\npsycheclone\r\npublisher\r\npython\r\nrambler\r\nraven search\r\nroach\r\nroad runner\r\nroadhouse\r\nrobbie\r\nrobofox\r\nrobozilla\r\nrules\r\nsalty\r\nsbider\r\nscooter\r\nscoutjet\r\nscrubby\r\nsearch.\r\nsearchprocess\r\nsemanticdiscovery\r\nsenrigan\r\nsg-scout\r\nshai\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\''hulud\r\nshark\r\nshopwiki\r\nsidewinder\r\nsift\r\nsilk\r\nsimmany\r\nsite searcher\r\nsite valet\r\nsitetech-rover\r\nskymob.com\r\nsleek\r\nsmartwit\r\nsna-\r\nsnappy\r\nsnooper\r\nsohu\r\nspeedfind\r\nsphere\r\nsphider\r\nspinner\r\nspyder\r\nsteeler/\r\nsuke\r\nsuntek\r\nsupersnooper\r\nsurfnomore\r\nsven\r\nsygol\r\nszukacz\r\ntach black widow\r\ntarantula\r\ntempleton\r\n/teoma\r\nt-h-u-n-d-e-r-s-t-o-n-e\r\ntheophrastus\r\ntitan\r\ntitin\r\ntkwww\r\ntoutatis\r\nt-rex\r\ntutorgig\r\ntwiceler\r\ntwisted\r\nucsd\r\nudmsearch\r\nurl check\r\nupdated\r\nvagabondo\r\nvalkyrie\r\nverticrawl\r\nvictoria\r\nvision-search\r\nvolcano\r\nvoyager/\r\nvoyager-hc\r\nw3c_validator\r\nw3m2\r\nw3mir\r\nwalker\r\nwallpaper\r\nwanderer\r\nwauuu\r\nwavefire\r\nweb core\r\nweb hopper\r\nweb wombat\r\nwebbandit\r\nwebcatcher\r\nwebcopy\r\nwebfoot\r\nweblayers\r\nweblinker\r\nweblog monitor\r\nwebmirror\r\nwebmonkey\r\nwebquest\r\nwebreaper\r\nwebsitepulse\r\nwebsnarf\r\nwebstolperer\r\nwebvac\r\nwebwalk\r\nwebwatch\r\nwebwombat\r\nwebzinger\r\nwhizbang\r\nwhowhere\r\nwild ferret\r\nworldlight\r\nwwwc\r\nwwwster\r\nxenu\r\nxget\r\nxift\r\nxirq\r\nyandex\r\nyanga\r\nyeti\r\nyodao\r\nzao\r\nzippp\r\nzyborg', 0),
 (94, 0, 'voucher', 'voucher_sort_order', '8', 0),
 (95, 0, 'voucher', 'voucher_status', '1', 0),
 (523, 0, 'pagseguro', 'pagseguro_order_aguardando_pagamento', '7', 0),
@@ -2977,72 +2974,52 @@ INSERT INTO `oc_setting` (`setting_id`, `store_id`, `group`, `key`, `value`, `se
 (165, 0, 'slideshow', 'slideshow_status', '1', 0),
 (166, 0, 'slideshow', 'slideshow_module', 'a:2:{i:0;a:3:{s:9:"banner_id";s:1:"7";s:5:"width";s:4:"1140";s:6:"height";s:3:"380";}s:16:"pol3h8iif8j2lnmi";a:3:{s:9:"banner_id";s:1:"6";s:5:"width";s:3:"300";s:6:"height";s:3:"300";}}', 1),
 (109, 0, 'banner', 'banner_module', 'a:1:{i:0;a:8:{s:9:"banner_id";s:1:"6";s:5:"width";s:3:"182";s:6:"height";s:3:"182";s:11:"resize_type";s:7:"default";s:9:"layout_id";s:1:"3";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"3";}}', 1),
-(1400, 0, 'config', 'config_error_display', '1', 0),
-(1399, 0, 'config', 'config_compression', '0', 0),
-(1398, 0, 'config', 'config_encryption', 'c6216703f4de5d8b5f4ab3b94c337069', 0),
-(1397, 0, 'config', 'config_password', '1', 0),
-(1396, 0, 'config', 'config_maintenance', '0', 0),
-(1386, 0, 'config', 'config_fraud_key', '', 0),
-(1387, 0, 'config', 'config_fraud_score', '', 0),
-(1388, 0, 'config', 'config_fraud_status_id', '7', 0),
-(1389, 0, 'config', 'config_secure', '0', 0),
-(1390, 0, 'config', 'config_shared', '0', 0),
-(1391, 0, 'config', 'config_robots', 'abot\r\ndbot\r\nebot\r\nhbot\r\nkbot\r\nlbot\r\nmbot\r\nnbot\r\nobot\r\npbot\r\nrbot\r\nsbot\r\ntbot\r\nvbot\r\nybot\r\nzbot\r\nbot.\r\nbot/\r\n_bot\r\n.bot\r\n/bot\r\n-bot\r\n:bot\r\n(bot\r\ncrawl\r\nslurp\r\nspider\r\nseek\r\naccoona\r\nacoon\r\nadressendeutschland\r\nah-ha.com\r\nahoy\r\naltavista\r\nananzi\r\nanthill\r\nappie\r\narachnophilia\r\narale\r\naraneo\r\naranha\r\narchitext\r\naretha\r\narks\r\nasterias\r\natlocal\r\natn\r\natomz\r\naugurfind\r\nbackrub\r\nbannana_bot\r\nbaypup\r\nbdfetch\r\nbig brother\r\nbiglotron\r\nbjaaland\r\nblackwidow\r\nblaiz\r\nblog\r\nblo.\r\nbloodhound\r\nboitho\r\nbooch\r\nbradley\r\nbutterfly\r\ncalif\r\ncassandra\r\nccubee\r\ncfetch\r\ncharlotte\r\nchurl\r\ncienciaficcion\r\ncmc\r\ncollective\r\ncomagent\r\ncombine\r\ncomputingsite\r\ncsci\r\ncurl\r\ncusco\r\ndaumoa\r\ndeepindex\r\ndelorie\r\ndepspid\r\ndeweb\r\ndie blinde kuh\r\ndigger\r\nditto\r\ndmoz\r\ndocomo\r\ndownload express\r\ndtaagent\r\ndwcp\r\nebiness\r\nebingbong\r\ne-collector\r\nejupiter\r\nemacs-w3 search engine\r\nesther\r\nevliya celebi\r\nezresult\r\nfalcon\r\nfelix ide\r\nferret\r\nfetchrover\r\nfido\r\nfindlinks\r\nfireball\r\nfish search\r\nfouineur\r\nfunnelweb\r\ngazz\r\ngcreep\r\ngenieknows\r\ngetterroboplus\r\ngeturl\r\nglx\r\ngoforit\r\ngolem\r\ngrabber\r\ngrapnel\r\ngralon\r\ngriffon\r\ngromit\r\ngrub\r\ngulliver\r\nhamahakki\r\nharvest\r\nhavindex\r\nhelix\r\nheritrix\r\nhku www octopus\r\nhomerweb\r\nhtdig\r\nhtml index\r\nhtml_analyzer\r\nhtmlgobble\r\nhubater\r\nhyper-decontextualizer\r\nia_archiver\r\nibm_planetwide\r\nichiro\r\niconsurf\r\niltrovatore\r\nimage.kapsi.net\r\nimagelock\r\nincywincy\r\nindexer\r\ninfobee\r\ninformant\r\ningrid\r\ninktomisearch.com\r\ninspector web\r\nintelliagent\r\ninternet shinchakubin\r\nip3000\r\niron33\r\nisraeli-search\r\nivia\r\njack\r\njakarta\r\njavabee\r\njetbot\r\njumpstation\r\nkatipo\r\nkdd-explorer\r\nkilroy\r\nknowledge\r\nkototoi\r\nkretrieve\r\nlabelgrabber\r\nlachesis\r\nlarbin\r\nlegs\r\nlibwww\r\nlinkalarm\r\nlink validator\r\nlinkscan\r\nlockon\r\nlwp\r\nlycos\r\nmagpie\r\nmantraagent\r\nmapoftheinternet\r\nmarvin/\r\nmattie\r\nmediafox\r\nmediapartners\r\nmercator\r\nmerzscope\r\nmicrosoft url control\r\nminirank\r\nmiva\r\nmj12\r\nmnogosearch\r\nmoget\r\nmonster\r\nmoose\r\nmotor\r\nmultitext\r\nmuncher\r\nmuscatferret\r\nmwd.search\r\nmyweb\r\nnajdi\r\nnameprotect\r\nnationaldirectory\r\nnazilla\r\nncsa beta\r\nnec-meshexplorer\r\nnederland.zoek\r\nnetcarta webmap engine\r\nnetmechanic\r\nnetresearchserver\r\nnetscoop\r\nnewscan-online\r\nnhse\r\nnokia6682/\r\nnomad\r\nnoyona\r\nnutch\r\nnzexplorer\r\nobjectssearch\r\noccam\r\nomni\r\nopen text\r\nopenfind\r\nopenintelligencedata\r\norb search\r\nosis-project\r\npack rat\r\npageboy\r\npagebull\r\npage_verifier\r\npanscient\r\nparasite\r\npartnersite\r\npatric\r\npear.\r\npegasus\r\nperegrinator\r\npgp key agent\r\nphantom\r\nphpdig\r\npicosearch\r\npiltdownman\r\npimptrain\r\npinpoint\r\npioneer\r\npiranha\r\nplumtreewebaccessor\r\npogodak\r\npoirot\r\npompos\r\npoppelsdorf\r\npoppi\r\npopular iconoclast\r\npsycheclone\r\npublisher\r\npython\r\nrambler\r\nraven search\r\nroach\r\nroad runner\r\nroadhouse\r\nrobbie\r\nrobofox\r\nrobozilla\r\nrules\r\nsalty\r\nsbider\r\nscooter\r\nscoutjet\r\nscrubby\r\nsearch.\r\nsearchprocess\r\nsemanticdiscovery\r\nsenrigan\r\nsg-scout\r\nshai\\\\\\\\\\\\\\''hulud\r\nshark\r\nshopwiki\r\nsidewinder\r\nsift\r\nsilk\r\nsimmany\r\nsite searcher\r\nsite valet\r\nsitetech-rover\r\nskymob.com\r\nsleek\r\nsmartwit\r\nsna-\r\nsnappy\r\nsnooper\r\nsohu\r\nspeedfind\r\nsphere\r\nsphider\r\nspinner\r\nspyder\r\nsteeler/\r\nsuke\r\nsuntek\r\nsupersnooper\r\nsurfnomore\r\nsven\r\nsygol\r\nszukacz\r\ntach black widow\r\ntarantula\r\ntempleton\r\n/teoma\r\nt-h-u-n-d-e-r-s-t-o-n-e\r\ntheophrastus\r\ntitan\r\ntitin\r\ntkwww\r\ntoutatis\r\nt-rex\r\ntutorgig\r\ntwiceler\r\ntwisted\r\nucsd\r\nudmsearch\r\nurl check\r\nupdated\r\nvagabondo\r\nvalkyrie\r\nverticrawl\r\nvictoria\r\nvision-search\r\nvolcano\r\nvoyager/\r\nvoyager-hc\r\nw3c_validator\r\nw3m2\r\nw3mir\r\nwalker\r\nwallpaper\r\nwanderer\r\nwauuu\r\nwavefire\r\nweb core\r\nweb hopper\r\nweb wombat\r\nwebbandit\r\nwebcatcher\r\nwebcopy\r\nwebfoot\r\nweblayers\r\nweblinker\r\nweblog monitor\r\nwebmirror\r\nwebmonkey\r\nwebquest\r\nwebreaper\r\nwebsitepulse\r\nwebsnarf\r\nwebstolperer\r\nwebvac\r\nwebwalk\r\nwebwatch\r\nwebwombat\r\nwebzinger\r\nwhizbang\r\nwhowhere\r\nwild ferret\r\nworldlight\r\nwwwc\r\nwwwster\r\nxenu\r\nxget\r\nxift\r\nxirq\r\nyandex\r\nyanga\r\nyeti\r\nyodao\r\nzao\r\nzippp\r\nzyborg', 0),
-(1385, 0, 'config', 'config_fraud_detection', '0', 0),
-(1384, 0, 'config', 'config_mail_alert', '', 0),
-(1383, 0, 'config', 'config_mail', 'a:7:{s:8:"protocol";s:4:"mail";s:9:"parameter";s:0:"";s:13:"smtp_hostname";s:0:"";s:13:"smtp_username";s:0:"";s:13:"smtp_password";s:0:"";s:9:"smtp_port";s:0:"";s:12:"smtp_timeout";s:0:"";}', 1),
-(1382, 0, 'config', 'config_ftp_status', '0', 0),
-(1381, 0, 'config', 'config_ftp_root', '', 0),
-(1380, 0, 'config', 'config_ftp_password', '', 0),
-(1379, 0, 'config', 'config_ftp_username', '', 0),
-(1378, 0, 'config', 'config_ftp_port', '21', 0),
-(1377, 0, 'config', 'config_ftp_hostname', 'opencart.opencartdemo.com', 0),
-(1376, 0, 'config', 'config_image_location_height', '50', 0),
-(1375, 0, 'config', 'config_image_location_width', '268', 0),
-(1374, 0, 'config', 'config_image_cart_height', '47', 0),
-(1373, 0, 'config', 'config_image_cart_width', '47', 0),
-(1372, 0, 'config', 'config_image_wishlist_height', '47', 0),
-(1369, 0, 'config', 'config_image_compare_width', '90', 0),
-(1370, 0, 'config', 'config_image_compare_height', '90', 0),
-(1371, 0, 'config', 'config_image_wishlist_width', '47', 0),
-(1368, 0, 'config', 'config_image_related_height', '80', 0),
-(1367, 0, 'config', 'config_image_related_width', '80', 0),
-(1366, 0, 'config', 'config_image_additional_height', '74', 0),
-(1365, 0, 'config', 'config_image_additional_width', '74', 0),
-(1364, 0, 'config', 'config_image_product_height', '228', 0),
-(1363, 0, 'config', 'config_image_product_width', '228', 0),
-(1362, 0, 'config', 'config_image_popup_height', '500', 0),
-(1361, 0, 'config', 'config_image_popup_width', '500', 0),
-(1360, 0, 'config', 'config_image_thumb_height', '228', 0),
-(1359, 0, 'config', 'config_image_thumb_width', '228', 0),
-(1357, 0, 'config', 'config_image_category_width', '80', 0),
-(1358, 0, 'config', 'config_image_category_height', '80', 0),
-(1356, 0, 'config', 'config_icon', 'catalog/webca/favicon.png', 0),
-(1355, 0, 'config', 'config_logo', 'catalog/webca/logo_nb.png', 0),
-(1354, 0, 'config', 'config_return_status_id', '2', 0),
-(1353, 0, 'config', 'config_return_id', '0', 0),
-(1351, 0, 'config', 'config_affiliate_id', '4', 0),
-(1352, 0, 'config', 'config_affiliate_mail', '0', 0),
-(1350, 0, 'config', 'config_affiliate_commission', '5', 0),
-(1349, 0, 'config', 'config_affiliate_auto', '0', 0),
-(1348, 0, 'config', 'config_affiliate_approval', '0', 0),
-(1347, 0, 'config', 'config_stock_checkout', '0', 0),
-(1346, 0, 'config', 'config_stock_warning', '0', 0),
-(1345, 0, 'config', 'config_stock_display', '0', 0),
-(1344, 0, 'config', 'config_order_mail', '1', 0),
-(1343, 0, 'config', 'config_complete_status', 'a:1:{i:0;s:1:"5";}', 1),
-(1342, 0, 'config', 'config_processing_status', 'a:1:{i:0;s:1:"2";}', 1),
-(1341, 0, 'config', 'config_order_status_id', '1', 0),
-(1340, 0, 'config', 'config_checkout_id', '5', 0),
-(1339, 0, 'config', 'config_checkout_guest', '1', 0),
-(1337, 0, 'config', 'config_api_id', '2', 0),
-(1338, 0, 'config', 'config_cart_weight', '0', 0),
-(1336, 0, 'config', 'config_invoice_prefix', 'WCA-2014-00', 0),
-(1334, 0, 'config', 'config_account_id', '3', 0),
-(1335, 0, 'config', 'config_account_mail', '0', 0),
-(1333, 0, 'config', 'config_customer_price', '0', 0),
-(1332, 0, 'config', 'config_customer_group_display', 'a:1:{i:0;s:1:"1";}', 1),
-(1331, 0, 'config', 'config_customer_group_id', '1', 0),
+(1613, 0, 'config', 'config_file_mime_allowed', 'text/plain\r\nimage/png\r\nimage/jpeg\r\nimage/gif\r\nimage/bmp\r\nimage/vnd.microsoft.icon\r\nimage/tiff\r\nimage/svg+xml\r\napplication/zip\r\napplication/x-rar-compressed\r\napplication/x-msdownload\r\napplication/vnd.ms-cab-compressed\r\naudio/mpeg\r\nvideo/quicktime\r\napplication/pdf\r\nimage/vnd.adobe.photoshop\r\napplication/postscript\r\napplication/msword\r\napplication/rtf\r\napplication/vnd.ms-excel\r\napplication/vnd.ms-powerpoint\r\napplication/vnd.oasis.opendocument.text\r\napplication/vnd.oasis.opendocument.spreadsheet', 0),
+(1610, 0, 'config', 'config_seo_url', '1', 0),
+(1611, 0, 'config', 'config_file_max_size', '3000000', 0),
+(1612, 0, 'config', 'config_file_ext_allowed', 'txt\r\npng\r\njpe\r\njpeg\r\njpg\r\ngif\r\nbmp\r\nico\r\ntiff\r\ntif\r\nsvg\r\nsvgz\r\nzip\r\nrar\r\nmsi\r\ncab\r\nmp3\r\nqt\r\nmov\r\npdf\r\npsd\r\nai\r\neps\r\nps\r\ndoc\r\nrtf\r\nxls\r\nppt\r\nodt\r\nods', 0),
+(1607, 0, 'config', 'config_secure', '0', 0),
+(1608, 0, 'config', 'config_shared', '0', 0),
+(1602, 0, 'config', 'config_mail_alert', '', 0),
+(1603, 0, 'config', 'config_fraud_detection', '0', 0),
+(1604, 0, 'config', 'config_fraud_key', '', 0),
+(1605, 0, 'config', 'config_fraud_score', '', 0),
+(1606, 0, 'config', 'config_fraud_status_id', '7', 0),
+(1601, 0, 'config', 'config_mail', 'a:7:{s:8:"protocol";s:4:"mail";s:9:"parameter";s:0:"";s:13:"smtp_hostname";s:0:"";s:13:"smtp_username";s:0:"";s:13:"smtp_password";s:0:"";s:9:"smtp_port";s:0:"";s:12:"smtp_timeout";s:0:"";}', 1),
+(1599, 0, 'config', 'config_ftp_root', '', 0),
+(1600, 0, 'config', 'config_ftp_status', '0', 0),
+(1597, 0, 'config', 'config_ftp_username', '', 0),
+(1598, 0, 'config', 'config_ftp_password', '', 0),
+(1596, 0, 'config', 'config_ftp_port', '21', 0),
+(1595, 0, 'config', 'config_ftp_hostname', 'opencart.opencartdemo.com', 0),
+(1594, 0, 'config', 'config_image_location_height', '50', 0),
+(1593, 0, 'config', 'config_image_location_width', '268', 0),
+(1592, 0, 'config', 'config_image_cart_height', '47', 0),
+(1591, 0, 'config', 'config_image_cart_width', '47', 0),
+(1590, 0, 'config', 'config_image_wishlist_height', '47', 0),
+(1589, 0, 'config', 'config_image_wishlist_width', '47', 0),
+(1588, 0, 'config', 'config_image_compare_height', '90', 0),
+(1587, 0, 'config', 'config_image_compare_width', '90', 0),
+(1586, 0, 'config', 'config_image_related_height', '80', 0),
+(1584, 0, 'config', 'config_image_additional_height', '74', 0),
+(1585, 0, 'config', 'config_image_related_width', '80', 0),
+(1583, 0, 'config', 'config_image_additional_width', '74', 0),
+(1582, 0, 'config', 'config_image_product_height', '228', 0),
+(1581, 0, 'config', 'config_image_product_width', '228', 0),
+(1580, 0, 'config', 'config_image_popup_height', '500', 0),
+(1579, 0, 'config', 'config_image_popup_width', '500', 0),
+(1578, 0, 'config', 'config_image_thumb_height', '228', 0),
+(1577, 0, 'config', 'config_image_thumb_width', '228', 0),
+(1575, 0, 'config', 'config_image_category_width', '80', 0),
+(1576, 0, 'config', 'config_image_category_height', '80', 0),
+(1574, 0, 'config', 'config_icon', 'catalog/webca/favicon.png', 0),
+(1573, 0, 'config', 'config_logo', 'catalog/lojalogo_1.png', 0),
+(1571, 0, 'config', 'config_return_id', '0', 0),
+(1572, 0, 'config', 'config_return_status_id', '2', 0),
+(1570, 0, 'config', 'config_affiliate_mail', '0', 0),
+(1569, 0, 'config', 'config_affiliate_id', '4', 0),
+(1568, 0, 'config', 'config_affiliate_commission', '5', 0),
+(1567, 0, 'config', 'config_affiliate_auto', '0', 0),
 (522, 0, 'pagseguro', 'pagseguro_tipo_frete', '0', 0),
 (521, 0, 'pagseguro', 'pagseguro_update_status_alert', '1', 0),
 (520, 0, 'pagseguro', 'pagseguro_posfixo', '', 0),
@@ -3051,45 +3028,68 @@ INSERT INTO `oc_setting` (`setting_id`, `store_id`, `group`, `key`, `value`, `se
 (517, 0, 'pagseguro', 'pagseguro_token', '1243FCD635374B61A67711D5CB74EF23', 0),
 (530, 0, 'pagseguro', 'pagseguro_status', '1', 0),
 (531, 0, 'pagseguro', 'pagseguro_sort_order', '', 0),
-(1330, 0, 'config', 'config_customer_online', '1', 0),
-(1318, 0, 'config', 'config_product_count', '0', 0),
-(1319, 0, 'config', 'config_product_limit', '15', 0),
-(1320, 0, 'config', 'config_product_description_length', '100', 0),
-(1329, 0, 'config', 'config_tax_customer', 'shipping', 0),
-(1328, 0, 'config', 'config_tax_default', 'shipping', 0),
-(1327, 0, 'config', 'config_tax', '1', 0),
-(1326, 0, 'config', 'config_voucher_max', '1000', 0),
-(1325, 0, 'config', 'config_voucher_min', '1', 0),
-(1324, 0, 'config', 'config_review_mail', '0', 0),
-(1323, 0, 'config', 'config_review_guest', '0', 0),
-(1322, 0, 'config', 'config_review_status', '0', 0),
-(1321, 0, 'config', 'config_limit_admin', '200', 0),
-(1314, 0, 'config', 'config_currency', 'BRL', 0),
-(1315, 0, 'config', 'config_currency_auto', '1', 0),
-(1316, 0, 'config', 'config_length_class_id', '1', 0),
-(1317, 0, 'config', 'config_weight_class_id', '1', 0),
-(1304, 0, 'config', 'config_comment', '', 0),
-(1305, 0, 'config', 'config_meta_title', 'WebCA Internet', 0),
-(1306, 0, 'config', 'config_meta_description', 'WebCA Internet', 0),
-(1313, 0, 'config', 'config_admin_language', 'pt-br', 0),
-(1312, 0, 'config', 'config_language', 'pt-br', 0),
-(1311, 0, 'config', 'config_zone_id', '464', 0),
-(1310, 0, 'config', 'config_country_id', '30', 0),
-(1309, 0, 'config', 'config_layout_id', '4', 0),
-(1308, 0, 'config', 'config_template', 'default', 0),
-(1307, 0, 'config', 'config_meta_keyword', '', 0),
-(1303, 0, 'config', 'config_open', '', 0),
-(1301, 0, 'config', 'config_fax', '', 0),
-(1302, 0, 'config', 'config_image', '', 0),
-(1300, 0, 'config', 'config_telephone', '11 2376-0583', 0),
-(1299, 0, 'config', 'config_email', 'fernando.mendes@webca.com.br', 0),
-(1298, 0, 'config', 'config_geocode', '', 0),
-(1297, 0, 'config', 'config_address', 'Store Address must be between', 0),
-(1296, 0, 'config', 'config_owner', 'WebCA Internet', 0),
-(1295, 0, 'config', 'config_name', 'WebCA Internet', 0),
-(1401, 0, 'config', 'config_error_log', '1', 0),
-(1402, 0, 'config', 'config_error_filename', 'error.log', 0),
-(1403, 0, 'config', 'config_google_analytics', '', 0);
+(1566, 0, 'config', 'config_affiliate_approval', '0', 0),
+(1565, 0, 'config', 'config_stock_checkout', '0', 0),
+(1564, 0, 'config', 'config_stock_warning', '0', 0),
+(1563, 0, 'config', 'config_stock_display', '0', 0),
+(1562, 0, 'config', 'config_order_mail', '1', 0),
+(1561, 0, 'config', 'config_complete_status', 'a:1:{i:0;s:1:"5";}', 1),
+(1560, 0, 'config', 'config_processing_status', 'a:1:{i:0;s:1:"2";}', 1),
+(1559, 0, 'config', 'config_order_status_id', '1', 0),
+(1558, 0, 'config', 'config_checkout_id', '5', 0),
+(1557, 0, 'config', 'config_checkout_guest', '1', 0),
+(1556, 0, 'config', 'config_cart_weight', '0', 0),
+(1555, 0, 'config', 'config_api_id', '2', 0),
+(1554, 0, 'config', 'config_invoice_prefix', 'WCA-2014-00', 0),
+(1553, 0, 'config', 'config_account_mail', '0', 0),
+(1552, 0, 'config', 'config_account_id', '3', 0),
+(1551, 0, 'config', 'config_customer_price', '0', 0),
+(1550, 0, 'config', 'config_customer_group_display', 'a:1:{i:0;s:1:"1";}', 1),
+(1549, 0, 'config', 'config_customer_group_id', '1', 0),
+(1548, 0, 'config', 'config_customer_online', '1', 0),
+(1547, 0, 'config', 'config_tax_customer', 'shipping', 0),
+(1546, 0, 'config', 'config_tax_default', 'shipping', 0),
+(1545, 0, 'config', 'config_tax', '1', 0),
+(1543, 0, 'config', 'config_voucher_min', '1', 0),
+(1544, 0, 'config', 'config_voucher_max', '1000', 0),
+(1542, 0, 'config', 'config_review_mail', '0', 0),
+(1532, 0, 'config', 'config_currency', 'BRL', 0),
+(1533, 0, 'config', 'config_currency_auto', '1', 0),
+(1534, 0, 'config', 'config_length_class_id', '1', 0),
+(1535, 0, 'config', 'config_weight_class_id', '1', 0),
+(1536, 0, 'config', 'config_product_count', '0', 0),
+(1537, 0, 'config', 'config_product_limit', '15', 0),
+(1538, 0, 'config', 'config_product_description_length', '100', 0),
+(1539, 0, 'config', 'config_limit_admin', '200', 0),
+(1540, 0, 'config', 'config_review_status', '0', 0),
+(1541, 0, 'config', 'config_review_guest', '0', 0),
+(1531, 0, 'config', 'config_admin_language', 'pt-br', 0),
+(1527, 0, 'config', 'config_layout_id', '4', 0),
+(1528, 0, 'config', 'config_country_id', '30', 0),
+(1529, 0, 'config', 'config_zone_id', '464', 0),
+(1530, 0, 'config', 'config_language', 'pt-br', 0),
+(1518, 0, 'config', 'config_telephone', '11 2376-0583', 0),
+(1519, 0, 'config', 'config_fax', '', 0),
+(1520, 0, 'config', 'config_image', '', 0),
+(1521, 0, 'config', 'config_open', '', 0),
+(1522, 0, 'config', 'config_comment', '', 0),
+(1523, 0, 'config', 'config_meta_title', 'LojaVirtual .digital', 0),
+(1524, 0, 'config', 'config_meta_description', 'LojaVirtual .digital', 0),
+(1525, 0, 'config', 'config_meta_keyword', '', 0),
+(1526, 0, 'config', 'config_template', 'default', 0),
+(1517, 0, 'config', 'config_email', 'fernando.mendes@webca.com.br', 0),
+(1516, 0, 'config', 'config_geocode', '', 0),
+(1515, 0, 'config', 'config_address', 'LojaVirtual .digital', 0),
+(1514, 0, 'config', 'config_owner', 'LojaVirtual .digital', 0),
+(1513, 0, 'config', 'config_name', 'LojaVirtual .digital', 0),
+(1614, 0, 'config', 'config_maintenance', '0', 0),
+(1615, 0, 'config', 'config_password', '1', 0),
+(1616, 0, 'config', 'config_encryption', 'c6216703f4de5d8b5f4ab3b94c337069', 0),
+(1617, 0, 'config', 'config_compression', '0', 0),
+(1618, 0, 'config', 'config_error_display', '1', 0),
+(1619, 0, 'config', 'config_error_log', '1', 0),
+(1620, 0, 'config', 'config_error_filename', 'error.log', 0),
+(1621, 0, 'config', 'config_google_analytics', '', 0);
 
 -- --------------------------------------------------------
 
@@ -8555,7 +8555,7 @@ MODIFY `banner_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=9;
 -- AUTO_INCREMENT for table `oc_banner_image`
 --
 ALTER TABLE `oc_banner_image`
-MODIFY `banner_image_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=109;
+MODIFY `banner_image_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=136;
 --
 -- AUTO_INCREMENT for table `oc_category`
 --
@@ -8855,7 +8855,7 @@ MODIFY `review_id` int(11) NOT NULL AUTO_INCREMENT;
 -- AUTO_INCREMENT for table `oc_setting`
 --
 ALTER TABLE `oc_setting`
-MODIFY `setting_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=1404;
+MODIFY `setting_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=1622;
 --
 -- AUTO_INCREMENT for table `oc_stock_status`
 --

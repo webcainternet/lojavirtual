@@ -32,7 +32,7 @@ h6 {
 	font-size: 10.2px;
 }
 a {
-	color: #23a1d1;
+	color: #f6ae3b;
 }
 a:hover {
 	text-decoration: none;
@@ -72,8 +72,8 @@ div.required .control-label:before {
 .dropdown-menu li > a:hover {
 	text-decoration: none;
 	color: #ffffff;
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #f6ae3b;
+	background-image: linear-gradient(to bottom, #f6ae3b, #1f90bb);
 	background-repeat: repeat-x;
 }
 /* top */
@@ -93,8 +93,8 @@ div.required .control-label:before {
 #top #currency .currency-select:hover {
 	text-shadow: none;
 	color: #ffffff;
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #f6ae3b;
+	background-image: linear-gradient(to bottom, #f6ae3b, #1f90bb);
 	background-repeat: repeat-x;
 }
 #top .btn-link, #top-links li, #top-links a {
@@ -178,8 +178,8 @@ div.required .control-label:before {
 }
 /* menu */
 #menu {
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #f6ae3b;
+	background-image: linear-gradient(to bottom, #f6ae3b, #1f90bb);
 	background-repeat: repeat-x;
 	border-color: #1f90bb #1f90bb #145e7a;
 	min-height: 40px;
@@ -228,8 +228,8 @@ div.required .control-label:before {
 #menu .see-all:hover, #menu .see-all:focus {
 	text-decoration: none;
 	color: #ffffff;
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #f6ae3b;
+	background-image: linear-gradient(to bottom, #f6ae3b, #1f90bb);
 	background-repeat: repeat-x;
 }
 #menu #category {
@@ -247,14 +247,14 @@ div.required .control-label:before {
 	color: #FFF;
 	padding: 2px 18px;
 	float: right;
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #f6ae3b;
+	background-image: linear-gradient(to bottom, #f6ae3b, #1f90bb);
 	background-repeat: repeat-x;
 	border-color: #1f90bb #1f90bb #145e7a;
 }
 #menu .btn-navbar:hover, #menu .btn-navbar:focus, #menu .btn-navbar:active, #menu .btn-navbar.disabled, #menu .btn-navbar[disabled] {
 	color: #ffffff;
-	background-color: #229ac8;
+	background-color: #f6ae3b;
 }
 @media (min-width: 768px) {
 	#menu .dropdown:hover .dropdown-menu {
@@ -301,8 +301,7 @@ footer {
 	padding-top: 30px;
 	/* background-color: #303030;
 	border-top: 1px solid #ddd; */
-	color: #303030;
-	text-align: center;
+	color: #EEEEEE;
 }
 footer hr {
 	border-top: none;
@@ -328,7 +327,7 @@ footer h5 {
 .breadcrumb {
 	margin: 0 0 20px 0;
 	padding: 8px 0;
-	border: 1px solid #ddd;
+	/* border: 1px solid #ddd; */
 }
 .breadcrumb i {
 	font-size: 15px;
@@ -351,12 +350,12 @@ footer h5 {
 	right: -5px;
 	width: 26px;
 	height: 26px;
-	border-right: 1px solid #DDD;
+	/* border-right: 1px solid #DDD;
 	border-bottom: 1px solid #DDD;
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg);
+	transform: rotate(-45deg); */
 }
 .pagination {
 	margin: 0;
@@ -406,8 +405,8 @@ footer h5 {
 .btn-primary {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #f6ae3b;
+	background-image: linear-gradient(to bottom, #f6ae3b, #1f90bb);
 	background-repeat: repeat-x;
 	border-color: #1f90bb #1f90bb #145e7a;
 }
@@ -463,7 +462,7 @@ footer h5 {
 .btn-link {
 	border-color: rgba(0, 0, 0, 0);
 	cursor: pointer;
-	color: #23A1D1;
+	color: #f6ae3b;
 	border-radius: 0;
 }
 .btn-link, .btn-link:active, .btn-link[disabled] {
@@ -972,11 +971,13 @@ h2.price {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   line-height: 1.42857143;
   color: #333;
+  height: 120px;
 }
 .wcainclusotitulo {
   width: 310px;
   margin-left: 15px;
   float: right;
+  line-height: 1.5;
 }
 
 .wca-templatethumb {
@@ -1003,4 +1004,52 @@ h2.price {
 
 .wca-navtop {
 	border-bottom: 1px solid #e2e2e2;
+}
+
+.wca-font {
+	font-family: 'Indie Flower', cursive;
+}
+
+.wca-amarela {
+	color: #f6ae3b;
+}
+
+.wca-logo-gray {
+	display: inline-block; 
+	width: 79px;
+	height: 15px;
+	background-image: url('http://lojavirtual.digital/image/catalog/webca/logo_nb_gray.png');
+	background-size: 79px 15px;
+	font-size: 1px;
+}
+.wca-logo-gray:hover {
+	background-image: url('http://lojavirtual.digital/image/catalog/webca/logo_nb.png');
+}
+
+.wca-logo-white {
+	display: inline-block; 
+	width: 105px;
+	height: 20px;
+	background-image: url('http://lojavirtual.digital/image/catalog/webca/logo_nb_white.png');
+	background-size: 105px 20px;
+	font-size: 1px;
+}
+.wca-logo-white:hover {
+	background-image: url('http://lojavirtual.digital/image/catalog/webca/logo_nb.png');
+}
+
+.wca-footer-mid {
+  display: inline-block;
+  width: 567px;
+}
+
+ 
+.footer-contato {
+  display: inline-block; 
+  width: 49%;
+  padding: 20px;
+  padding-bottom: 40px;
+  padding-top: 0px;
+  color: #f6ae3b;
+  font-size: 24px;
 }

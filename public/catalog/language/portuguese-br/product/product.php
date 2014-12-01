@@ -20,7 +20,7 @@ $_['text_note']                               = '<span class="text-danger">Note:
 $_['text_success']                            = 'Thank you for your review. It has been submitted to the webmaster for approval.';
 $_['text_related']                            = 'Related Products';
 $_['text_tags']                               = 'Tags:';
-$_['text_error']                              = 'Product not found!';
+$_['text_error']                              = 'Produto não encontrado!';
 $_['text_payment_recurring']                    = 'Payment Profiles';
 $_['text_trial_description']                  = '%s every %d %s(s) for %d payment(s) then';
 $_['text_payment_description']                = '%s every %d %s(s) for %d payment(s)';

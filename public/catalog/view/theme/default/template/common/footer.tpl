@@ -1,57 +1,29 @@
 <footer>
-  <div class="container" style="background-color: #f6ae3b; padding-top: 30px; padding-bottom: 15px; border-top-left-radius: 15px; border-top-right-radius: 15px; color: #333333;">
-    <?php /*
-    <div class="row">
-      <?php if ($informations) { ?>
-      <div class="col-sm-3">
-        <h5><?php echo $text_information; ?></h5>
-        <ul class="list-unstyled">
-          <?php foreach ($informations as $information) { ?>
-          <li><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li>
-          <?php } ?>
-        </ul>
-      </div>
-      <?php } ?>
-      <div class="col-sm-3">
-        <h5><?php echo $text_service; ?></h5>
-        <ul class="list-unstyled">
-          <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
-          <li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
-          <li><a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a></li>
-        </ul>
-      </div>
-      <div class="col-sm-3">
-        <h5><?php echo $text_extra; ?></h5>
-        <ul class="list-unstyled">
-          <li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>
-          <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-          <li><a href="<?php echo $affiliate; ?>"><?php echo $text_affiliate; ?></a></li>
-          <li><a href="<?php echo $special; ?>"><?php echo $text_special; ?></a></li>
-        </ul>
-      </div>
-      <div class="col-sm-3">
-        <h5><?php echo $text_account; ?></h5>
-        <ul class="list-unstyled">
-          <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
-          <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
-          <li><a href="<?php echo $wishlist; ?>"><?php echo $text_wishlist; ?></a></li>
-          <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
-        </ul>
-      </div>
+  <div class="container">
+    <div class="footer-contato wca-font">
+      <img src="/image/catalog/webca/icon-tel.png" width="50">
+      &nbsp;Telefone: 11 2376-0583
     </div>
-    <hr>
-    */ ?>
-    <p><?php //echo $powered; ?>LojaVirtual .digital &copy; <?php echo date("Y"); ?></p> 
+    <div class="footer-contato wca-font">
+      <img src="/image/catalog/webca/icon-mail.png" width="50">
+      &nbsp;E-mail: contato@lojavirtual.digital
+      
+    </div>
+  </div>
+
+
+  <div class="container" style="background-color: #f6ae3b; padding-top: 30px; padding-bottom: 15px; border-top-left-radius: 15px; border-top-right-radius: 15px;">
+    
+    <div class="wca-footer-mid">
+      <p><?php //echo $powered; ?>LojaVirtual .digital - WebCA Internet &copy; 2011 - <?php echo date("Y"); ?></p> 
+    </div>
+    <div class="wca-footer-mid" style="text-align: right;">
+      <a href="//webca.com.br/"><div class="wca-logo-white">&nbsp;</div></a>
+    </div>
+
     <hr style="border: 0px; border-top: solid 1px; ">
     <p style="text-align: justify;">* Prices valid for the first six months for all offers starting from 12 months minimum term. After that period, the price increases as follows: vServer PRO $15.00 per month, vServer PLUS $23.00 per month, vServer PREMIUM $45.00 per month and vServer PLATINUM $59.00 per month. Charges are due in advance. Contracts without minimum term can be canceled anytime to the end of the month. All other contracts are prolonged after the minimum term for additional 12 months eacht time, if they are not canceled in writing three months before the contract term ends.</p>
   </div>
 </footer>
-
-<!--
-OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
-Please donate via PayPal to donate@opencart.com
-//--> 
-
-<!-- Theme created by Welford Media for OpenCart 2.0 www.welfordmedia.co.uk -->
 
 </body></html>

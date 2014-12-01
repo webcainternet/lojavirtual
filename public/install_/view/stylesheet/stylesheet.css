@@ -52,7 +52,7 @@ option {
 	color: #000;
 }
 a, a:visited, a b {
-	color: #23A1D1;
+	color: #f6ae3b;
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -118,7 +118,7 @@ a.button, input.button {
 .btn-primary:visited,
 .btn-primary {
 	color: #fff;
-	background: #23a1d1;
+	background: #f6ae3b;
 	border: none;
 }
 .btn-primary:hover {
@@ -133,7 +133,7 @@ a.button, input.button {
 .btn-secondary:hover {
 	border: 2px solid #fff;
 	background: #fff;
-	color: #23a1d1;
+	color: #f6ae3b;
 }
 
 /*Transitions*/
@@ -193,7 +193,7 @@ header h3 small {
 .visit {
 	padding: 0 0 50px 0;
 	color: #fff;
-	background: #23a1d1;
+	background: #f6ae3b;
 }
 .visit img {
 	height: 71px;
@@ -266,7 +266,7 @@ header h3 small {
 /*Mailing list*/
 .mailing-list {
 	padding: 50px;
-	background: #23A1D1;
+	background: #f6ae3b;
 	text-align: center;
 }
 @media (min-width: 992px) {
@@ -342,14 +342,14 @@ header h3 small {
 	width: 100px;
 	height: 100px;
 	display: block;
-	border: 3px solid #23a1d1;
+	border: 3px solid #f6ae3b;
 	webkit-border-radius: 50px;
 	border-radius: 50px;
 	color: #fff;
 }
 .support a.icon:hover {
-	border: 3px solid #23a1d1;
-	background: #23a1d1;
+	border: 3px solid #f6ae3b;
+	background: #f6ae3b;
 }
 .support .icon i {
 	line-height: 100px;

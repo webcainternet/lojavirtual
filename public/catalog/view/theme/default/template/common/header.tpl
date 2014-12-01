@@ -23,6 +23,7 @@
 <?php foreach ($links as $link) { ?>
 <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
 <?php } ?>
+<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
 <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
 <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
@@ -67,7 +68,7 @@
     </div>
 
     <div id="top-links" class="nav pull-right wca-navtop">
-      <ul class="list-inline" style="padding-right: 300px;">
+      <ul class="list-inline" style="padding-right: 310px;">
         <li><a href="<?php echo $contact; ?>"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md"><?php echo $telephone; ?></span></li>
       </ul>
     </div>
@@ -77,6 +78,16 @@
         <li>Precisa de ajuda? </li>
       </ul>
     </div>
+
+    <div id="top-links" class="nav pull-left">
+      <ul class="list-inline" style="padding-top: 2px;">
+        <li><a href="//webca.com.br/"><div class="wca-logo-gray">&nbsp;</div></a></li>
+      </ul>
+    </div>
+
+
+
+    
   </div>
 </nav>
 <header>
@@ -85,7 +96,7 @@
       <div class="col-sm-4">
         <div id="logo">
           <?php if ($logo) { ?>
-          <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
+          <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" height="70" style="height: 70px; margin-top: -20px;" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
           <?php } else { ?>
           <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
           <?php } ?>

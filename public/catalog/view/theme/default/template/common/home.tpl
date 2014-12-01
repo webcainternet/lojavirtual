@@ -19,7 +19,7 @@
     /* background-size: auto 576px; */
     background-size: 100%;
     /* background-image: url('/image/catalog/webca/shutterstock_99076997.jpg'); */
-    background-image: url('/image/catalog/webca/background-2.png');
+    background-image: url('/image/catalog/webca/background-3.png');
     background-position-y: 130px;
     background-position-x: center;
   }
@@ -28,11 +28,11 @@
 <?php echo $header; ?>
 
 
-<div style="background-color: rgba(242,242,242,0.80); height: 125px; opacity: 0.8; filter: alpha(opacity=80); margin-top: 14px;">
+<div style="background-color: rgba(242,242,242,0.80); height: 125px; opacity: 0.8; filter: alpha(opacity=80); margin-top: 6px;">
   <div class="container"> 
     
     <div style="float: left; width: 36%;">
-      <div style="font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">Sistema de administração</div>
+      <div class="wca-font" style="font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">Sistema de administração</div>
       <div style="text-align: center; display: inline-block; width: 33%; height: 40px;">
         <div><img src="/image/catalog/webca/home-nav-tools.png"></div>
         <div style="margin-top: 5px;">Conheça</div>
@@ -49,34 +49,27 @@
       </div>
     </div>
 
-    <div style="float: left; width: 24%;">
-      <div style="font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">Templates</div>
-      <div style="text-align: center; display: inline-block; width: 50%; height: 40px; border-left: #AAA dotted 1px;">
+    <div style="float: left; width: 12%;">
+      <div class="wca-font" style="font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">Templates</div>
+      <div style="text-align: center; display: inline-block; width: 100%; height: 40px; border-left: #AAA dotted 1px;">
         <div><img src="/image/catalog/webca/home-nav-template.png"></div>
         <div style="margin-top: 5px;">Modelos</div>
       </div>
+    </div>
 
-      <div style="text-align: center; display: inline-block; width: 47%; height: 40px;">
-        <div><img src="/image/catalog/webca/home-nav-tm.png"></div>
-        <div style="margin-top: 5px;">Parceria</div>
+    <div style="float: left; width: 24%;">
+      <div class="wca-font" style="font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">WebLoja <span class="wca-font wca-amarela">Profissional</span></div>
+      <div style="text-align: center; display: inline-block; width: 100%; height: 40px; border-left: #AAA dotted 1px;">
+        <div><img src="/image/catalog/webca/home-nav-comp.png"></div>
+        <div style="margin-top: 5px;">Aqui vai info do plano Profissional</div>
       </div>
     </div>
 
-    <div style="float: left; width: 36%;">
-      <div style="font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">Design responsivo</div>
-      <div style="text-align: center; display: inline-block; width: 33%; height: 40px; border-left: #AAA dotted 1px;">
+    <div style="float: left; width: 24%;">
+      <div class="wca-font" style="font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">WebLoja <span class="wca-font wca-amarela">Services</span></div>
+      <div style="text-align: center; display: inline-block; width: 100%; height: 40px; border-left: #AAA dotted 1px;">
         <div><img src="/image/catalog/webca/home-nav-comp.png"></div>
-        <div style="margin-top: 5px;">Computador</div>
-      </div>
-
-      <div style="text-align: center; display: inline-block; width: 33%; height: 40px;">
-        <div><img src="/image/catalog/webca/home-nav-tablet.png"></div>
-        <div style="margin-top: 5px;">Tablet</div>
-      </div>
-
-      <div style="text-align: center; display: inline-block; width: 30%; height: 40px;">
-        <div><img src="/image/catalog/webca/home-nav-cel.png"></div>
-        <div style="margin-top: 5px;">Celular</div>
+        <div style="margin-top: 5px;">Aqui vai info do plano Services</div>
       </div>
     </div>
 
@@ -110,21 +103,21 @@
         
         <div class="row">
           <div class="col-lg-12" style="padding: 20px; color: #333; font-size: 32px;">
-              <center><h2>A <b>LojaVirtual.digital</b> tem <b>tudo</b> para você <b>começar</b> a <b>vender online</b> agora!</h2></center>
+              <center><h2>A <b>LOJAVIRTUAL<span class="wca-font wca-amarela">.digital</span></b> tem <b>tudo</b> para você <b>começar</b> a <b>vender online</b> agora!</h2></center>
           </div>
         </div>
 
         <div class="container-passos">
-            <div class="container-passos-img">&nbsp;</div>
-            <div class="container-passos-titulo">Cadastra seus produtos</div>
+            <div class="container-passos-img" style="background-image: url('/image/catalog/webca/step-cadastro.png'); background-color: #FF9999;">&nbsp;</div>
+            <div class="container-passos-titulo">Cadastre seus produtos</div>
             <div>
                 (Mudar) Faça upload dos seus produtos e de suas fotos através do painel de administração. Faça modificações quando quiser, sem depender de ninguém.
             </div>
           </div>
 
           <div class="container-passos">
-            <div class="container-passos-img">&nbsp;</div>
-            <div class="container-passos-titulo">Recebe o pagamento</div>
+            <div class="container-passos-img" style="background-image: url('/image/catalog/webca/step-recebimento.png'); border-radius: 0px; background-color: white;">&nbsp;</div>
+            <div class="container-passos-titulo">Receba o pagamento</div>
             <div style="padding-bottom: 15px;">
                 (Mudar) Com cartão de crédito, em prestações, por boleto ou transferência bancária. Com os meios de pagamento mais utilizados no Brasil. Tudo pela internet e desde seu Nuvem Shop.
             </div>
@@ -132,8 +125,8 @@
           </div>
 
           <div class="container-passos">
-            <div class="container-passos-img">&nbsp;</div>
-            <div class="container-passos-titulo">Envia o pedido</div>
+            <div class="container-passos-img" style="background-image: url('/image/catalog/webca/step-envio.png');">&nbsp;</div>
+            <div class="container-passos-titulo">Envie o pedido</div>
             <div style="padding-bottom: 15px;">
                 (Mudar) Tenha acesso a envios mais econômicos graças a nossas parcerias. Os produtos podem ser retirados onde você quiser e enviados para todo o mundo.
             </div>
@@ -153,9 +146,10 @@
 <div class="container-tema">
   <div class="container">
     <div class="row">
-      <div id="content" class="<?php echo $class; ?>" style="min-height: 10px; text-align: center; padding-top: 30px;">
-        <span class="tema-col-1">São mais de <b>400 modelos</b> para base de criação!</span>
+      <div class="col-lg-12" style="padding-top: 40px; color: #333; font-size: 32px;">
+          <center><h2 style="font-size: 32px;">São mais de <span class="wca-font wca-amarela">400 modelos</span> já prontos!</span></h2></center>
       </div>
+
       <div id="content" class="<?php echo $class; ?>" style="min-height: 10px;">
         <div id="myDiv"></div>
         <ul id="coverflowData">
@@ -274,7 +268,7 @@
         <div class="row">
           <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 first-decision">
             <ul>
-              <li class="title"><b>WebLoja</b> Professional</li>
+              <li class="title"><b>WebLoja</b> <span class="wca-font wca-amarela">Profissional</span></li>
               <li class="bullet-item">Sem limites de produtos</li>
               <li class="bullet-item">Loja com seu endereço na internet</li>
               <li class="bullet-item">Desenvolvimento completo</li>
@@ -298,7 +292,7 @@
           </div>
           <div class="col-lg-5 col-md-5 first-decision">
             <ul>
-              <li class="title"><b>WebLoja</b> Service</li>
+              <li class="title"><b>WebLoja</b> <span class="wca-font wca-amarela">Service</span></li>
               <li class="bullet-item">Sem limites de produtos</li>
               <li class="bullet-item">Loja com seu endereço na internet</li>
               <li class="bullet-item">Desenvolvimento completo</li>
@@ -334,29 +328,34 @@
 <div class="content content-incluso">
     <div class="container">
     <div class="row">
+
+        <div class="col-lg-12" style="padding-top: 40px; color: #333; font-size: 32px;">
+          <center><h2 style="font-size: 32px;"><b>Incluso</b> em nossas <b>WebLojas</b> <span class="wca-font wca-amarela">Profissional e Service</span></h2></center>
+        </div>
+
         <div class="col-lg-12" style="padding: 20px;">
-            <center><h2><b>Incluso</b> em nossas lojas</h2></center>
+            <center><h2></h2></center>
         </div>
     </div>
     <div class="row advantages">
         <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="Every day from 7 am to midnight CET our experienced first-level support will gladly accept your call on our toll-free hotline.">
-            <img src="http://server4you.com/templates/images/icon-support-64x64-col.png"><h4 class="wcainclusotitulo"><b>Suporte</b><br> Suporte técnico na área administrativa via telefone</h4>
+            <img src="/image/catalog/webca/icon-rescue.png"><h4 class="wcainclusotitulo"><b>Suporte</b><br> Suporte técnico ao /admin via telefone</h4>
         </div>
         <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="We don't want to pin you down to long contract terms. That's why all our servers have a minimum term of only one month.">
-            <img src="http://server4you.com/templates/images/icon-calendar-64x64-col.png"><h4 class="wcainclusotitulo"><b>Documentação</b><br> Manual completo de uso do serviço</h4>
+            <img src="/image/catalog/webca/icon-doc.png"><h4 class="wcainclusotitulo"><b>Documentação</b><br> Manual completo de uso do serviço</h4>
         </div>
         <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="Transfer as much data as you want! At Server4You the data volume is not limited.">
-            <img src="/image/catalog/webca/icon-pig.png"><h4 class="wcainclusotitulo"><b>Pagamento Flexivel</b><br> Formas de pagamento de acordo com o seu bolso</h4>
+            <img src="/image/catalog/webca/icon-pig.png"><h4 class="wcainclusotitulo"><b>Pagamento Flexivel</b><br> De acordo com o seu bolso</h4>
         </div>
 
         <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="Our data center datadock is not only extremely energy-efficient. It was also certified according to ISO 27001.">
-            <img src="http://www.server4you.com/templates/images/icon-tree-64x64-col.png"><h4 class="wcainclusotitulo"><b>Ilimitados produtos e categorias</b><br>Cadastre quantos produtos forem necessário</h4>
+            <img src="/image/catalog/webca/icon-produtos.png"><h4 class="wcainclusotitulo"><b>Ilimitados produtos e categorias</b><br>Cadastre o que for necessário</h4>
         </div>
         <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="It's your choice: Your Server4You server is either hosted at datadock – Europe's greenest data center – or in our state-of-the-art data center in the US.">
             <img src="/image/catalog/webca/icon-envio.png"><h4 class="wcainclusotitulo"><b>Formas de envio</b><br> Calculo de frete automatico</h4>
         </div>
         <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="We’d like to make your server rental as easy as possible. Therefore, we don’t charge you for a whole year in advance, but offer you monthly payment.">
-            <img src="/image/catalog/webca/icon-card.png"><h4 class="wcainclusotitulo"><b>Receba online</b><br> Integração com gateway de pagamento</h4>
+            <img src="/image/catalog/webca/icon-card.png"><h4 class="wcainclusotitulo"><b>Pagamento online</b><br> Integração com gateway de pagamento</h4>
         </div>
     </div>
 </div>
