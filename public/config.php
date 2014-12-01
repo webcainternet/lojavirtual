@@ -34,17 +34,17 @@ switch ($_SERVER['SERVER_ADDR'])
 
 		default:
 		// DIR
-		define('DIR_APPLICATION', '/srv/httpd/lojavirtual.digital/lojavirtual/public/public/catalog/');
-		define('DIR_SYSTEM', '/srv/httpd/lojavirtual.digital/lojavirtual/public/public/system/');
-		define('DIR_LANGUAGE', '/srv/httpd/lojavirtual.digital/lojavirtual/public/public/catalog/language/');
-		define('DIR_TEMPLATE', '/srv/httpd/lojavirtual.digital/lojavirtual/public/public/catalog/view/theme/');
-		define('DIR_CONFIG', '/srv/httpd/lojavirtual.digital/lojavirtual/public/public/system/config/');
-		define('DIR_IMAGE', '/srv/httpd/lojavirtual.digital/lojavirtual/public/public/image/');
-		define('DIR_CACHE', '/srv/httpd/lojavirtual.digital/lojavirtual/public/public/system/cache/');
-		define('DIR_DOWNLOAD', '/srv/httpd/lojavirtual.digital/lojavirtual/public/public/system/download/');
-		define('DIR_UPLOAD', '/srv/httpd/lojavirtual.digital/lojavirtual/public/public/system/upload/');
-		define('DIR_MODIFICATION', '/srv/httpd/lojavirtual.digital/lojavirtual/public/public/system/modification/');
-		define('DIR_LOGS', '/srv/httpd/lojavirtual.digital/lojavirtual/public/public/system/logs/');
+		define('DIR_APPLICATION', '/srv/httpd/lojavirtual.digital/lojavirtual/public/catalog/');
+		define('DIR_SYSTEM', '/srv/httpd/lojavirtual.digital/lojavirtual/public/system/');
+		define('DIR_LANGUAGE', '/srv/httpd/lojavirtual.digital/lojavirtual/public/catalog/language/');
+		define('DIR_TEMPLATE', '/srv/httpd/lojavirtual.digital/lojavirtual/public/catalog/view/theme/');
+		define('DIR_CONFIG', '/srv/httpd/lojavirtual.digital/lojavirtual/public/system/config/');
+		define('DIR_IMAGE', '/srv/httpd/lojavirtual.digital/lojavirtual/public/image/');
+		define('DIR_CACHE', '/srv/httpd/lojavirtual.digital/lojavirtual/public/system/cache/');
+		define('DIR_DOWNLOAD', '/srv/httpd/lojavirtual.digital/lojavirtual/public/system/download/');
+		define('DIR_UPLOAD', '/srv/httpd/lojavirtual.digital/lojavirtual/public/system/upload/');
+		define('DIR_MODIFICATION', '/srv/httpd/lojavirtual.digital/lojavirtual/public/system/modification/');
+		define('DIR_LOGS', '/srv/httpd/lojavirtual.digital/lojavirtual/public/system/logs/');
 
 		// DB
 		define('DB_DRIVER', 'mysqli');
