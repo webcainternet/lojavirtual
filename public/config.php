@@ -8,7 +8,7 @@ define('HTTPS_SERVER', 'http://lojavirtual.digital/');
 switch ($_SERVER['SERVER_ADDR'])
     {
         //Ambiente Local
-        case '127.0.0.1':
+        case '127.0.0.122':
 
 		// DIR
 		define('DIR_APPLICATION', '/Users/fernandomendes/github/lojavirtual/public/catalog/');
