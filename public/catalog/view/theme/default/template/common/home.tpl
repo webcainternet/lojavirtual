@@ -22,7 +22,7 @@
     background-image: url('/image/catalog/webca/background.jpg');
     background-position-y: 130px;
     background-position-x: center;
-    background-position:; 130px 0px, center;
+    background-position: 130px 0px, center;
   }
 </style></style>
 
