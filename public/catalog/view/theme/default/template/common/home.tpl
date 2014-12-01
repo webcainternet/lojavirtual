@@ -32,7 +32,7 @@
   <div class="container"> 
     
     <div style="float: left; width: 36%;">
-      <div class="wca-font" style="font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">Sistema de administração</div>
+      <div style="font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">Sistema de administração</div>
       <div style="text-align: center; display: inline-block; width: 33%; height: 40px;">
         <div><img src="/image/catalog/webca/home-nav-tools.png"></div>
         <div style="margin-top: 5px;">Conheça</div>
@@ -50,7 +50,7 @@
     </div>
 
     <div style="float: left; width: 12%;">
-      <div class="wca-font" style="font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">Templates</div>
+      <div style="font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">Templates</div>
       <div style="text-align: center; display: inline-block; width: 100%; height: 40px; border-left: #AAA dotted 1px;">
         <div><img src="/image/catalog/webca/home-nav-template.png"></div>
         <div style="margin-top: 5px;">Modelos</div>
@@ -58,7 +58,7 @@
     </div>
 
     <div style="float: left; width: 24%;">
-      <div class="wca-font" style="font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">WebLoja <span class="wca-font wca-amarela">Profissional</span></div>
+      <div style="background-color: white; border-top-left-radius: 5px; border-bottom-left-radius: 5px; font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">WebLoja <span class="wca-font wca-amarela">Profissional</span></div>
       <div style="text-align: center; display: inline-block; width: 100%; height: 40px; border-left: #AAA dotted 1px;">
         <div><img src="/image/catalog/webca/home-nav-comp.png"></div>
         <div style="margin-top: 5px;">Aqui vai info do plano Profissional</div>
@@ -66,7 +66,7 @@
     </div>
 
     <div style="float: left; width: 24%;">
-      <div class="wca-font" style="font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">WebLoja <span class="wca-font wca-amarela">Services</span></div>
+      <div style="background-color: white; border-top-right-radius: 5px; border-bottom-right-radius: 5px; font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">WebLoja <span class="wca-font wca-amarela">Services</span></div>
       <div style="text-align: center; display: inline-block; width: 100%; height: 40px; border-left: #AAA dotted 1px;">
         <div><img src="/image/catalog/webca/home-nav-comp.png"></div>
         <div style="margin-top: 5px;">Aqui vai info do plano Services</div>
@@ -338,24 +338,28 @@
         </div>
     </div>
     <div class="row advantages">
-        <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="Every day from 7 am to midnight CET our experienced first-level support will gladly accept your call on our toll-free hotline.">
-            <img src="/image/catalog/webca/icon-rescue.png"><h4 class="wcainclusotitulo"><b>Suporte</b><br> Suporte técnico ao /admin via telefone</h4>
+        <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="It's your choice: Your Server4You server is either hosted at datadock – Europe's greenest data center – or in our state-of-the-art data center in the US.">
+            <img src="/image/catalog/webca/icon-envio.png"><h4 class="wcainclusotitulo"><b>Formas de envio</b><br> Calculo de frete automatico</h4>
         </div>
-        <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="We don't want to pin you down to long contract terms. That's why all our servers have a minimum term of only one month.">
-            <img src="/image/catalog/webca/icon-doc.png"><h4 class="wcainclusotitulo"><b>Documentação</b><br> Manual completo de uso do serviço</h4>
-        </div>
-        <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="Transfer as much data as you want! At Server4You the data volume is not limited.">
-            <img src="/image/catalog/webca/icon-pig.png"><h4 class="wcainclusotitulo"><b>Pagamento Flexivel</b><br> De acordo com o seu bolso</h4>
+
+        <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="We’d like to make your server rental as easy as possible. Therefore, we don’t charge you for a whole year in advance, but offer you monthly payment.">
+            <img src="/image/catalog/webca/icon-card.png"><h4 class="wcainclusotitulo"><b>Pagamento online</b><br> Integração com gateway de pagamento</h4>
         </div>
 
         <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="Our data center datadock is not only extremely energy-efficient. It was also certified according to ISO 27001.">
             <img src="/image/catalog/webca/icon-produtos.png"><h4 class="wcainclusotitulo"><b>Ilimitados produtos e categorias</b><br>Cadastre o que for necessário</h4>
         </div>
-        <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="It's your choice: Your Server4You server is either hosted at datadock – Europe's greenest data center – or in our state-of-the-art data center in the US.">
-            <img src="/image/catalog/webca/icon-envio.png"><h4 class="wcainclusotitulo"><b>Formas de envio</b><br> Calculo de frete automatico</h4>
+
+        <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="Transfer as much data as you want! At Server4You the data volume is not limited.">
+            <img src="/image/catalog/webca/icon-pig.png"><h4 class="wcainclusotitulo"><b>Pagamento Flexivel</b><br> De acordo com o seu bolso</h4>
         </div>
-        <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="We’d like to make your server rental as easy as possible. Therefore, we don’t charge you for a whole year in advance, but offer you monthly payment.">
-            <img src="/image/catalog/webca/icon-card.png"><h4 class="wcainclusotitulo"><b>Pagamento online</b><br> Integração com gateway de pagamento</h4>
+
+        <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="Every day from 7 am to midnight CET our experienced first-level support will gladly accept your call on our toll-free hotline.">
+            <img src="/image/catalog/webca/icon-rescue.png"><h4 class="wcainclusotitulo"><b>Suporte</b><br> Suporte técnico ao /admin via telefone</h4>
+        </div>
+
+        <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="We don't want to pin you down to long contract terms. That's why all our servers have a minimum term of only one month.">
+            <img src="/image/catalog/webca/icon-doc.png"><h4 class="wcainclusotitulo"><b>Documentação</b><br> Manual completo de uso do serviço</h4>
         </div>
     </div>
 </div>
