@@ -19,7 +19,7 @@
     /* background-size: auto 576px; */
     background-size: 100%;
     /* background-image: url('/image/catalog/webca/shutterstock_99076997.jpg'); */
-    background-image: url('/image/catalog/webca/background-3.png');
+    background-image: url('/image/catalog/webca/background.jpg');
     background-position-y: 130px;
     background-position-x: center;
   }
