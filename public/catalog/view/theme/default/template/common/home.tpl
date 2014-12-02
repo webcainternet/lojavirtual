@@ -342,7 +342,7 @@
     </div>
     <div class="row advantages">
         <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="It's your choice: Your Server4You server is either hosted at datadock – Europe's greenest data center – or in our state-of-the-art data center in the US.">
-            <img src="/image/catalog/webca/icon-envio.png"><h4 class="wcainclusotitulo"><b>Formas de envio</b><br> Calculo de frete automatico</h4>
+            <img src="/image/catalog/webca/icon-envio.png"><h4 class="wcainclusotitulo"><b>Formas de envio</b><br> Cálculo de frete automatico</h4>
         </div>
 
         <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="We’d like to make your server rental as easy as possible. Therefore, we don’t charge you for a whole year in advance, but offer you monthly payment.">
@@ -397,8 +397,8 @@ margin-top: 20px;
             <h4 class="wca-incluso-title">Customização visual</h4>
             <p>Contamos com mais de 400 modelos da mais alta qualidade para criação de sua loja, montamos o layout e customizamos as imagens e banners. Criação de logo tipos não esta inclusa em nossos pacote, confira os valores em nossa central de atendimento.</p>
 
-            <h4 class="wca-incluso-title">Calculo automático de frete via correios</h4>
-            <p>O valor do frete é calculado automaticamente através dos correios, dando a possibilidade de inserir margens de valores no calculo.</p>
+            <h4 class="wca-incluso-title">Cálculo automático de frete via correios</h4>
+            <p>O valor do frete é calculado automaticamente através dos correios, dando a possibilidade de inserir margens de valores no cálculo.</p>
 
             <h4 class="wca-incluso-title">Integração com gateways de pagamento</h4>
             <p>É incluso o recebimento através dos gateways de pagamento paypal e pagseguro, que permite recebimento através de cartões de débito, crédito e boleto bancário. Caso necessário pode ser inserido formas adicionais como Boleto bancário, MOIP, entre outros, confira com nosso suporte.</p>
@@ -408,7 +408,6 @@ margin-top: 20px;
 
             <h4 class="wca-incluso-title">Funcionalidades e integrações</h4>
             <p>
-            <!-- 4 itens acima / manutenção / hosting / integraçnao pagamentos / calculo frete -->
               <div class="wca-incluso-func-col">
                 <ul class="wca-incluso-funcionalidades">
                   <li>Cadastro de newsletter</li>
