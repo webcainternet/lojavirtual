@@ -22,7 +22,7 @@
     </div>
 
     <hr style="border: 0px; border-top: solid 1px; ">
-    <p style="text-align: justify;">* Prices valid for the first six months for all offers starting from 12 months minimum term. After that period, the price increases as follows: vServer PRO $15.00 per month, vServer PLUS $23.00 per month, vServer PREMIUM $45.00 per month and vServer PLATINUM $59.00 per month. Charges are due in advance. Contracts without minimum term can be canceled anytime to the end of the month. All other contracts are prolonged after the minimum term for additional 12 months eacht time, if they are not canceled in writing three months before the contract term ends.</p>
+    <p style="text-align: justify;">* O plano WebLoja Services no valor de R$ 299,00 esta disponível apenas para contratação com prazo mínimo de 12 meses. O pagamento é feito mensalmente, e após o periodo de 12 meses a renovação do suporte é feita automaticamente mês a mês no mesmo valor mensal. Para cancelamento da assinatura deve ser solicitado através de nosso canal de atendimento ** A contratação de hora adicional de desenvolvimento deve ser orçada através de nosso canal de atendimento.</p>
   </div>
 </footer>
 

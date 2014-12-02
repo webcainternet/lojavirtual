@@ -67,10 +67,10 @@
     </div>
 
     <div style="float: left; width: 24%;">
-      <div style="background-color: white; border-top-right-radius: 5px; border-bottom-right-radius: 5px; font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">WebLoja <span class="wca-font wca-amarela">Services</span></div>
+      <div style="background-color: white; border-top-right-radius: 5px; border-bottom-right-radius: 5px; font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">WebLoja <span class="wca-font wca-amarela">Service</span></div>
       <div style="text-align: center; display: inline-block; width: 100%; height: 40px; border-left: #AAA dotted 1px;">
         <div><img src="/image/catalog/webca/home-nav-comp.png"></div>
-        <div style="margin-top: 5px;">Aqui vai info do plano Services</div>
+        <div style="margin-top: 5px;">Aqui vai info do plano Service</div>
       </div>
     </div>
 
@@ -250,6 +250,8 @@
             
           </ul>
           </ul>
+
+          <div style="text-align: center; margin: auto; width: 300px;"><input class="newsletter-contato btn btn-inverse btn-block btn-lg dropdown-toggle" style="width: 300px;" type="submit" required="" name="contato" value="Veja todos os modelos!"></div>
         </div>
       </div>
     </div>
@@ -365,20 +367,73 @@
     </div>
 </div>
 </div>
+
+<style type="text/css">
+  .wca-incluso-title {
+    font-size: 14px;
+font-weight: bold;
+margin-top: 20px;
+  }
+  .wca-incluso-funcionalidades {
+    padding-left: 20px;
+  }
+
+  .wca-incluso-func-col {
+    display: inline-block;
+    width: 33%;
+  }
+</style>
+
 <div class="content content-seo content-incluso">
 <div class="container">
     <div class="row">
-        <div class="col-lg-12">
-            <h4>Rent a low-priced server at Server4You</h4>
-            <p>At Server4You you’ll find the appropriate server for your needs, at a price you can afford. We have one of the largest selections of servers on sale, from an inexpensive VPS to a premium value dedicated server. Every single one of our servers is designed to offer you the best possible performance. Testimonials and reviews from valued customers reinforce our claim that we are committed to providing the best products at unbeatable prices.</p>
-            <h4>Find your good value server here </h4>
-            <p>As a subsidiary of one of the largest hosters in Germany, we benefit from the backing of a strong corporation. This gives us the power to purchase all of our hardware at discounts and savings, and then pass that savings onto our customers. We’re also fortunate to be able to rely on our company’s sound and solid technical infrastructure, as well as the expertise of more than 15 years in the hosting business. </p>
-            <h4>Servers for every requirement</h4>
-            <p>At Server4You, we offer a variety of servers to meet every need, from severs designed for beginners, to those more appropriate for demanding projects. Are you looking for a VPS for quick entry into the server management?  Do you need a dedicated server for small and medium-sized enterprises? Use our server comparison tool to compare our servers and find the right server for you.</p>
-            <h4>Secure server hosting in the US or EU </h4>
-            <p>Whether a VPS or Dedicated Server, security is a top priority at Server4You. You have the choice between our state of the art data centers in the USA or Europe. In both data centers your data is protected by a comprehensive safety concept: fire detection, security control, access restriction, and more.</p>
-            <h4>Free server support </h4>
-            <p>Experiencing server problems or have questions about your dedicated server? Free server support is part of any of our server offers. Whether by e-mail ticket or support hotline, you will receive quick responses to your server query or server problem.</p>
+        <div class="col-lg-12" style="text-align: justify;">
+            <h4 class="wca-incluso-title">Atendimento e suporte via telefone</h4>
+            <p>Nossa plataforma dispõe de uma interface de administração completa, onde você cadastra seus produtos, acompanha seus pedidos e modifica a sua loja. Você tem auxilio técnico via telefone para gerenciamento completo de sua loja virtual: manutenção em estoque de produtos, categorias, atributos, opções, troca de textos da página, alterações em banners entre outras diversas funcionalidades da plataforma.</p>
+
+            <h4 class="wca-incluso-title">Manutenção mensal</h4>
+            <p>É incluso manutenção mensal de desenvolvimento técnicas de 2h para as duas formas de contratação: WebLoja Profissional e WebLoja Service. O desenvolvimento técnico pode ser utilizada para qualquer fim de alterações na loja, desde instalação de módulos até inserção de banners, troca de produtos ou textos.</p>
+
+            <h4 class="wca-incluso-title">Customização visual</h4>
+            <p>Contamos com mais de 400 modelos da mais alta qualidade para criação de sua loja, montamos o layout e customizamos as imagens e banners. Criação de logo tipos não esta inclusa em nossos pacote, confira os valores em nossa central de atendimento.</p>
+
+            <h4 class="wca-incluso-title">Calculo automático de frete via correios</h4>
+            <p>O valor do frete é calculado automaticamente através dos correios, dando a possibilidade de inserir margens de valores no calculo.</p>
+
+            <h4 class="wca-incluso-title">Integração com gateways de pagamento</h4>
+            <p>É incluso o recebimento através dos gateways de pagamento paypal e pagseguro, que permite recebimento através de cartões de débito, crédito e boleto bancário. Caso necessário pode ser inserido formas adicionais como Boleto bancário, MOIP, entre outros, confira com nosso suporte.</p>
+
+            <h4 class="wca-incluso-title">Hospedagem de sua loja</h4>
+            <p>Não existe a necessidade da contratação de um provedor, provemos hospedagem compartilhada para seu site. Caso queira utilizar outro provedor de hospedagem a propriedade do código fonte da loja é sua no plano WebLoja Profissional de imediato e no plano WebLoja Service após a carência de 12 meses. Caso queira manter sua loja hospedada conosco sem a necessidade de pagamento de manutenção temos preços mais acessíveis consulte nosso atendimento.</p>
+
+            <h4 class="wca-incluso-title">Funcionalidades e integrações</h4>
+            <p>
+            <!-- 4 itens acima / manutenção / hosting / integraçnao pagamentos / calculo frete -->
+              <div class="wca-incluso-func-col">
+                <ul class="wca-incluso-funcionalidades">
+                  <li>Cadastro de newsletter</li>
+                  <li>Carrinho de compras</li>
+                  <li>Lista de desejos</li>
+                  <li>Comparação de produtos</li>
+                </ul>
+              </div>
+              <div class="wca-incluso-func-col">
+                <ul class="wca-incluso-funcionalidades">
+                  <li>Cupom de desconto</li>
+                  <li>Vale presente</li>
+                  <li>Comentários nos produtos</li>
+                  <li>Avaliação de compradores</li>
+                </ul>
+              </div>
+              <div class="wca-incluso-func-col">
+                <ul class="wca-incluso-funcionalidades">
+                  <li>Chat online (Zopim)</li>
+                  <li>Relatórios de vendas</li>
+                  <li>Estatísticas do Google Analytics</li>
+                  <li>Busca nos produtos</li>
+                </ul>
+              </div>
+            </p>
         </div>
     </div>
 </div>
