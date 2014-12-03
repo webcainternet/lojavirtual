@@ -1,17 +1,6 @@
-<?php /*
-<link rel="stylesheet" type="text/css" href="load/skin_classic_black.css"/>
-<script type="text/javascript" src="load/FWDSimple3DCoverflow.js"></script>
-<script type="text/javascript" src="load/loadcover.js"></script>
-*/ ?>
-
 <link rel="stylesheet" type="text/css" href="load/skin_allsizes_white.css"/>
 <script type="text/javascript" src="load/FWDSimple3DCoverflow.js"></script>
 <script type="text/javascript" src="load/loadcover.js"></script>
-
-
-
-
-
 
 <style type="text/css">
   body {
@@ -112,7 +101,7 @@
             <div class="container-passos-img" style="background-image: url('/image/catalog/webca/step-cadastro.png'); background-color: #FF9999;">&nbsp;</div>
             <div class="container-passos-titulo">Cadastre seus produtos</div>
             <div>
-                (Mudar) Faça upload dos seus produtos e de suas fotos através do painel de administração. Faça modificações quando quiser, sem depender de ninguém.
+                Faça o cadastro de seus produtos através de nossa plataforma de administração e fique a vontade para fazer modificações quando quiser sem a necessidade um desenvolvedor.
             </div>
           </div>
 
@@ -120,7 +109,7 @@
             <div class="container-passos-img" style="background-image: url('/image/catalog/webca/step-recebimento.png'); border-radius: 0px; background-color: white;">&nbsp;</div>
             <div class="container-passos-titulo">Receba o pagamento</div>
             <div style="padding-bottom: 15px;">
-                (Mudar) Com cartão de crédito, em prestações, por boleto ou transferência bancária. Com os meios de pagamento mais utilizados no Brasil. Tudo pela internet e desde seu Nuvem Shop.
+                Venda seus produtos e receba o pagamento através de cartão de crédito, débito, boleto ou transferência bancária. Você ainda pode dar a possibilidade de parcelamento.
             </div>
             <img src="/image/catalog/webca/bandeiras.png">
           </div>
@@ -129,7 +118,7 @@
             <div class="container-passos-img" style="background-image: url('/image/catalog/webca/step-envio.png');">&nbsp;</div>
             <div class="container-passos-titulo">Envie o pedido</div>
             <div style="padding-bottom: 15px;">
-                (Mudar) Tenha acesso a envios mais econômicos graças a nossas parcerias. Os produtos podem ser retirados onde você quiser e enviados para todo o mundo.
+                O valor do frete de seus produtos é calculado automaticamente em sua loja e você precisa apenas enviar os pedidos.
             </div>
             <img src="/image/catalog/webca/correios.png">
           </div>
@@ -330,42 +319,43 @@
 <!-- Incluso em nossas lojas -->
 <div class="content content-incluso">
     <div class="container">
-    <div class="row">
+      <div class="row">
 
-        <div class="col-lg-12" style="padding-top: 40px; color: #333; font-size: 32px;">
-          <center><h2 style="font-size: 32px;"><b>Incluso</b> em nossas <b>WebLojas</b> <span class="wca-font wca-amarela">Profissional e Service</span></h2></center>
-        </div>
+          <div class="col-lg-12" style="padding-top: 40px; color: #333; font-size: 32px;">
+            <center><h2 style="font-size: 32px;"><b>Incluso</b> em nossas <b>WebLojas</b> <span class="wca-font wca-amarela">Profissional e Service</span></h2></center>
+          </div>
 
-        <div class="col-lg-12" style="padding: 20px;">
-            <center><h2></h2></center>
-        </div>
+          <div class="col-lg-12" style="padding: 20px;">
+              <center><h2></h2></center>
+          </div>
+      </div>
+
+      <div class="row advantages">
+          <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="It's your choice: Your Server4You server is either hosted at datadock – Europe's greenest data center – or in our state-of-the-art data center in the US.">
+              <img src="/image/catalog/webca/icon-envio.png"><h4 class="wcainclusotitulo"><b>Formas de envio</b><br> Cálculo de frete automatico</h4>
+          </div>
+
+          <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="We’d like to make your server rental as easy as possible. Therefore, we don’t charge you for a whole year in advance, but offer you monthly payment.">
+              <img src="/image/catalog/webca/icon-card.png"><h4 class="wcainclusotitulo"><b>Pagamento online</b><br> Integração com gateway de pagamento</h4>
+          </div>
+
+          <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="Our data center datadock is not only extremely energy-efficient. It was also certified according to ISO 27001.">
+              <img src="/image/catalog/webca/icon-produtos.png"><h4 class="wcainclusotitulo"><b>Ilimitados produtos e categorias</b><br>Cadastre o que for necessário</h4>
+          </div>
+
+          <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="Transfer as much data as you want! At Server4You the data volume is not limited.">
+              <img src="/image/catalog/webca/icon-pig.png"><h4 class="wcainclusotitulo"><b>Pagamento Flexivel</b><br> De acordo com o seu bolso</h4>
+          </div>
+
+          <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="Every day from 7 am to midnight CET our experienced first-level support will gladly accept your call on our toll-free hotline.">
+              <img src="/image/catalog/webca/icon-rescue.png"><h4 class="wcainclusotitulo"><b>Suporte</b><br> Suporte técnico ao /admin via telefone</h4>
+          </div>
+
+          <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="We don't want to pin you down to long contract terms. That's why all our servers have a minimum term of only one month.">
+              <img src="/image/catalog/webca/icon-doc.png"><h4 class="wcainclusotitulo"><b>Documentação</b><br> Manual completo de uso do serviço</h4>
+          </div>
+      </div>
     </div>
-    <div class="row advantages">
-        <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="It's your choice: Your Server4You server is either hosted at datadock – Europe's greenest data center – or in our state-of-the-art data center in the US.">
-            <img src="/image/catalog/webca/icon-envio.png"><h4 class="wcainclusotitulo"><b>Formas de envio</b><br> Cálculo de frete automatico</h4>
-        </div>
-
-        <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="We’d like to make your server rental as easy as possible. Therefore, we don’t charge you for a whole year in advance, but offer you monthly payment.">
-            <img src="/image/catalog/webca/icon-card.png"><h4 class="wcainclusotitulo"><b>Pagamento online</b><br> Integração com gateway de pagamento</h4>
-        </div>
-
-        <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="Our data center datadock is not only extremely energy-efficient. It was also certified according to ISO 27001.">
-            <img src="/image/catalog/webca/icon-produtos.png"><h4 class="wcainclusotitulo"><b>Ilimitados produtos e categorias</b><br>Cadastre o que for necessário</h4>
-        </div>
-
-        <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="Transfer as much data as you want! At Server4You the data volume is not limited.">
-            <img src="/image/catalog/webca/icon-pig.png"><h4 class="wcainclusotitulo"><b>Pagamento Flexivel</b><br> De acordo com o seu bolso</h4>
-        </div>
-
-        <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="Every day from 7 am to midnight CET our experienced first-level support will gladly accept your call on our toll-free hotline.">
-            <img src="/image/catalog/webca/icon-rescue.png"><h4 class="wcainclusotitulo"><b>Suporte</b><br> Suporte técnico ao /admin via telefone</h4>
-        </div>
-
-        <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="We don't want to pin you down to long contract terms. That's why all our servers have a minimum term of only one month.">
-            <img src="/image/catalog/webca/icon-doc.png"><h4 class="wcainclusotitulo"><b>Documentação</b><br> Manual completo de uso do serviço</h4>
-        </div>
-    </div>
-</div>
 </div>
 
 <style type="text/css">
