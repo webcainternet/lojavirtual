@@ -1,21 +1,21 @@
 <?php
 // Heading
-$_['heading_title']    = 'Low Order Fee';
+$_['heading_title']    = 'Taxa para Pedidos Pequenos';
 
 // Text
-$_['text_total']       = 'Order Totals';
-$_['text_success']     = 'Success: You have modified low order fee total!';
-$_['text_edit']        = 'Edit Low Order Fee Total';
+$_['text_total']       = 'Finalização do Pedido';
+$_['text_success']     = 'Módulo Taxa para Pedidos Pequenos modificada com sucesso!';
+$_['text_edit']        = 'Editar Módulo Taxa para Pedidos Pequenos';
 
 // Entry
-$_['entry_total']      = 'Order Total';
-$_['entry_fee']        = 'Fee';
-$_['entry_tax_class']  = 'Tax Class';
+$_['entry_total']      = 'Total do Pedido';
+$_['entry_fee']        = 'Taxa';
+$_['entry_tax_class']  = 'Grupo de Impostos';
 $_['entry_status']     = 'Status';
-$_['entry_sort_order'] = 'Sort Order';
+$_['entry_sort_order'] = 'Ordem';
 
 // Help
-$_['help_total']       = 'The checkout total the order must reach before this order total becomes active.';
+$_['help_total']       = 'O check-out total de pedido deve chegar antes deste pedido total torna-se ativa.';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify low order fee total!';
+$_['error_permission'] = 'Atenção: Você não possui permissão para modificar o módulo Taxa para Pedidos Pequenos!';

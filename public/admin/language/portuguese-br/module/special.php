@@ -1,20 +1,19 @@
 <?php
 // Heading
-$_['heading_title']    = 'Specials';
+$_['heading_title']		  = 'Produtos em Oferta';
 
 // Text
-$_['text_module']      = 'Modules';
-$_['text_success']     = 'Success: You have modified module specials!';
+$_['text_module']         = 'Módulos';
+$_['text_success']        = 'Módulo Produtos em Oferta modificado com sucesso!';
 $_['text_edit']        = 'Edit Specials Module';
 
 // Entry
-$_['entry_limit']      = 'Limit';
-$_['entry_image']      = 'Image (W x H) and Resize Type';
-$_['entry_width']      = 'Width';
-$_['entry_height']     = 'Height';
-$_['entry_status']     = 'Status';
+$_['entry_limit']         = 'Limite:';
+$_['entry_image']         = 'Imagem (L x A):';
+$_['entry_width']      = 'Largura';
+$_['entry_height']     = 'Altura';
+$_['entry_status']        = 'Situação:';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify specials module!';
-$_['error_module']     = 'Warning: Module required!';
-$_['error_image']      = 'Image width &amp; height dimensions required!';
+$_['error_permission']    = 'Atenção: Você não possui permissão para modificar o módulo Produtos em Oferta!';
+$_['error_image']         = 'Atenção: O campo <b>Imagem (L x A)</b> tem seu preenchimento obrigatório!';

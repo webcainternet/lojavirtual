@@ -3,9 +3,9 @@
 $_['heading_title']           = 'Parcelforce 48';
 
 // Text
-$_['text_shipping']           = 'Shipping';
-$_['text_success']            = 'Success: You have modified Parcelforce 48 shipping!';
-$_['text_edit']               = 'Edit Parcelforce 48 Shipping';
+$_['text_shipping']           = 'Formas de Envio';
+$_['text_success']            = 'Módulo Parcelforce 48 modificado com sucesso!';
+$_['text_edit']               = 'Parcelforce 48';
 
 // Entry
 $_['entry_rate']              = 'Parcelforce 48 Rates';

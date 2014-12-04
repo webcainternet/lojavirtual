@@ -1,42 +1,42 @@
 <?php
 // Heading
-$_['heading_title']			= 'Tipos de recorrência';
+$_['heading_title']			= 'Produtos';
 
 // Text
-$_['text_success']          = 'Tipo de recorrência modifcada com sucesso!';
-$_['text_list']             = 'Listando tipos de recorrência';
-$_['text_add']              = 'Novo tipo de recorrência';
-$_['text_edit']             = 'Editando tipo de recorrência';
-$_['text_day']				= 'Diária';
-$_['text_week']				= 'Semanal';
-$_['text_semi_month']		= 'Quinzenal';
-$_['text_month']			= 'Mensal';
-$_['text_year']				= 'Anual';
-$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i> A recorrência é gerada baseada na freqüência e ciclos.</p><p>Por exemplo, se você utilizar como freqüência "Semanal" e como ciclo "2", então o cliente será cobrado a cada 2 semanas.</p><p>A duração é a quantidade de vezes que o cliente vai receber uma cobrança, coloque 0 se desejar que as cobranças sejam geradas até que sejam canceladas.</p>';
-$_['text_profile']			= 'Configurações';
-$_['text_trial']			= 'Período de avaliação';
+$_['text_success']          = 'Perfil de Pagamento foi modificado!';
+$_['text_list']             = 'Lista de Perfis de pagamento';
+$_['text_add']              = 'Adicionar Perfil';
+$_['text_edit']             = 'Editar Perfil';
+$_['text_day']				= 'dia';
+$_['text_week']				= 'semana';
+$_['text_semi_month']		= 'Semi Mensal';
+$_['text_month']			= 'mês';
+$_['text_year']				= 'ano';
+$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i> Recorrentes são calculados pela frequencia e ciclo.</p><p>Por exemplo se você usa a frequencia de "semana" e um ciclo de "2", então seus usuários compram 2 vezes por semana.</p><p>A duração é o número de vezes que seus usuários fazem pagamentos, coloque 0 se você quer também pagamentos cancelados.</p>';
+$_['text_profile']			= 'Pagamentos recorrentes';
+$_['text_trial']			= 'Tentar Perfil';
 
 // Entry
-$_['entry_name']			= 'Tipo de recorrência';
+$_['entry_name']			= 'Nome';
 $_['entry_price']			= 'Preço';
 $_['entry_duration']		= 'Duração';
 $_['entry_cycle']			= 'Ciclo';
-$_['entry_frequency']		= 'Frequência';
-$_['entry_trial_price']		= 'Preço';
-$_['entry_trial_duration']	= 'Duração';
-$_['entry_trial_status']	= 'Situação';
-$_['entry_trial_cycle']	    = 'Ciclo';
-$_['entry_trial_frequency']	= 'Frequência';
+$_['entry_frequency']		= 'Frequencia';
+$_['entry_trial_price']		= 'Tentar Preço';
+$_['entry_trial_duration']	= 'Tentar Duração';
+$_['entry_trial_status']	= 'Tentar Situação';
+$_['entry_trial_cycle']	    = 'Tentar ciclo';
+$_['entry_trial_frequency']	= 'Tentar frequencia';
 $_['entry_status']			= 'Situação';
-$_['entry_sort_order']		= 'Ordem na lista';
+$_['entry_sort_order']		= 'Ordem';
 
 // Column
-$_['column_name']			= 'Tipo de recorrência';
-$_['column_sort_order']	    = 'Ordem na lista';
+$_['column_name']			= 'Nome';
+$_['column_sort_order']	    = 'Ordem';
 $_['column_action']         = 'Ação';
 
 // Error
-$_['error_warning']         = 'Atenção: Faltou preencher alguma informação, verifique todos os campos!';
-$_['error_permission']		= 'Atenção: Você não tem permissão para modificar os tipos de recorrência!';
-$_['error_name']			= 'O tipo de recorrência deve ter entre 3 e 255 caracteres!';
-$_['error_product']			= 'Atenção: Este tipo de recorrência não pode ser excluído, pois está vinculado a %s produtos!';
+$_['error_warning']         = 'Atenção: Por favor confira os campos com error!';
+$_['error_permission']		= 'Atenção: Você não tem permissão para alterar!';
+$_['error_name']			= 'Nome deve ter entre 3 e 255 caractereres!';
+$_['error_product']			= 'Atenção: Não pode ser deletado porque está associada a %s produtos!';

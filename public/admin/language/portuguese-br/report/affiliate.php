@@ -1,9 +1,9 @@
 <?php
 // Heading
-$_['heading_title']     = 'Relatório de comissões de afiliados';
+$_['heading_title']     = 'Relatório de Comissões por Afiliado';
 
 // Text
-$_['text_list']         = 'Listando comissões de afiliados';
+$_['text_list']         = 'Listar Comissões por Afiliado';
 
 // Column
 $_['column_affiliate']  = 'Afiliado';
@@ -15,5 +15,5 @@ $_['column_total']      = 'Total';
 $_['column_action']     = 'Ação';
 
 // Entry
-$_['entry_date_start']  = 'Data inicial';
-$_['entry_date_end']    = 'Data final';
+$_['entry_date_start']  = 'Início:';
+$_['entry_date_end']    = 'Fim:';

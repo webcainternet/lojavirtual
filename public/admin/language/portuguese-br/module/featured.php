@@ -1,24 +1,23 @@
 <?php
 // Heading
-$_['heading_title']    = 'Featured';
+$_['heading_title']       = 'Produtos em Destaque';
 
 // Text
-$_['text_module']      = 'Modules';
-$_['text_success']     = 'Success: You have modified featured module!';
-$_['text_edit']        = 'Edit Featured Module';
+$_['text_module']         = 'Módulos';
+$_['text_success']        = 'Módulo Produtos em Destaque modificado com sucesso!';
+$_['text_edit']        = 'Editar Destaque';
 
 // Entry
-$_['entry_product']    = 'Products';
-$_['entry_limit']      = 'Limit';
-$_['entry_image']      = 'Image (W x H) and Resize Type';
-$_['entry_width']      = 'Width';
-$_['entry_height']     = 'Height';
-$_['entry_status']     = 'Status';
+$_['entry_product']       = 'Produtos:';
+$_['entry_limit']         = 'Limite:';
+$_['entry_image']         = 'Imagem (L x A):';
+$_['entry_width']      = 'Largura';
+$_['entry_height']     = 'Altura';
+$_['entry_status']        = 'Situação:';
 
 // Help
 $_['help_product']     = '(Autocomplete)';
 
-// Error
-$_['error_permission'] = 'Warning: You do not have permission to modify featured module!';
-$_['error_module']     = 'Warning: Module required!';
-$_['error_image']      = 'Image width &amp; height dimensions required!';
+// Error 
+$_['error_permission']    = 'Atenção: Você não possui permissão para modificar o módulo Produtos em Destaque!';
+$_['error_image']         = 'Atenção: O campo <b>Imagem (L x A)</b> tem seu preenchimento obrigatório!';

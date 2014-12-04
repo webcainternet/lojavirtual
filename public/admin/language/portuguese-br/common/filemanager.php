@@ -1,22 +1,22 @@
 <?php
 // Heading
-$_['heading_title']    = 'Gerenciador de arquivos';
+$_['heading_title']    = 'Gerenciador de Arquivos';
 
 // Text
-$_['text_uploaded']    = 'Seu arquivo foi enviado!';
-$_['text_directory']   = 'Pasta criada!';
-$_['text_delete']      = 'O arquivo ou pasta foi excluído!';
+$_['text_uploaded']    = 'Arquivo enviado com sucesso!';
+$_['text_directory']   = 'Diretório criado com sucesso!';
+$_['text_delete']      = 'Arquivo ou pasta deletada com sucesso!';
 
 // Entry
-$_['entry_search']     = 'Localizar..';
-$_['entry_folder']     = 'Nome da pasta';
+$_['entry_search']     = 'Buscar..';
+$_['entry_folder']     = 'Nome da Pasta';
 
 // Error
-$_['error_permission'] = 'Aviso: Permissão negada!';
-$_['error_filename']   = 'Aviso: O nome do arquivo deve ser entre 3 e 255 caracteres!';
-$_['error_folder']     = 'Aviso: O nome da pastas deve ter entre 3 e 255 caracteres!';
-$_['error_exists']     = 'Aviso: Um arquivo ou pasta com o mesmo nome já existe!';
-$_['error_directory']  = 'Aviso: A pasta não existe!';
-$_['error_filetype']   = 'Aviso: Tipo de arquivo incorreto!';
-$_['error_upload']     = 'Aviso: O arquivo não pode ser carregado por um motivo desconhecido!';
-$_['error_delete']     = 'Aviso: Você não pode excluir esta pasta!';
+$_['error_permission'] = 'Atenção: Acesso negado!';
+$_['error_filename']   = 'Atenção: O nome do arquivo deve possuir entre 3 e 255 caracteres!';
+$_['error_folder']     = 'Atenção: A pasta deve ter entre 3 e 255 caracteres!';
+$_['error_exists']     = 'Atenção: Um arquivo ou diretório com o mesmo nome já existe!';
+$_['error_directory']  = 'Atenção: Diretório não existe!';
+$_['error_file_type']  = 'Atenção: A extenção do arquivo não é correta!';
+$_['error_upload']   = 'Atenção: O arquivo não pôde ser carregado por algum motivo desconhecido!';
+$_['error_delete']	   = 'Atenção: Você não pode excluir esta pasta!';

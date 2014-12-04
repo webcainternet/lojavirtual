@@ -1,30 +1,30 @@
 <?php
 // Heading
-$_['heading_title']    = 'Unidades de pesos';
+$_['heading_title']    = 'Unidades de Pesos';
 
 // Text
-$_['text_success']     = 'Unidade de peso modificada com sucesso!';
-$_['text_list']        = 'Listando unidades de pesos';
-$_['text_add']         = 'Nova unidade de peso';
-$_['text_edit']        = 'Editando unidade de peso';
+$_['text_success']     = 'Tipo de Peso modificado com sucesso!';
+$_['text_list']        = 'Lista de Unidades de Pesos';
+$_['text_add']         = 'Adicionar Unidades de Pesos';
+$_['text_edit']        = 'Editar Unidades de Pesos';
 
 // Column
-$_['column_title']     = 'Unidade de peso';
-$_['column_unit']      = 'Unidade';
+$_['column_title']     = 'Título';
+$_['column_unit']      = 'Símbolo';
 $_['column_value']     = 'Valor';
 $_['column_action']    = 'Ação';
 
 // Entry
-$_['entry_title']      = 'Unidade de peso';
-$_['entry_unit']       = 'Unidade';
-$_['entry_value']      = 'Valor';
+$_['entry_title']      = 'Título:';
+$_['entry_unit']       = 'Símbolo:';
+$_['entry_value']      = 'Valor:';
 
 // Help
-$_['help_value']       = 'Defina para 1.00000, se está é a sua unidade de peso padrão..';
+$_['help_value']       = 'Coloque 1.00000000 se esta for sua unidade padrão para pesos.';
 
 // Error
-$_['error_permission'] = 'Atenção: Você não tem permissão para modificar as unidades de pesos!';
-$_['error_title']      = 'A unidade de peso deve ter entre 3 e 32 caracteres!';
-$_['error_unit']       = 'A unidade deve ser entre 1 e 4 caracteres!';
-$_['error_default']    = 'Atenção: Esta unidade de peso não pode ser excluída, pois ela está definida como a unidade de peso padrão!';
-$_['error_product']    = 'Atenção: Esta unidade de peso não pode ser excluída, pois está vinculada a %s produtos!';
+$_['error_permission'] = 'Atenção: Você não possui permissão para modificar as unidades de pesos!';
+$_['error_title']      = 'Atenção: O campo <b>Título</b> deve ter entre 3 e 32 caracteres!';
+$_['error_unit']       = 'Atenção: O campo <b>Símbolo</b> deve ter entre 1 e 4 caracteres!';
+$_['error_default']    = 'Atenção: Esta unidade de peso não pode ser excluída, pois está vinculada como unidade de pesos padrão da loja!';
+$_['error_product']    = 'Atenção: Esta unidade de peso não pode ser excluída, pois está vinculada a %s produto(s)!';

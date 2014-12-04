@@ -1,9 +1,9 @@
 <?php
 // Heading
-$_['heading_title']    = 'Relatório de cupons';
+$_['heading_title']    = 'Relatório de Cupons';
 
 // Text
-$_['text_list']        = 'Listando cupons';
+$_['text_list']        = 'Listar Cupons';
 
 // Column
 $_['column_name']      = 'Cupom';
@@ -13,5 +13,5 @@ $_['column_total']     = 'Total';
 $_['column_action']    = 'Ação';
 
 // Entry
-$_['entry_date_start'] = 'Data inicial';
-$_['entry_date_end']   = 'Data final';
+$_['entry_date_start'] = 'Início:';
+$_['entry_date_end']   = 'Fim:';

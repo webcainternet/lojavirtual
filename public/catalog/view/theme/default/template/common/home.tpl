@@ -58,9 +58,9 @@
         <div style="display: inline-block; width: 105px;">
           <div style="font-size: 10px;">12x de</div>
             <div style="display: inline-block; font-size: 10px; margin-left: 0px;">R$</div>
-            <div style="display: inline-block; font-weight: bold; font-size: 20px;">199<span style="font-size: 10px;">,99</span></div>
+            <div style="display: inline-block; font-weight: bold; font-size: 20px; color: #111;">199<span style="font-size: 10px;">,99</span></div>
         </div>
-        <a href="/profissional"><div style="margin-top: 5px; text-align: center; background-color: #f08c00; border-radius: 4px; color: #333; font-weight: bold; width: 95px; margin-left: 160px;">saiba mais</div></a>
+        <a href="/profissional"><div style="margin-top: 5px; text-align: center; background-color: #f08c00; border-radius: 4px; color: #111; font-weight: bold; width: 95px; margin-left: 160px;">saiba mais</div></a>
 
       </div>
     </div>
@@ -76,9 +76,9 @@
         <div style="display: inline-block; width: 105px;">
           <div style="font-size: 10px;">Apenas</div>
             <div style="display: inline-block; font-size: 10px; margin-left: 0px;">R$</div>
-            <div style="display: inline-block; font-weight: bold; font-size: 20px;">299<span style="font-size: 10px;">,00</span></div>
+            <div style="display: inline-block; font-weight: bold; font-size: 20px; color: #111;">299<span style="font-size: 10px;">,00</span></div>
         </div>
-        <a href="/service"><div style="margin-top: 5px; text-align: center; background-color: #f08c00; border-radius: 4px; color: #333; font-weight: bold; width: 95px; margin-left: 160px;">saiba mais</div></a>
+        <a href="/service"><div style="margin-top: 5px; text-align: center; background-color: #f08c00; border-radius: 4px; color: #111; font-weight: bold; width: 95px; margin-left: 160px;">saiba mais</div></a>
 
       </div>
     </div>

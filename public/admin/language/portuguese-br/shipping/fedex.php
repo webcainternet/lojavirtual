@@ -1,10 +1,10 @@
 <?php
 // Heading
-$_['heading_title']                            = 'Fedex';
+$_['heading_title']                            = 'Correios (Brasil)';
 
 // Text
-$_['text_shipping']                            = 'Shipping';
-$_['text_success']                             = 'Success: You have modified Fedex shipping!';
+$_['text_shipping']                            = 'Formas de Envio';
+$_['text_success']                             = 'Módulo Correios atualizado com sucesso!';
 $_['text_edit']                                = 'Edit Fedex Shipping';
 $_['text_europe_first_international_priority'] = 'Europe First International Priority';
 $_['text_fedex_1_day_freight']                 = 'Fedex 1 Day Freight';

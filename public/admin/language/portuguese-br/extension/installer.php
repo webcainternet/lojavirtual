@@ -1,36 +1,35 @@
 <?php
 // Heading
-$_['heading_title']        = 'Instalador de extensões';
+$_['heading_title']        = 'Instalação de Extensões';
 
 // Text
-$_['text_success']         = 'Extensão instalada com sucesso!';
+$_['text_success']         = 'Você instalou uma extensão com sucesso!';
 $_['text_unzip']           = 'Extraindo arquivos!';
 $_['text_ftp']             = 'Copiando arquivos!';
-$_['text_sql']             = 'Executando SQLs!';
-$_['text_xml']             = 'Aplicando modifications!';
-$_['text_php']             = 'Executando PHP!';
-$_['text_remove']          = 'Removendo arquivos temporários!';
-$_['text_clear']           = 'Todos os arquivos temporários foram removidos!';
+$_['text_sql']             = 'Rodando SQL!';
+$_['text_xml']             = 'Aplicando Modificações!';
+$_['text_php']             = 'Rodando PHP!';
+$_['text_remove']          = 'Removendo arquivos temporarios!';
+$_['text_clear']           = 'Arquivos temporários removidos!';
 
 // Entry
-$_['entry_upload']         = 'Extensão';
-$_['entry_overwrite']      = 'Arquivos';
+$_['entry_upload']         = 'Subir rquivo';
+$_['entry_overwrite']      = 'Arquivos que serão substituidos';
 $_['entry_progress']       = 'Progresso';
 
 // Help
-$_['help_upload']          = 'Requer um arquivo ZIP ou modificação em XML no padrão OCMOD.';
+$_['help_upload']          = 'Requer um arquivo ZIP ou XML.';
 
 // Error
-$_['error_permission']     = 'Atenção: Você não tem permissão para instalar extensões!';
-$_['error_temporary']      = 'Atenção: Existem alguns arquivos temporários que precisam ser removidos. Clique no botão Apagar para removê-los!';
-$_['error_upload']         = 'O arquivo não pode ser enviado!';
-$_['error_filetype']       = 'O tipo de arquivo não é válido!';
-$_['error_file']           = 'O arquivo não pode ser encontrado!';
-$_['error_unzip']          = 'Arquivo ZIP não pode ser extraído!';
-$_['error_directory']      = 'O diretório para armazenar os arquivos enviados não pode ser encontrado!';
-$_['error_ftp_status']     = 'O FTP precisa ser habilitado nas configurações!';
-$_['error_ftp_connection'] = 'Não foi possível conectar-se como %s:%s';
-$_['error_ftp_login']      = 'Não foi possível fazer login como %s';
-$_['error_ftp_root']       = 'Não foi possível definir o diretório raiz como %s';
-$_['error_ftp_directory']  = 'Não foi possível mudar para o diretório %s';
-$_['error_ftp_file']       = 'Não foi possível fazer upload do arquivo %s';
+$_['error_permission']     = 'Atenção: Você não tem permissão para modificar extensões!';
+$_['error_temporary']      = 'Atenção: Existem arquivos temporários para remover, clique para remove-los!';
+$_['error_upload']         = 'Não foi possível subir seu arquivo!';
+$_['error_filetype']       = 'Tipo de arquivo inválido!';
+$_['error_file']           = 'Arquivo não encontrado!';
+$_['error_unzip']          = 'Arquivo ZIP não pode ser lido!';
+$_['error_directory']      = 'Diretório não contém arquivos para upload!';
+$_['error_ftp_connection'] = 'Não foi possível se conectar como %s:%s';
+$_['error_ftp_login']      = 'Não foi possível se logar como %s';
+$_['error_ftp_root']       = 'Não foi possível colocar diretório root como %s';
+$_['error_ftp_directory']  = 'Não foi possível alterar o diretório como %s';
+$_['error_ftp_file']       = 'Não foi possível subir o arquivo %s';

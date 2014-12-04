@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title'] = 'Total de clientes';
+$_['heading_title'] = 'Total de Clientes';
 
 // Text
-$_['text_view']     = 'Ver mais...';
+$_['text_view'] = 'Veja mais...';

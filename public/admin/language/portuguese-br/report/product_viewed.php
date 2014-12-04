@@ -1,16 +1,16 @@
 <?php
 // Heading
-$_['heading_title']    = 'Relatório de produtos visualizados';
+$_['heading_title']  = 'Relatório de Produtos Visualizados';
 
 // Text
-$_['text_list']        = 'Listando produtos visualizados';
-$_['text_success']     = 'Visualizações redefinidas!';
+$_['text_list']        = 'Lista de produtos visualizados';
+$_['text_success']   = 'Você zerou o relatório de visualização de produtos!';
 
 // Column
-$_['column_name']      = 'Produto';
-$_['column_model']     = 'Modelo';
-$_['column_viewed']    = 'Visualizado';
-$_['column_percent']   = 'Porcentagem';
+$_['column_name']    = 'Produto';
+$_['column_model']   = 'Modelo';
+$_['column_viewed']  = 'Visualizações';
+$_['column_percent'] = 'Percentual';
 
 // Error
-$_['error_permission'] = 'Atenção: Você não tem permissão para acessar o relatório de produtos visualizados!';
+$_['error_permission'] = 'Atenção: Você não tem permissão para modificar Produtos Visualizados!';

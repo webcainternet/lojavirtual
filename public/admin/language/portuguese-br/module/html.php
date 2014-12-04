@@ -1,17 +1,16 @@
 <?php
 // Heading
-$_['heading_title']     = 'HTML Content';
+$_['heading_title']     = 'HTML Conteúdo';
 
 // Text
 $_['text_module']       = 'Modules';
-$_['text_success']      = 'Success: You have modified HTML Content module!';
-$_['text_edit']         = 'Edit HTML Content Module';
+$_['text_success']      = 'Você modificou HTML Conteúdo com sucesso!';
+$_['text_edit']         = 'Editar HTML Conteúdo';
 
 // Entry
-$_['entry_heading']     = 'Heading Title';
-$_['entry_description'] = 'Content';
-$_['entry_status']      = 'Status';
+$_['entry_heading']     = 'Cabeçalho título';
+$_['entry_description'] = 'Conteúdo';
+$_['entry_status']      = 'Situação';
 
 // Error
-$_['error_permission']  = 'Warning: You do not have permission to modify HTML Content module!';
-$_['error_module']      = 'Warning: Module required!';
+$_['error_permission']  = 'Atenção: Você não tem permissão para modificar HTML Conteúdo módulo!';

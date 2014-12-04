@@ -1,23 +1,23 @@
 <?php
 // Heading
-$_['heading_title']					= 'Bank Transfer';
+$_['heading_title']					= 'Transferência bancária';
 
 // Text
-$_['text_payment']					= 'Payment';
-$_['text_success']					= 'Success: You have modified bank transfer details!';
-$_['text_edit']                     = 'Edit Bank Transfer';
+$_['text_payment']					= 'Pagamento';
+$_['text_success']					= 'Sucesso: Você modificou os detalhes sobre transferência bancária!';
+$_['text_edit']                     = 'Editar Transferência bancária';
 
 // Entry
-$_['entry_bank']					= 'Bank Transfer Instructions';
+$_['entry_bank']					= 'Instruções sobre transferência bancária';
 $_['entry_total']					= 'Total';
-$_['entry_order_status']			= 'Order Status';
-$_['entry_geo_zone']				= 'Geo Zone';
-$_['entry_status']					= 'Status';
-$_['entry_sort_order']				= 'Sort Order';
+$_['entry_order_status']			= 'Situação do pedido';
+$_['entry_geo_zone']				= 'Zona Geográfica';
+$_['entry_status']					= 'Situação';
+$_['entry_sort_order']				= 'Ordem';
 
 // Help
-$_['help_total']					= 'The checkout total the order must reach before this payment method becomes active.';
+$_['help_total']					= 'O total de verificação geral da ordem deve chegar antes deste método de pagamento se tornar ativo.';
 
 // Error
-$_['error_permission']				= 'Warning: You do not have permission to modify payment bank transfer!';
-$_['error_bank']					= 'Bank Transfer Instructions Required!';
+$_['error_permission']				= 'Aviso: Você não tem permissão para modificar o módulo de transferência bancária de pagamento!';
+$_['error_bank']					= 'Instruções de transferência bancária necessárias!';

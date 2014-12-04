@@ -4,21 +4,21 @@ $_['heading_title']     = 'Filtros';
 
 // Text
 $_['text_success']      = 'Filtro modificado com sucesso!';
-$_['text_list']         = 'Listando filtros';
-$_['text_add']          = 'Novo filtro';
-$_['text_edit']         = 'Editando filtro';
+$_['text_list']         = 'Lista de Filtros';
+$_['text_add']          = 'Adicionar Filtro';
+$_['text_edit']         = 'Editar Filtro';
 
 // Column
-$_['column_group']      = 'Grupo de filtros';
-$_['column_sort_order'] = 'Ordem na lista';
+$_['column_group']      = 'Grupo de Filtros';
+$_['column_sort_order'] = 'Ordem de Exibição';
 $_['column_action']     = 'Ação';
 
 // Entry
-$_['entry_group']       = 'Grupo de filtros';
-$_['entry_name']        = 'Filtro';
-$_['entry_sort_order']  = 'Ordem na lista';
+$_['entry_group']       = 'Grupo de Filtros:';
+$_['entry_name']        = 'Filtro:';
+$_['entry_sort_order']  = 'Ordem de Exibição:';
 
 // Error
-$_['error_permission']  = 'Atenção: Você não tem permissão para modificar filtros!';
-$_['error_group']       = 'O grupo de filtros deve ter entre 1 e 64 caracteres!';
-$_['error_name']        = 'O filtro deve ter entre 1 e 64 caracteres!';
+$_['error_permission']  = 'Atenção: Você não tem permissão para modificar os filtros!';
+$_['error_group']       = 'O campo <b>Grupo de Filtros</b> deve ter entre 1 e 64 caracteres!';
+$_['error_name']        = 'O campo <b>Filtro</b> deve ter entre 1 e 64 caracteres!';

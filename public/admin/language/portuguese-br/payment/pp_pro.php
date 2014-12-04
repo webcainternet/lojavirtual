@@ -3,30 +3,30 @@
 $_['heading_title']					= 'PayPal Pro';
 
 // Text
-$_['text_success']					= 'Success: You have modified PayPal Website Payment Pro Checkout account details!';
-$_['text_edit']                     = 'Edit PayPal Pro';
+$_['text_success']					= 'Módulo PayPal Pagamento Pro modificado com sucesso';
+$_['text_edit']                     = 'EditarPayPal Pro';
 $_['text_pp_pro']					= '<a target="_BLANK" href="https://www.paypal.com/uk/mrb/pal=V4T754QB63XXL"><img src="view/image/payment/paypal.png" alt="PayPal Website Payment Pro" title="PayPal Website Payment Pro iFrame" style="border: 1px solid #EEEEEE;" /></a>';
-$_['text_authorization']			= 'Authorization';
-$_['text_sale']						= 'Sale';
+$_['text_authorization']            = 'Autorização';
+$_['text_sale']                     = 'Venda';
 
 // Entry
-$_['entry_username']				= 'API Username';
-$_['entry_password']				= 'API Password';
-$_['entry_signature']				= 'API Signature';
-$_['entry_test']					= 'Test Mode';
-$_['entry_transaction']				= 'Transaction Method:';
-$_['entry_total']					= 'Total';
-$_['entry_order_status']			= 'Order Status';
-$_['entry_geo_zone']				= 'Geo Zone';
-$_['entry_status']					= 'Status';
-$_['entry_sort_order']				= 'Sort Order';
+$_['entry_username']                = 'Usuário API:';
+$_['entry_password']                = 'Senha API:';
+$_['entry_signature']               = 'Assinatura API:';
+$_['entry_test']                    = 'Modo de Teste:';
+$_['entry_transaction']             = 'Método de Transação:';
+$_['entry_total']                   = 'Total Mínimo:';
+$_['entry_order_status']            = 'Situação do Pedido:';
+$_['entry_geo_zone']                = 'Região Geográfica:';
+$_['entry_status']                  = 'Situação:';
+$_['entry_sort_order']              = 'Ordem:';
 
 // Help
-$_['help_test']						= 'Use the live or testing (sandbox) gateway server to process transactions?';
-$_['help_total']					= 'The checkout total the order must reach before this payment method becomes active';
+$_['help_test']						= 'Usar o servidor ativo ou teste (sandbox) porta de entrada para processar transações??';
+$_['help_total']					= 'O check-out total de ordem deve chegar antes de este método de pagamento se torna ativo';
 
 // Error
-$_['error_permission']				= 'Warning: You do not have permission to modify payment PayPal Website Payment Pro Checkout!';
-$_['error_username']				= 'API Username Required!';
-$_['error_password']				= 'API Password Required!';
-$_['error_signature']				= 'API Signature Required!';
+$_['error_permission']				= 'Atenção: Você não tem permissão para modificar pagamento PayPal Pro Pagamento!';
+$_['error_username']				= 'API Usuário Obrigatório!';
+$_['error_password']				= 'API Senha Obrigatório!';
+$_['error_signature']				= 'API Assinatura obrigatória!';

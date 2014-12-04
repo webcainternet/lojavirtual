@@ -1,13 +1,13 @@
 <?php
 // Heading
-$_['heading_title']    = 'Amazon Payments Button';
+$_['heading_title']    = 'Pagamentos Amazon Button';
 
-$_['text_module']      = 'Modules';
-$_['text_success']     = 'Success: You have modified Amazon payments module!';
-$_['text_edit']        = 'Edit Amazon Payments Module';
+$_['text_module']      = 'Módulos';
+$_['text_success']     = 'Você modificou o módulo pagamentos Amazon com sucesso!';
+$_['text_edit']        = 'Editar módulo pagamentos Amazon';
 
 // Entry
 $_['entry_status']     = 'Status';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify Amazon payments module!';
+$_['error_permission'] = 'Atenção: Você não tem permissão para modificar módulo pagamentos Amazon!';

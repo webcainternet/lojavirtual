@@ -1,13 +1,13 @@
 <?php
 // Heading
-$_['heading_title']					= 'Search Transactions';
+$_['heading_title']					= 'Buscar Transações';
 
 // Column
-$_['tbl_column_date']				= 'Date';
-$_['tbl_column_type']				= 'Type';
+$_['tbl_column_date']				= 'Data';
+$_['tbl_column_type']				= 'Tipo';
 $_['tbl_column_email']				= 'Email';
 $_['tbl_column_name']				= 'Name';
-$_['tbl_column_transid']			= 'Transaction ID';
+$_['tbl_column_transid']			= 'Transação ID';
 $_['tbl_column_status']				= 'Status';
 $_['tbl_column_currency']			= 'Currency';
 $_['tbl_column_amount']				= 'Amount';

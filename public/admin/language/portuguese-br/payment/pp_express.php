@@ -3,64 +3,64 @@
 $_['heading_title']					= 'PayPal Express Checkout';
 
 // Text
-$_['text_success']					= 'Success: You have modified PayPal Express Checkout account details!';
-$_['text_edit']                     = 'Edit PayPal Express Checkout';
+$_['text_success']					= 'Você modificou os detalhes da conta PayPal Express Checkout com sucesso!';
+$_['text_edit']                     = 'Editar PayPal Express Checkout';
 $_['text_pp_express']				= '<a target="_BLANK" href="https://www.paypal.com/uk/mrb/pal=V4T754QB63XXL"><img src="view/image/payment/paypal.png" alt="PayPal Website Payment Pro" title="PayPal Website Payment Pro iFrame" style="border: 1px solid #EEEEEE;" /></a>';
-$_['text_authorization']			= 'Authorization';
-$_['text_sale']						= 'Sale';
-$_['text_clear']					= 'Clear';
-$_['text_browse']					= 'Browse';
-$_['text_image_manager']			= 'Image manager';
+$_['text_authorization']			= 'Autorização';
+$_['text_sale']						= 'Venda';
+$_['text_clear']					= 'Limpar';
+$_['text_browse']					= 'Procurar';
+$_['text_image_manager']			= 'Gerenciar Imagem';
 $_['text_ipn']						= 'IPN url';
 
 // Entry
-$_['entry_username']				= 'API Username';
-$_['entry_password']				= 'API Password';
-$_['entry_signature']				= 'API Signature';
+$_['entry_username']				= 'Usuário API';
+$_['entry_password']				= 'Senha API';
+$_['entry_signature']				= 'Assinatura API';
 $_['entry_test']					= 'Test (Sandbox) Mode';
-$_['entry_method']					= 'Transaction Method';
-$_['entry_geo_zone']				= 'Geo Zone';
-$_['entry_status']					= 'Status';
-$_['entry_sort_order']				= 'Sort Order';
-$_['entry_icon_sort_order']			= 'Icon Sort Order';
+$_['entry_method']					= 'Método de Transação';
+$_['entry_geo_zone']				= 'Região Geográfica';
+$_['entry_status']					= 'Situação';
+$_['entry_sort_order']				= 'Pedido';
+$_['entry_icon_sort_order']			= 'Ícone do Pedido';
 $_['entry_debug']					= 'Debug logging';
 $_['entry_total']					= 'Total';
-$_['entry_currency']				= 'Default currency';
-$_['entry_recurring_cancellation']	= 'Allow customers to cancel recurring payments';
-$_['entry_canceled_reversal_status'] = 'Canceled Reversal Status';
-$_['entry_completed_status']		= 'Completed Status';
-$_['entry_denied_status']			= 'Denied Status';
-$_['entry_expired_status']			= 'Expired Status';
-$_['entry_failed_status']			= 'Failed Status';
-$_['entry_pending_status']			= 'Pending Status';
-$_['entry_processed_status']		= 'Processed Status';
-$_['entry_refunded_status']			= 'Refunded Status';
-$_['entry_reversed_status']			= 'Reversed Status';
-$_['entry_voided_status']			= 'Voided Status';
-$_['entry_display_checkout']		= 'Display quick checkout icon';
-$_['entry_allow_notes']				= 'Allow notes';
+$_['entry_currency']				= 'Moeda';
+$_['entry_recurring_cancellation']	= 'Permitir que os clientes cancele pagamentos recorrentes';
+$_['entry_canceled_reversal_status'] = 'Cancelado Reversão de Status';
+$_['entry_completed_status']		= 'Status Concluído';
+$_['entry_denied_status']			= 'Status Negado';
+$_['entry_expired_status']			= 'Status Expirou';
+$_['entry_failed_status']			= 'Status Falhou';
+$_['entry_pending_status']			= 'Status com Pendência';
+$_['entry_processed_status']		= 'Status Processado';
+$_['entry_refunded_status']			= 'Status Reembolsado';
+$_['entry_reversed_status']			= 'Status Invertido';
+$_['entry_voided_status']			= 'Status Anulado';
+$_['entry_display_checkout']		= 'Mostrar ícone de compra rápida';
+$_['entry_allow_notes']				= 'Permitir anotações';
 $_['entry_logo']					= 'Logo';
-$_['entry_border_colour']			= 'Header border colour';
-$_['entry_header_colour']			= 'Header background colour';
-$_['entry_page_colour']				= 'Page background colour';
+$_['entry_border_colour']			= 'Cor do Header';
+$_['entry_header_colour']			= 'Header background cor';
+$_['entry_page_colour']				= 'Page background cor';
 
 // Tab
-$_['tab_general']					= 'General';
-$_['tab_api_details']				= 'API details';
-$_['tab_order_status']				= 'Order status';
-$_['tab_customise']					= 'Customise checkout';
+$_['tab_general']					= 'Geral';
+$_['tab_api_details']				= 'Detalhes API';
+$_['tab_order_status']				= 'Situação do Pedido';
+$_['tab_customise']					= 'Personalizar Checkout';
 
 // Help
-$_['help_ipn']						= 'Required for subscriptions';
-$_['help_total']					= 'The checkout total the order must reach before this payment method becomes active';
-$_['help_logo']						= 'Max 750px(w) x 90px(h)<br />You should only use a logo if you have SSL set up.';
-$_['help_colour']					= '6 character HTML colour code';
-$_['help_currency']					= 'Used for transaction searches';
+$_['help_ipn']						= 'Exigido para as subscrições';
+$_['help_total']					= 'O check-out no total do pedido deve chegar antes de este método de pagamento se torna ativo';
+$_['help_logo']						= 'Max 750px(w) x 90px(h)<br />Você só deve usar um logotipo se você tiver SSL configurado.';
+$_['help_colour']					= 'Cor do código HTML com 6 caracteres';
+$_['help_currency']					= 'Usado para operação de pesquisa';
 
 // Error
-$_['error_permission']				= 'Warning: You do not have permission to modify payment PayPal Express Checkout!';
-$_['error_username']				= 'API Username Required!';
-$_['error_password']				= 'API Password Required!';
-$_['error_signature']				= 'API Signature Required!';
-$_['error_data']					= 'Data missing from request';
-$_['error_timeout']					= 'Request timed out';
+$_['error_permission']				= 'Atenção: Você não tem permissão para modificar o pagamento PayPal Express Checkout!';
+$_['error_username']				= 'Usuário API Obrigatório!';
+$_['error_password']				= 'Senha API Obrigatório!';
+$_['error_signature']				= 'Assinatura API Obrigatório!';
+$_['error_data']					= 'Estão faltando dados do Pedido';
+$_['error_timeout']					= 'A solicitação expirou';
