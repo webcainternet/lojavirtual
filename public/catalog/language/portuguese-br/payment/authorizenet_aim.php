@@ -1,10 +1,10 @@
 <?php
 // Text
-$_['text_title']				= 'Credit Card / Debit Card (Authorize.Net)';
-$_['text_credit_card']			= 'Credit Card Details';
+$_['text_title']				= 'Cartão de Crédito / Cartão de Débito (Authorize.Net)';
+$_['text_credit_card']			= 'Detalhes do cartão de crédito';
 
 // Entry
-$_['entry_cc_owner']			= 'Card Owner';
-$_['entry_cc_number']			= 'Card Number';
-$_['entry_cc_expire_date']		= 'Card Expiry Date';
-$_['entry_cc_cvv2']				= 'Card Security Code (CVV2)';
+$_['entry_cc_owner']			= 'O cartão do proprietário';
+$_['entry_cc_number']			= 'Número do cartão';
+$_['entry_cc_expire_date']		= 'Data de validade do cartão';
+$_['entry_cc_cvv2']				= 'Código de Segurança do Cartão (CVV2)';

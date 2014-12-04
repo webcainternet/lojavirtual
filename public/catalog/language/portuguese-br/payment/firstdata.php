@@ -1,26 +1,26 @@
 <?php
 // Heading
-$_['text_title']				= 'Credit / Debit card (First Data)';
+$_['text_title']				= 'Cartão de crédito / Cartão de débito (First Data)';
 
 // Button
 $_['button_confirm']			= 'Continue';
 
 // Text
-$_['text_new_card']				= 'New card';
-$_['text_store_card']			= 'Remember my card details';
-$_['text_address_response']		= 'Address verification: ';
-$_['text_address_ppx']			= 'No address data provided or Address not checked by the Card Issuer';
-$_['text_address_yyy']			= 'Card Issuer confirmed that street and postcode match with their records';
-$_['text_address_yna']			= 'Card Issuer confirmed that street matches with their records but postcode does not match';
-$_['text_address_nyz']			= 'Card Issuer confirmed that postcode matches with their records but street does not match';
-$_['text_address_nnn']			= 'Both street and postcode do not match with the Card Issuer records';
-$_['text_address_ypx']			= 'Card Issuer confirmed that street matches with their records. The Issuer did not check the postcode';
-$_['text_address_pyx']			= 'Card Issuer confirmed that postcode matches with their records. The Issuer did not check the street';
-$_['text_address_xxu']			= 'Card Issuer did not check the AVS information';
-$_['text_card_code_verify']		= 'Security code: ';
-$_['text_card_code_m']			= 'Card security code match';
-$_['text_card_code_n']			= 'Card security code does not match';
-$_['text_card_code_p']			= 'Not processed';
+$_['text_new_card']				= 'Novo Cartão';
+$_['text_store_card']			= 'Lembrar dos dados do meu cartão';
+$_['text_address_response']		= 'Verificação de endereço: ';
+$_['text_address_ppx']			= 'Não há dados do endereço fornecido ou o endereço não foi verificado pelo emissor do cartão';
+$_['text_address_yyy']			= 'A emissora do caertãoCartão confirmou a rua e código postal com os seus registros';
+$_['text_address_yna']			= 'A emissora do cartão confirmou a rua com os seus registros, mas o código postal não corresponde';
+$_['text_address_nyz']			= 'A emissora do cartão confirmou o código postal com os seus registros, mas rua não corresponde ';
+$_['text_address_nnn']			= 'Tanto a rua como o código postal não correspondem com os registros do cartão Emissor';
+$_['text_address_ypx']			= 'A emissora do cartão confirmou a rua com os seus registros. A Emissora não verificou o código postal';
+$_['text_address_pyx']			= 'A emissora do cartão confirmou o código postal com os seus registros. A Emissora não verificou a rua';
+$_['text_address_xxu']			= 'A emissora do cartão não verificou a informação AVS';
+$_['text_card_code_verify']		= 'Código de segurança: ';
+$_['text_card_code_m']			= 'Código de segurança do cartão';
+$_['text_card_code_n']			= 'O código de segurança do cartão corresponde';
+$_['text_card_code_p']			= 'Não processado';
 $_['text_card_code_s']			= 'Merchant has indicated that the card security code is not present on the card';
 $_['text_card_code_u']			= 'Issuer is not certified and/or has not provided encryption keys';
 $_['text_card_code_x']			= 'No response from the credit card association was received';

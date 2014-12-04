@@ -1,15 +1,15 @@
 <?php
 // Text
-$_['text_title']				= 'Credit Card / Debit Card (BluePay)';
-$_['text_credit_card']			= 'Card Details';
-$_['text_description']			= 'Items on %s Order No: %s';
-$_['text_card_type']			= 'Card Type: ';
-$_['text_card_name']			= 'Card Name: ';
-$_['text_card_digits']			= 'Last Digits: ';
-$_['text_card_expiry']			= 'Expiry: ';
+$_['text_title']				= 'Cartão de Crédito / Cartão de Débito(BluePay)';
+$_['text_credit_card']			= 'Detalhes do Cartão';
+$_['text_description']			= 'Itens em %s pedido: %s';
+$_['text_card_type']			= 'Tipo de cartão: ';
+$_['text_card_name']			= 'Nome do cartão: ';
+$_['text_card_digits']			= 'Últimos dígitos: ';
+$_['text_card_expiry']			= 'Prazo de validade: ';
 
 // Returned text
-$_['text_transaction_error']	= 'There was an error processing your transaction - ';
+$_['text_transaction_error']	= 'Houve um erro ao processar sua transação - ';
 
 // Entry
 $_['entry_card']				= 'New or Existing Card: ';

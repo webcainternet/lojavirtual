@@ -311,7 +311,7 @@
                 <option value="<?php echo $recurring['recurring_id'] ?>"><?php echo $recurring['name'] ?></option>
                 <?php } ?>
               </select>
-              <div class="help-block" id="recurring-description"></div>
+              <div class="help-block" id="recurring-description" style="display: none;"></div>
             </div>
             <?php } ?>
             <div class="form-group">

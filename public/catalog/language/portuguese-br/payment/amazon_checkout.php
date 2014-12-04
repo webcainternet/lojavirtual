@@ -1,26 +1,26 @@
 <?php
 // Heading
-$_['heading_title']				= 'Amazon Payments';
-$_['heading_address']			= 'Please choose a delivery address';
-$_['heading_payment']			= 'Please select a payment method';
-$_['heading_confirm']			= 'Order summary';
+$_['heading_title']				= 'Pagamentos pela Amazon';
+$_['heading_address']			= 'Por favor, escolha um endereço de entrega';
+$_['heading_payment']			= 'Por favor, selecione um método de pagamento';
+$_['heading_confirm']			= 'Resumo do pedido';
 
 // Text
 $_['text_back']					= 'Back';
-$_['text_cart']					= 'Cart';
-$_['text_confirm']				= 'Confirm';
+$_['text_cart']					= 'Carrinho';
+$_['text_confirm']				= 'Confirmar';
 $_['text_continue']				= 'Continue';
-$_['text_cba']					= 'Amazon Payments';
-$_['text_enter_coupon']			= 'Enter your coupon code here. If you don\'t have one, leave it empty.';
-$_['text_coupon']				= 'Coupon';
-$_['text_tax_other']			= 'Taxes / Other handling fees';
-$_['text_payment_failed']		= 'Your payment has failed. Please contact the shop administrator for assistance or use a different payment option.';
-$_['text_success_title']		= 'Your order has been placed!';
-$_['text_payment_success']		= 'Your order was successfully placed. Order details are below';
+$_['text_cba']					= 'Pagamentos Amazon';
+$_['text_enter_coupon']			= 'Digite o seu código de cupom aqui, Se você não \ tem um cupom deixe em brnaco.';
+$_['text_coupon']				= 'Cupom';
+$_['text_tax_other']			= 'Impostos / Outros gastos de gestão';
+$_['text_payment_failed']		= 'O seu pagamento falhou. Entre em contato com o administrador da loja ou com a assistência ou escolha uma opção de pagamento diferente.';
+$_['text_success_title']		= 'O seu pedido foi incluido!';
+$_['text_payment_success']		= 'O seu pedido foi feito com sucesso. Segue a baixo detalhes sobre seu pedido';
 
 // Error
-$_['error_payment_method']		= 'Please select a payment method';
-$_['error_shipping']			= 'Please select a shipping method';
-$_['error_shipping_address']	= 'Please select a delivery address';
-$_['error_shipping_methods']	= 'There was an error retrieving your address from Amazon. Please contact the shop administrator for help';
-$_['error_no_shipping_methods'] = 'There are no shipping options to the selected address. Please select a different shipping address';
+$_['error_payment_method']		= 'Por favor, selecione um método de pagamento';
+$_['error_shipping']			= 'Por favor, selecione um método de envio';
+$_['error_shipping_address']	= 'Por favor, selecione um endereço de entrega';
+$_['error_shipping_methods']	= 'Houve um erro ao recuperar o seu endereço da Amazon. Entre em contato com Administrador para obter ajuda';
+$_['error_no_shipping_methods'] = 'Não há opções de transporte para o endereço selecionado. Por favor, selecione um endereço de entrega diferente';
