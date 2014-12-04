@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+
+    <id>fixppex</id>
+    <version>1.0.1</version>
+    <vqmver>2.4.1</vqmver>
+    <author>Www.MMOSolution.com</author>
+
+    <file name="catalog/model/payment/pp_express.php">
+        <operation error="skip">
+            <search position="replace"><![CDATA[
+                    $item_total = number_format($item_total + $item_price, 2);
+      ]]></search>
+      
+            <add><![CDATA[
+      // MMOSolution.com attach file product [BEGIN]
+		                    $item_total = number_format($item_total + $item_price, 2, '.', '');
+	  // MMOSolution.com attach file product [END]
+      ]]></add>
+        </operation>
+		<operation error="skip">
+            <search position="replace"><![CDATA[
+            $item_total += number_format($item_price * $item['quantity'], 2);
+      ]]></search>
+      
+            <add><![CDATA[
+      // MMOSolution.com attach file product [BEGIN]
+            $item_total += number_format($item_price * $item['quantity'], 2, '.', '');
+	  // MMOSolution.com attach file product [END]
+      ]]></add>
+        </operation>
+			<operation error="skip">
+            <search position="replace"><![CDATA[
+                $data['L_PAYMENTREQUEST_0_ITEMWEIGHTVALUE' . $i] = number_format($weight / $item['quantity'], 2);
+      ]]></search>
+      
+            <add><![CDATA[
+      // MMOSolution.com attach file product [BEGIN]
+                $data['L_PAYMENTREQUEST_0_ITEMWEIGHTVALUE' . $i] = number_format($weight / $item['quantity'], 2, '.', '');
+	  // MMOSolution.com attach file product [END]
+      ]]></add>
+        </operation>
+		        <operation error="skip">
+            <search position="replace"><![CDATA[
+        $data['PAYMENTREQUEST_0_ITEMAMT'] = number_format($item_total, 2);
+      ]]></search>
+      
+            <add><![CDATA[
+      // MMOSolution.com attach file product [BEGIN]
+		        $data['PAYMENTREQUEST_0_ITEMAMT'] = number_format($item_total, 2, '.', '');					
+	  // MMOSolution.com attach file product [END]
+      ]]></add>
+        </operation>
+		        <operation error="skip">
+            <search position="replace"><![CDATA[
+        $data['PAYMENTREQUEST_0_AMT'] = number_format($item_total, 2);
+      ]]></search>
+      
+            <add><![CDATA[
+      // MMOSolution.com attach file product [BEGIN]
+	        $data['PAYMENTREQUEST_0_AMT'] = number_format($item_total, 2, '.', '');
+	  // MMOSolution.com attach file product [END]
+      ]]></add>
+        </operation>
+    </file>
+  
+  
+</modification>

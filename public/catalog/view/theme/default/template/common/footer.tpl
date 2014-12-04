@@ -2,7 +2,7 @@
   <div class="container">
     <div class="footer-contato wca-font">
       <img src="/image/catalog/webca/icon-tel.png" width="50">
-      &nbsp;Telefone: 11 2376-0583
+      &nbsp;Central de atendimento: 11 2376-0583
     </div>
     <div class="footer-contato wca-font">
       <img src="/image/catalog/webca/icon-mail.png" width="50">

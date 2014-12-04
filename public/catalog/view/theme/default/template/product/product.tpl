@@ -146,7 +146,13 @@
           <ul class="list-unstyled">
             <?php if (!$special) { ?>
             <li>
+              <?php if ($model == "WebLoja Profissional") { ?> 
+              <h2><span style="font-size: 14px;">À vista: <?php echo $price; ?></span></h2>
+              <h2><span style="font-size: 14px;">ou 12x de </span> R$ 199,99 <span style="font-size: 14px;">Sem juros</span></h2>
+              
+              <?php } else { ?>
               <h2><?php echo $price; ?></h2>
+              <?php } ?>
             </li>
             <?php } else { ?>
             <li><span style="text-decoration: line-through;"><?php echo $price; ?></span></li>
@@ -479,6 +485,8 @@ $('#button-cart').on('click', function() {
 				$('html, body').animate({ scrollTop: 0 }, 'slow');
 				
 				$('#cart > ul').load('index.php?route=common/cart/info ul li');
+
+        window.location.href = 'index.php?route=checkout/cart';
 			}
 		}
 	});

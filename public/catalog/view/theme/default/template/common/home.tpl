@@ -13,12 +13,12 @@
     background-position-x: center;
     background-position: 0px 130px, center;
   }
-</style></style>
+</style>
 
 <?php echo $header; ?>
 
 
-<div style="background-color: rgba(242,242,242,0.80); height: 125px; opacity: 0.8; filter: alpha(opacity=80); margin-top: 6px;">
+<div style="background-color: rgba(242,242,242,0.90); height: 125px; opacity: 0.8; filter: alpha(opacity=80); margin-top: 6px;">
   <div class="container"> 
     
     <div style="float: left; width: 36%;">
@@ -48,18 +48,38 @@
     </div>
 
     <div style="float: left; width: 24%;">
-      <div style="background-color: white; border-top-left-radius: 5px; border-bottom-left-radius: 5px; font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">WebLoja <span class="wca-font wca-amarela">Profissional</span></div>
-      <div style="text-align: center; display: inline-block; width: 100%; height: 40px; border-left: #AAA dotted 1px;">
-        <div><img src="/image/catalog/webca/home-nav-comp.png"></div>
-        <div style="margin-top: 5px;">Aqui vai info do plano Profissional</div>
+      <div style="background-color: white; border-top-left-radius: 5px; border-bottom-left-radius: 5px; font-weight: bold; margin-top: 15px; margin-bottom: 5px; padding-left: 20px;">WebLoja <span class="wca-font wca-amarela">Profissional</span></div>
+      <div style="text-align: left; display: inline-block; width: 100%; height: 40px; border-left: #AAA dotted 1px;">
+        <div style="display: inline-block; width: 160px; font-size: 10px;">
+          <div>&nbsp;&nbsp;- Desenvolvimento completo</div>
+          <div>&nbsp;&nbsp;- 3 meses de manutenção</div>
+        </div>
+
+        <div style="display: inline-block; width: 105px;">
+          <div style="font-size: 10px;">12x de</div>
+            <div style="display: inline-block; font-size: 10px; margin-left: 0px;">R$</div>
+            <div style="display: inline-block; font-weight: bold; font-size: 20px;">199<span style="font-size: 10px;">,99</span></div>
+        </div>
+        <a href="/profissional"><div style="margin-top: 5px; text-align: center; background-color: #f08c00; border-radius: 4px; color: #333; font-weight: bold; width: 95px; margin-left: 160px;">saiba mais</div></a>
+
       </div>
     </div>
 
     <div style="float: left; width: 24%;">
-      <div style="background-color: white; border-top-right-radius: 5px; border-bottom-right-radius: 5px; font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">WebLoja <span class="wca-font wca-amarela">Service</span></div>
-      <div style="text-align: center; display: inline-block; width: 100%; height: 40px; border-left: #AAA dotted 1px;">
-        <div><img src="/image/catalog/webca/home-nav-comp.png"></div>
-        <div style="margin-top: 5px;">Aqui vai info do plano Service</div>
+      <div style="background-color: white; border-top-right-radius: 5px; border-bottom-right-radius: 5px; font-weight: bold; margin-top: 15px; margin-bottom: 5px; padding-left: 20px;">WebLoja <span class="wca-font wca-amarela">Service</span></div>
+      <div style="text-align: left; display: inline-block; width: 100%; height: 40px; border-left: #AAA dotted 1px;">
+        <div style="display: inline-block; width: 160px; font-size: 10px;">
+          <div>&nbsp;&nbsp;- Desenvolvimento completo</div>
+          <div>&nbsp;&nbsp;- Pagamento mensal</div>          
+        </div>
+
+        <div style="display: inline-block; width: 105px;">
+          <div style="font-size: 10px;">Apenas</div>
+            <div style="display: inline-block; font-size: 10px; margin-left: 0px;">R$</div>
+            <div style="display: inline-block; font-weight: bold; font-size: 20px;">299<span style="font-size: 10px;">,00</span></div>
+        </div>
+        <a href="/service"><div style="margin-top: 5px; text-align: center; background-color: #f08c00; border-radius: 4px; color: #333; font-weight: bold; width: 95px; margin-left: 160px;">saiba mais</div></a>
+
       </div>
     </div>
 
@@ -101,7 +121,7 @@
             <div class="container-passos-img" style="background-image: url('/image/catalog/webca/step-cadastro.png'); background-color: #FF9999;">&nbsp;</div>
             <div class="container-passos-titulo">Cadastre seus produtos</div>
             <div>
-                Faça o cadastro de seus produtos através de nossa plataforma de administração e fique a vontade para fazer modificações quando quiser sem a necessidade um desenvolvedor.
+                Faça o cadastro de seus produtos através de nossa plataforma de administração e fique a vontade para fazer modificações quando quiser sem a necessidade um desenvolvedor. <br /><br /> Você pode contar também com suporte técnico de nossa central de atendimento ou utilizar a manutenção mensal de nossos desenvolvedores.
             </div>
           </div>
 
@@ -276,7 +296,7 @@
                     </div>
                   </div>
                   <div class="button-more-info">
-                    <a href="/dedicated-server/" class="btn-wca">Saiba mais</a>
+                    <a href="/profissional/" class="btn-wca">Saiba mais</a>
                   </div>
                 </div>
               </li>
@@ -300,7 +320,7 @@
                     </div>
                   </div>
                   <div class="button-more-info">
-                    <a href="/dedicated-server/" class="btn-wca">Saiba mais</a>
+                    <a href="/service/" class="btn-wca">Saiba mais</a>
                   </div>
                 </div>
               </li>
@@ -348,7 +368,7 @@
           </div>
 
           <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="Every day from 7 am to midnight CET our experienced first-level support will gladly accept your call on our toll-free hotline.">
-              <img src="/image/catalog/webca/icon-rescue.png"><h4 class="wcainclusotitulo"><b>Suporte</b><br> Suporte técnico ao /admin via telefone</h4>
+              <img src="/image/catalog/webca/icon-rescue.png"><h4 class="wcainclusotitulo"><b>Suporte e manutenção</b><br> Suporte técnico ao /admin via telefone</h4>
           </div>
 
           <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="We don't want to pin you down to long contract terms. That's why all our servers have a minimum term of only one month.">
@@ -358,46 +378,22 @@
     </div>
 </div>
 
-<style type="text/css">
-  .wca-incluso-title {
-    font-size: 14px;
-font-weight: bold;
-margin-top: 20px;
-  }
-  .wca-incluso-funcionalidades {
-    padding-left: 20px;
-  }
-
-  .wca-incluso-func-col {
-    display: inline-block;
-    width: 33%;
-  }
-</style>
-
 <div class="content content-seo content-incluso">
 <div class="container">
     <div class="row">
         <div class="col-lg-12" style="text-align: justify;">
-            <h4 class="wca-incluso-title">Atendimento e suporte via telefone</h4>
-            <p>Nossa plataforma dispõe de uma interface de administração completa, onde você cadastra seus produtos, acompanha seus pedidos e modifica a sua loja. Você tem auxilio técnico via telefone para gerenciamento completo de sua loja virtual: manutenção em estoque de produtos, categorias, atributos, opções, troca de textos da página, alterações em banners entre outras diversas funcionalidades da plataforma.</p>
 
-            <h4 class="wca-incluso-title">Manutenção mensal</h4>
-            <p>É incluso manutenção mensal de desenvolvimento técnicas de 2h para as duas formas de contratação: WebLoja Profissional e WebLoja Service. O desenvolvimento técnico pode ser utilizada para qualquer fim de alterações na loja, desde instalação de módulos até inserção de banners, troca de produtos ou textos.</p>
-
-            <h4 class="wca-incluso-title">Customização visual</h4>
-            <p>Contamos com mais de 400 modelos da mais alta qualidade para criação de sua loja, montamos o layout e customizamos as imagens e banners. Criação de logo tipos não esta inclusa em nossos pacote, confira os valores em nossa central de atendimento.</p>
-
-            <h4 class="wca-incluso-title">Cálculo automático de frete via correios</h4>
-            <p>O valor do frete é calculado automaticamente através dos correios, dando a possibilidade de inserir margens de valores no cálculo.</p>
-
-            <h4 class="wca-incluso-title">Integração com gateways de pagamento</h4>
-            <p>É incluso o recebimento através dos gateways de pagamento paypal e pagseguro, que permite recebimento através de cartões de débito, crédito e boleto bancário. Caso necessário pode ser inserido formas adicionais como Boleto bancário, MOIP, entre outros, confira com nosso suporte.</p>
-
-            <h4 class="wca-incluso-title">Hospedagem de sua loja</h4>
-            <p>Não existe a necessidade da contratação de um provedor, provemos hospedagem compartilhada para seu site. Caso queira utilizar outro provedor de hospedagem a propriedade do código fonte da loja é sua no plano WebLoja Profissional de imediato e no plano WebLoja Service após a carência de 12 meses. Caso queira manter sua loja hospedada conosco sem a necessidade de pagamento de manutenção temos preços mais acessíveis consulte nosso atendimento.</p>
-
-            <h4 class="wca-incluso-title">Funcionalidades e integrações</h4>
+            <h4 class="wca-incluso-title">Funcionalidades:</h4>
             <p>
+
+              <div class="wca-incluso-func-col">
+                <ul class="wca-incluso-funcionalidades">
+                  <li>Controle de estoque</li>
+                  <li>Cálculo de frete</li>
+                  <li>Interface de pagamento</li>
+                  <li>Gerenciamento de clientes e pedidos</li>
+                </ul>
+              </div>
               <div class="wca-incluso-func-col">
                 <ul class="wca-incluso-funcionalidades">
                   <li>Cadastro de newsletter</li>
@@ -423,6 +419,28 @@ margin-top: 20px;
                 </ul>
               </div>
             </p>
+
+
+
+            <h4 class="wca-incluso-title">Atendimento e suporte via telefone</h4>
+            <p>Nossa plataforma dispõe de uma interface de administração completa, onde você cadastra seus produtos, acompanha seus pedidos e modifica a sua loja. Você tem auxilio técnico via telefone para gerenciamento completo de sua loja virtual: manutenção em estoque de produtos, categorias, atributos, opções, troca de textos da página, alterações em banners entre outras diversas funcionalidades da plataforma.</p>
+
+            <h4 class="wca-incluso-title">Manutenção mensal</h4>
+            <p>É incluso manutenção mensal de desenvolvimento técnicas de 2h para as duas formas de contratação: WebLoja Profissional e WebLoja Service. O desenvolvimento técnico pode ser utilizada para qualquer fim de alterações na loja, desde instalação de módulos até inserção de banners, troca de produtos ou textos.</p>
+
+            <h4 class="wca-incluso-title">Customização visual</h4>
+            <p>Contamos com mais de 400 modelos da mais alta qualidade para criação de sua loja, montamos o layout e customizamos as imagens e banners. Criação de logo tipos não esta inclusa em nossos pacote, confira os valores em nossa central de atendimento.</p>
+
+            <h4 class="wca-incluso-title">Cálculo automático de frete via correios</h4>
+            <p>O valor do frete é calculado automaticamente através dos correios, dando a possibilidade de inserir margens de valores no cálculo.</p>
+
+            <h4 class="wca-incluso-title">Integração com gateways de pagamento</h4>
+            <p>É incluso o recebimento através dos gateways de pagamento paypal e pagseguro, que permite recebimento através de cartões de débito, crédito e boleto bancário. Caso necessário pode ser inserido formas adicionais como Boleto bancário, MOIP, entre outros, confira com nosso suporte.</p>
+
+            <h4 class="wca-incluso-title">Hospedagem de sua loja</h4>
+            <p>Não existe a necessidade da contratação de um provedor, provemos hospedagem compartilhada para seu site. Caso queira utilizar outro provedor de hospedagem a propriedade do código fonte da loja é sua no plano WebLoja Profissional de imediato e no plano WebLoja Service após a carência de 12 meses. Caso queira manter sua loja hospedada conosco sem a necessidade de pagamento de manutenção temos preços mais acessíveis consulte nosso atendimento.</p>
+
+            
         </div>
     </div>
 </div>
