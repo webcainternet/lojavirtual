@@ -426,3 +426,4 @@ catalog/view/theme/default/template/account/order_info.tpl
 admin/language/english/common/login.php
 admin/language/portuguese-br/common/login.php
 admin/view/template/common/login.tpl
+system/startup.php
