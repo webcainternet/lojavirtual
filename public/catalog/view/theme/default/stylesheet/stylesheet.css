@@ -1061,9 +1061,12 @@ font-weight: bold;
 margin-top: 20px;
   }
   .wca-incluso-funcionalidades {
-    padding-left: 20px;
-  }
+    padding-left: 30px;
+    list-style-image: url('/image/catalog/webca/icon-check.png');
 
+    font-size: 13px;
+  }
+  
   .wca-incluso-func-col {
     display: inline-block;
     width: 24%;

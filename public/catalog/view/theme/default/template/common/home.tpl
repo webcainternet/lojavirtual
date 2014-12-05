@@ -388,7 +388,7 @@
 
               <div class="wca-incluso-func-col">
                 <ul class="wca-incluso-funcionalidades">
-                  <li>Controle de estoque</li>
+                  <li class="wca-incluso-funcionalidades-li">Controle de estoque</li>
                   <li>Cálculo de frete</li>
                   <li>Interface de pagamento</li>
                   <li>Gerenciamento de clientes e pedidos</li>
