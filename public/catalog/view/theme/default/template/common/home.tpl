@@ -24,23 +24,23 @@
     <div style="float: left; width: 36%;">
       <div style="font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">Aqui sua loja virtual tem qualidade</div>
       <div style="text-align: center; display: inline-block; width: 33%; height: 40px;">
-        <a href="#conheca">
+        <a href="demonstracao">
           <div><img src="/image/catalog/webca/home-nav-tools.png"></div>
-          <div style="margin-top: 5px;">Conheça</div>
+          <div style="margin-top: 5px; color: #666;">Conheça</div>
         </a>
       </div>
 
       <div style="text-align: center; display: inline-block; width: 33%; height: 40px;">
         <a href="/demonstracao">
           <div><img src="/image/catalog/webca/home-nav-opencart.png"></div>
-          <div style="margin-top: 5px;">Demonstração</div>
+          <div style="margin-top: 5px; color: #666;">Demonstração</div>
         </a>
       </div>
 
       <div style="text-align: center; display: inline-block; width: 30%; height: 40px;">
         <a href="/index.php?route=account/login">
           <div><img src="/image/catalog/webca/home-nav-pdf.png"></div>
-          <div style="margin-top: 5px;">Manual</div>
+          <div style="margin-top: 5px; color: #666;">Manual</div>
         </a>
       </div>
     </div>
@@ -50,7 +50,7 @@
       <div style="text-align: center; display: inline-block; width: 100%; height: 40px; border-left: #AAA dotted 1px;">
         <a href="/modelos">
           <div><img src="/image/catalog/webca/home-nav-template.png"></div>
-          <div style="margin-top: 5px;">Modelos</div>
+          <div style="margin-top: 5px; color: #666;">Modelos</div>
         </a>
       </div>
     </div>
@@ -173,95 +173,95 @@
         <ul id="coverflowData">
           <ul data-cat=" ">
             <ul>
-              <li data-type="link" data-url="http://www.google.com" data-target="_blank"></li>
+              <li data-type="link" data-url="http://lojavirtual.digital/demo/?tmid=50480" data-target="_blank"></li>
               <li data-thumbnail-path="/image/catalog/webca/tm/50480-med.jpg"></li>
               <li data-thumbnail-text="">
-                <p class="largeLabel">CUSTOM PRESS THUMBNAIL ACTION</p>
-                <p class="smallLabel">When a thumbnail is pressed the coverflow can open a browser window or the lightbox.</p>
+                <p class="largeLabel"></p>
+                <p class="smallLabel"></p>
               </li>
               <li data-info="">
-                <p class="mediaDescriptionHeader">CUSTOM PRESS THUMBNAIL ACTION.</p>
-                <p class="mediaDescriptionText">When a thumbnail is pressed the coverflow can open a browser window or the lightbox.</p>
+                <p class="mediaDescriptionHeader"></p>
+                <p class="mediaDescriptionText"></p>
               </li>
             </ul>
             <ul>
-              <li data-type="media" data-url="load/images/2.jpg"></li>
+              <li data-type="link" data-url="http://lojavirtual.digital/demo/?tmid=52157" data-target="_blank"></li>
               <li data-thumbnail-path="/image/catalog/webca/tm/52157-med.jpg"></li>
               <li data-thumbnail-text="">
-                <p class="largeLabel">RESPONSIVE LAYOUT</p>
-                <p class="smallLabel">The coverflow has responsive layout.</p>
+                <p class="largeLabel"></p>
+                <p class="smallLabel"></p>
               </li>
               <li data-info="">
-                <p class="mediaDescriptionHeader">RESPONSIVE LAYOUT.</p>
-                <p class="mediaDescriptionText">The coverflow has responsive layout, basically it has an adaptable layout which makes it the perfect candidate for any type of project.</p>
+                <p class="mediaDescriptionHeader"></p>
+                <p class="mediaDescriptionText"></p>
               </li>
             </ul>
             <ul>
-              <li data-type="media" data-width="640" data-height="420" data-url="http://vimeo.com/83759300"></li>
+              <li data-type="link" data-url="http://lojavirtual.digital/demo/?tmid=52156" data-target="_blank"></li>
               <li data-thumbnail-path="/image/catalog/webca/tm/52156-med.jpg"></li>
               <li data-thumbnail-text="">
-                <p class="largeLabel">2D FALLBACK FOR OLDER BROWSERS LIKE IE7/8</p>
-                <p class="smallLabel">On a older browser that does not have 3D support the coverflow will display in a 2D format.</p>
+                <p class="largeLabel"></p>
+                <p class="smallLabel"></p>
               </li>
               <li data-info="">
-                <p class="mediaDescriptionHeader">2D FALLBACK FOR OLDER BROWSERS LIKE IE7/8.</p>
-                <p class="mediaDescriptionText">On a older browser that does not have 3D support the coverflow will display in a 2D format..</p>
+                <p class="mediaDescriptionHeader"></p>
+                <p class="mediaDescriptionText"></p>
               </li>
             </ul>
             <ul>
-              <li data-type="link" data-url="http://www.google.com" data-target="_blank"></li>
+              <li data-type="link" data-url="http://lojavirtual.digital/demo/?tmid=52109" data-target="_blank"></li>
               <li data-thumbnail-path="/image/catalog/webca/tm/52109-med.jpg"></li>
                 <li data-thumbnail-text="">
-                <p class="largeLabel">GREAT PERFORMANCE ON MOBILE DEVICES</p>
-                <p class="smallLabel">This coverflow is using the GPU (hardware acceleration).</p>
+                <p class="largeLabel"></p>
+                <p class="smallLabel"></p>
               </li>
             </ul>
             <ul>
-              <li data-type="media" data-width="640" data-height="420" data-url="http://www.youtube.com/watch?v=89rnIwCURC8"></li>
+              <li data-type="link" data-url="http://lojavirtual.digital/demo/?tmid=52047" data-target="_blank"></li>
               <li data-thumbnail-path="/image/catalog/webca/tm/52047-med.jpg"></li>
               <li data-thumbnail-text="">
-                <p class="largeLabel">VIMEO AND YOUTUBE SUPPORT</p>
-                <p class="smallLabel">The coverflow lightbox can load and play videos from youtube or vimeo easily.</p>
+                <p class="largeLabel"></p>
+                <p class="smallLabel"></p>
               </li>
               <li data-info="">
-                <p class="mediaDescriptionHeader">VIMEO AND YOUTUBE SUPPORT.</p>
-                <p class="mediaDescriptionText">All you have to do is to include the link from YouTube or Vimeo video that you want to display and the lightbox will display and play your video. The size (width and height) of each video can be set easily.</p>
+                <p class="mediaDescriptionHeader"></p>
+                <p class="mediaDescriptionText"></p>
               </li>
             </ul>
             <ul>
-              <li data-type="iframe" data-width="800" data-height="550" data-url="http://www.bing.com/"></li>
+              <li data-type="link" data-url="http://lojavirtual.digital/demo/?tmid=51996" data-target="_blank"></li>
               <li data-thumbnail-path="/image/catalog/webca/tm/51996-med.jpg"></li>
               <li data-thumbnail-text="">
-                <p class="largeLabel">IFRAME SUPPORT!</p>
-                <p class="smallLabel">The lightbox can load a HTML page and display it with ease.</p>
+                <p class="largeLabel"></p>
+                <p class="smallLabel"></p>
               </li>
               <li data-info="">
-                <p class="mediaDescriptionHeader">IFRAME SUPPORT!</p>
-                <p class="mediaDescriptionText">The lightbox can load a HTML page and display it with ease. All you have to do is to include the link of the HTML page and the lightbox will display it. The HTML page size (width and height) can be easily set.</p>
+                <p class="mediaDescriptionHeader"></p>
+                <p class="mediaDescriptionText"></p>
               </li>
             </ul>
             <ul>
-              <li data-type="media" data-url="load/images/7.jpg"></li>
+              <li data-type="link" data-url="http://lojavirtual.digital/demo/?tmid=51838" data-target="_blank"></li>
               <li data-thumbnail-path="/image/catalog/webca/tm/51838-med.jpg"></li>
               <li data-thumbnail-text="">
-                <p class="largeLabel">CUSTOMIZABLE SKIN AND COLOR THEME</p>
-                <p class="smallLabel">The entire color theme can be modified, and also the skin can be replaced with your own.</p>
+                <p class="largeLabel"></p>
+                <p class="smallLabel"></p>
               </li>
               <li data-info="">
-                <p class="mediaDescriptionHeader">CUSTOMIZABLE SKIN AND COLOR THEME.</p>
-                <p class="mediaDescriptionText">The entire color theme can be modified, and also the skin can be replaced with your own.</p>
+                <p class="mediaDescriptionHeader"></p>
+                <p class="mediaDescriptionText"></p>
               </li>
             </ul>
             <ul>
-              <li data-type="media" data-url="load/images/7.jpg"></li>
+              <li data-type="link" data-url="http://lojavirtual.digital/demo/?tmid=51774" data-target="_blank"></li>
               <li data-thumbnail-path="/image/catalog/webca/tm/51774-med.jpg"></li>
               <li data-thumbnail-text="">
-                <p class="largeLabel">CUSTOMIZABLE SKIN AND COLOR THEME</p>
-                <p class="smallLabel">The entire color theme can be modified, and also the skin can be replaced with your own.</p>
+                <p class="largeLabel"></p>
+                <p class="smallLabel"></p>
               </li>
               <li data-info="">
-                <p class="mediaDescriptionHeader">CUSTOMIZABLE SKIN AND COLOR THEME.</p>
-                <p class="mediaDescriptionText">The entire color theme can be modified, and also the skin can be replaced with your own.</p>
+                <p class="mediaDescriptionHeader"></p>
+                <p class="mediaDescriptionText"></p>
               </li>
             </ul>
             

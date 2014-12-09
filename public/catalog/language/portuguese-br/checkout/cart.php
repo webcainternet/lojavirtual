@@ -42,3 +42,5 @@ $_['error_product']          = 'Atenção: Não há produtos em seu carrinho!';
 $_['error_recurring_required'] = 'Por favor selecione um pagamento recorrente!';
 
 $_['button_shopping'] = 'Continuar na loja';
+
+
