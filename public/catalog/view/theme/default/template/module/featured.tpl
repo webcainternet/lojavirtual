@@ -5,6 +5,7 @@
           <div class="newsletter-col newsletter-col-1">
             <span class="title" style="color: #FFFFFF"><b>Precisa</b> de algo mais <br />ou <b>maiores informações</b>?</span>
           </div>
+          <form method="post" action="/contato-efetuado">
           <div class="newsletter-col newsletter-col-2">
             <div style="float: left; margin-right: 20px;">
               <div><span class="title" style="color: #FFFFFF">Nome:</span></div>
@@ -23,11 +24,7 @@
               <div><input class="newsletter-contato btn btn-inverse btn-block btn-lg dropdown-toggle" type="submit" required="" name="contato" value="Me ligue!"></div>
             </div>
           </div>
-          <!--
-          <form>
-              
-              <input class="newsletter-submit" type="submit" value="submit">
-          </form> -->
+          </form>
         </div>
 
       </div>

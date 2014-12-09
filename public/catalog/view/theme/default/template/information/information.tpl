@@ -23,6 +23,11 @@
           case "Demonstração":
               include "information_demonstracao.tpl";
               break;
+          case "Contato efetuado!":
+              echo "<h1>".$heading_title."</h1>";
+              echo $description;
+              include "information_contatoefetuado.tpl";
+              break;
           default:
               echo "<h1>".$heading_title."</h1>";
               echo $description;
@@ -31,6 +36,6 @@
       ?>
 
       <?php echo $content_bottom; ?></div>
-    <?php echo $column_right; ?></div>
+      <?php echo $column_right; ?></div>
 </div>
 <?php echo $footer; ?> 
