@@ -5,7 +5,7 @@
           <div class="newsletter-col newsletter-col-1">
             <span class="title" style="color: #FFFFFF"><b>Precisa</b> de algo mais <br />ou <b>maiores informações</b>?</span>
           </div>
-          <form method="post" action="/contato-efetuado">
+          <form method="get" action="/contato-efetuado">
           <div class="newsletter-col newsletter-col-2">
             <div style="float: left; margin-right: 20px;">
               <div><span class="title" style="color: #FFFFFF">Nome:</span></div>

@@ -1,7 +1,7 @@
 <?php
-      $nome = $_POST["nome"];
-      $ddd  = $_POST["ddd"];
-      $tel  = $_POST["telefone"];
+      $nome = $_GET["nome"];
+      $ddd  = $_GET["ddd"];
+      $tel  = $_GET["telefone"];
 
       $Name = "LojaVirtual .digital - Contato"; //senders name 
       $email = "contato@lojavirtual.digital"; //senders e-mail adress 
