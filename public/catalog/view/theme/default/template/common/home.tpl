@@ -22,33 +22,41 @@
   <div class="container"> 
     
     <div style="float: left; width: 36%;">
-      <div style="font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">Sistema de administração</div>
+      <div style="font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">Aqui sua loja virtual tem qualidade</div>
       <div style="text-align: center; display: inline-block; width: 33%; height: 40px;">
-        <div><img src="/image/catalog/webca/home-nav-tools.png"></div>
-        <div style="margin-top: 5px;">Conheça</div>
+        <a href="#conheca">
+          <div><img src="/image/catalog/webca/home-nav-tools.png"></div>
+          <div style="margin-top: 5px;">Conheça</div>
+        </a>
       </div>
 
       <div style="text-align: center; display: inline-block; width: 33%; height: 40px;">
-        <div><img src="/image/catalog/webca/home-nav-opencart.png"></div>
-        <div style="margin-top: 5px;">Demonstração</div>
+        <a href="/demonstracao">
+          <div><img src="/image/catalog/webca/home-nav-opencart.png"></div>
+          <div style="margin-top: 5px;">Demonstração</div>
+        </a>
       </div>
 
       <div style="text-align: center; display: inline-block; width: 30%; height: 40px;">
-        <div><img src="/image/catalog/webca/home-nav-pdf.png"></div>
-        <div style="margin-top: 5px;">Manual</div>
+        <a href="/index.php?route=account/login">
+          <div><img src="/image/catalog/webca/home-nav-pdf.png"></div>
+          <div style="margin-top: 5px;">Manual</div>
+        </a>
       </div>
     </div>
 
     <div style="float: left; width: 12%;">
       <div style="font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">Templates</div>
       <div style="text-align: center; display: inline-block; width: 100%; height: 40px; border-left: #AAA dotted 1px;">
-        <div><img src="/image/catalog/webca/home-nav-template.png"></div>
-        <div style="margin-top: 5px;">Modelos</div>
+        <a href="/modelos">
+          <div><img src="/image/catalog/webca/home-nav-template.png"></div>
+          <div style="margin-top: 5px;">Modelos</div>
+        </a>
       </div>
     </div>
 
     <div style="float: left; width: 24%;">
-      <div style="background-color: white; border-top-left-radius: 5px; border-bottom-left-radius: 5px; font-weight: bold; margin-top: 15px; margin-bottom: 5px; padding-left: 20px;">WebLoja <span class="wca-font wca-amarela">Profissional</span></div>
+      <div style="font-size: 16px; background-color: white; border-top-left-radius: 5px; border-bottom-left-radius: 5px; font-weight: bold; margin-top: 15px; margin-bottom: 5px; padding-left: 20px;">WebLoja <span class="wca-font wca-amarela">Profissional</span></div>
       <div style="text-align: left; display: inline-block; width: 100%; height: 40px; border-left: #AAA dotted 1px;">
         <div style="display: inline-block; width: 160px; font-size: 10px;">
           <div>&nbsp;&nbsp;- Desenvolvimento completo</div>
@@ -66,7 +74,7 @@
     </div>
 
     <div style="float: left; width: 24%;">
-      <div style="background-color: white; border-top-right-radius: 5px; border-bottom-right-radius: 5px; font-weight: bold; margin-top: 15px; margin-bottom: 5px; padding-left: 20px;">WebLoja <span class="wca-font wca-amarela">Service</span></div>
+      <div style="font-size: 16px; background-color: white; border-top-right-radius: 5px; border-bottom-right-radius: 5px; font-weight: bold; margin-top: 15px; margin-bottom: 5px; padding-left: 20px;">WebLoja <span class="wca-font wca-amarela">Service</span></div>
       <div style="text-align: left; display: inline-block; width: 100%; height: 40px; border-left: #AAA dotted 1px;">
         <div style="display: inline-block; width: 160px; font-size: 10px;">
           <div>&nbsp;&nbsp;- Desenvolvimento completo</div>
@@ -260,7 +268,7 @@
           </ul>
           </ul>
 
-          <div style="text-align: center; margin: auto; width: 300px;"><input class="newsletter-contato btn btn-inverse btn-block btn-lg dropdown-toggle" style="width: 300px;" type="submit" required="" name="contato" value="Veja todos os modelos!"></div>
+          <a href="/modelos"><div style="text-align: center; margin: auto; width: 300px;"><input class="newsletter-contato btn btn-inverse btn-block btn-lg dropdown-toggle" style="width: 300px;" type="submit" required="" name="contato" value="Veja todos os modelos!"></div></a>
         </div>
       </div>
     </div>
@@ -337,6 +345,7 @@
 
 
 <!-- Incluso em nossas lojas -->
+<a name="conheca"></a>
 <div class="content content-incluso">
     <div class="container">
       <div class="row">
@@ -351,27 +360,27 @@
       </div>
 
       <div class="row advantages">
-          <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="It's your choice: Your Server4You server is either hosted at datadock – Europe's greenest data center – or in our state-of-the-art data center in the US.">
+          <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="">
               <img src="/image/catalog/webca/icon-envio.png"><h4 class="wcainclusotitulo"><b>Formas de envio</b><br> Cálculo de frete automatico</h4>
           </div>
 
-          <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="We’d like to make your server rental as easy as possible. Therefore, we don’t charge you for a whole year in advance, but offer you monthly payment.">
+          <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="">
               <img src="/image/catalog/webca/icon-card.png"><h4 class="wcainclusotitulo"><b>Pagamento online</b><br> Integração com gateway de pagamento</h4>
           </div>
 
-          <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="Our data center datadock is not only extremely energy-efficient. It was also certified according to ISO 27001.">
+          <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="">
               <img src="/image/catalog/webca/icon-produtos.png"><h4 class="wcainclusotitulo"><b>Ilimitados produtos e categorias</b><br>Cadastre o que for necessário</h4>
           </div>
 
-          <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="Transfer as much data as you want! At Server4You the data volume is not limited.">
+          <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="">
               <img src="/image/catalog/webca/icon-pig.png"><h4 class="wcainclusotitulo"><b>Pagamento Flexivel</b><br> De acordo com o seu bolso</h4>
           </div>
 
-          <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="Every day from 7 am to midnight CET our experienced first-level support will gladly accept your call on our toll-free hotline.">
+          <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="">
               <img src="/image/catalog/webca/icon-rescue.png"><h4 class="wcainclusotitulo"><b>Suporte e manutenção</b><br> Suporte técnico ao /admin via telefone</h4>
           </div>
 
-          <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="" data-original-title="We don't want to pin you down to long contract terms. That's why all our servers have a minimum term of only one month.">
+          <div class="wcainclusoitem" data-toggle="tooltip-advantages" title="">
               <img src="/image/catalog/webca/icon-doc.png"><h4 class="wcainclusotitulo"><b>Documentação</b><br> Manual completo de uso do serviço</h4>
           </div>
       </div>
@@ -383,42 +392,150 @@
     <div class="row">
         <div class="col-lg-12" style="text-align: justify;">
 
-            <h4 class="wca-incluso-title">Funcionalidades:</h4>
-            <p>
 
-              <div class="wca-incluso-func-col">
-                <ul class="wca-incluso-funcionalidades">
-                  <li class="wca-incluso-funcionalidades-li">Controle de estoque</li>
-                  <li>Cálculo de frete</li>
-                  <li>Interface de pagamento</li>
-                  <li>Gerenciamento de clientes e pedidos</li>
-                </ul>
-              </div>
-              <div class="wca-incluso-func-col">
-                <ul class="wca-incluso-funcionalidades">
-                  <li>Cadastro de newsletter</li>
-                  <li>Carrinho de compras</li>
-                  <li>Lista de desejos</li>
-                  <li>Comparação de produtos</li>
-                </ul>
-              </div>
-              <div class="wca-incluso-func-col">
-                <ul class="wca-incluso-funcionalidades">
-                  <li>Cupom de desconto</li>
-                  <li>Vale presente</li>
-                  <li>Comentários nos produtos</li>
-                  <li>Avaliação de compradores</li>
-                </ul>
-              </div>
-              <div class="wca-incluso-func-col">
-                <ul class="wca-incluso-funcionalidades">
-                  <li>Chat online (Zopim)</li>
-                  <li>Relatórios de vendas</li>
-                  <li>Estatísticas do Google Analytics</li>
-                  <li>Busca nos produtos</li>
-                </ul>
-              </div>
-            </p>
+          <h4 class="wca-incluso-title">Funcionalidades:</h4>
+          <div style="width: 950px; margin: auto;">
+
+                <div class="wca-inc-line" style="border: 0px;">
+                  <div class="wca-inc-col1">&nbsp;</div>
+                  <div class="wca-inc-col2" style="font-size: 22px;"><b>WebLoja</b> <span class="wca-font wca-amarela">Profissional</span></div>
+                  <div class="wca-inc-col3" style="font-size: 22px;"><b>WebLoja</b> <span class="wca-font wca-amarela">Service</span></div>
+                </div>
+
+                <div class="wca-inc-line wca-inc-line-alter">
+                  <div class="wca-inc-col1">Controle de estoque</div>
+                  <div class="wca-inc-col2"><img src="/image/catalog/webca/icon-check.png"></div>
+                  <div class="wca-inc-col3"><img src="/image/catalog/webca/icon-check.png"></div>
+                </div>
+
+                <div class="wca-inc-line">
+                  <div class="wca-inc-col1">Cálculo de frete</div>
+                  <div class="wca-inc-col2"><img src="/image/catalog/webca/icon-check.png"></div>
+                  <div class="wca-inc-col3"><img src="/image/catalog/webca/icon-check.png"></div>
+                </div>
+
+                <div class="wca-inc-line wca-inc-line-alter">
+                  <div class="wca-inc-col1">Interface de pagamento</div>
+                  <div class="wca-inc-col2"><img src="/image/catalog/webca/icon-check.png"></div>
+                  <div class="wca-inc-col3"><img src="/image/catalog/webca/icon-check.png"></div>
+                </div>
+
+                <div class="wca-inc-line">
+                  <div class="wca-inc-col1">Gerenciamento de clientes e pedidos</div>
+                  <div class="wca-inc-col2"><img src="/image/catalog/webca/icon-check.png"></div>
+                  <div class="wca-inc-col3"><img src="/image/catalog/webca/icon-check.png"></div>
+                </div>
+
+                <div class="wca-inc-line wca-inc-line-alter">
+                  <div class="wca-inc-col1">Cadastro de newsletter</div>
+                  <div class="wca-inc-col2"><img src="/image/catalog/webca/icon-check.png"></div>
+                  <div class="wca-inc-col3"><img src="/image/catalog/webca/icon-check.png"></div>
+                </div>
+
+                <div class="wca-inc-line">
+                  <div class="wca-inc-col1">Carrinho de compras</div>
+                  <div class="wca-inc-col2"><img src="/image/catalog/webca/icon-check.png"></div>
+                  <div class="wca-inc-col3"><img src="/image/catalog/webca/icon-check.png"></div>
+                </div>
+
+                <div class="wca-inc-line wca-inc-line-alter">
+                  <div class="wca-inc-col1">Lista de desejos</div>
+                  <div class="wca-inc-col2"><img src="/image/catalog/webca/icon-check.png"></div>
+                  <div class="wca-inc-col3"><img src="/image/catalog/webca/icon-check.png"></div>
+                </div>
+
+                <div class="wca-inc-line">
+                  <div class="wca-inc-col1">Comparação de produtos</div>
+                  <div class="wca-inc-col2"><img src="/image/catalog/webca/icon-check.png"></div>
+                  <div class="wca-inc-col3"><img src="/image/catalog/webca/icon-check.png"></div>
+                </div>
+
+                <div class="wca-inc-line wca-inc-line-alter">
+                  <div class="wca-inc-col1">Cupom de desconto</div>
+                  <div class="wca-inc-col2"><img src="/image/catalog/webca/icon-check.png"></div>
+                  <div class="wca-inc-col3"><img src="/image/catalog/webca/icon-check.png"></div>
+                </div>
+
+                <div class="wca-inc-line">
+                  <div class="wca-inc-col1">Vale presente</div>
+                  <div class="wca-inc-col2"><img src="/image/catalog/webca/icon-check.png"></div>
+                  <div class="wca-inc-col3"><img src="/image/catalog/webca/icon-check.png"></div>
+                </div>
+
+                <div class="wca-inc-line wca-inc-line-alter">
+                  <div class="wca-inc-col1">Comentários nos produtos</div>
+                  <div class="wca-inc-col2"><img src="/image/catalog/webca/icon-check.png"></div>
+                  <div class="wca-inc-col3"><img src="/image/catalog/webca/icon-check.png"></div>
+                </div>
+
+                <div class="wca-inc-line">
+                  <div class="wca-inc-col1">Avaliação de compradores</div>
+                  <div class="wca-inc-col2"><img src="/image/catalog/webca/icon-check.png"></div>
+                  <div class="wca-inc-col3"><img src="/image/catalog/webca/icon-check.png"></div>
+                </div>
+
+                <div class="wca-inc-line wca-inc-line-alter">
+                  <div class="wca-inc-col1">Chat online (Zopim)</div>
+                  <div class="wca-inc-col2"><img src="/image/catalog/webca/icon-check.png"></div>
+                  <div class="wca-inc-col3"><img src="/image/catalog/webca/icon-check.png"></div>
+                </div>
+
+                <div class="wca-inc-line">
+                  <div class="wca-inc-col1">Relatórios de vendas</div>
+                  <div class="wca-inc-col2"><img src="/image/catalog/webca/icon-check.png"></div>
+                  <div class="wca-inc-col3"><img src="/image/catalog/webca/icon-check.png"></div>
+                </div>
+
+                <div class="wca-inc-line wca-inc-line-alter">
+                  <div class="wca-inc-col1">Estatísticas do Google Analytics</div>
+                  <div class="wca-inc-col2"><img src="/image/catalog/webca/icon-check.png"></div>
+                  <div class="wca-inc-col3"><img src="/image/catalog/webca/icon-check.png"></div>
+                </div>
+
+                <div class="wca-inc-line">
+                  <div class="wca-inc-col1">Busca nos produtos</div>
+                  <div class="wca-inc-col2"><img src="/image/catalog/webca/icon-check.png"></div>
+                  <div class="wca-inc-col3"><img src="/image/catalog/webca/icon-check.png"></div>
+                </div>
+
+                <div class="wca-inc-line wca-inc-line-alter" style="border-bottom: solid 1px;">
+                  <div class="wca-inc-col1">Suporte técnico por telefone</div>
+                  <div class="wca-inc-col2">Horário comercial</div>
+                  <div class="wca-inc-col3">Horário comercial</div>
+                </div>
+            </div>
+
+
+
+
+
+          <h4 class="wca-incluso-title">Diferenças:</h4>
+          <div style="width: 950px; margin: auto;">
+
+                <div class="wca-inc-line wca-inc-line-alter">
+                  <div class="wca-inc-col1">Ciclo de pagamento</div>
+                  <div class="wca-inc-col2">único, em até 12x</div>
+                  <div class="wca-inc-col3">Pagamento mensal</div>
+                </div>
+
+                <div class="wca-inc-line">
+                  <div class="wca-inc-col1">Valores</div>
+                  <div class="wca-inc-col2">R$ 2.399,88 ou 12x de R$ 199,99 (sem juros)</div>
+                  <div class="wca-inc-col3">R$ 299,00/mês</div>
+                </div>
+
+                <div class="wca-inc-line wca-inc-line-alter">
+                  <div class="wca-inc-col1">Contrato/Carência</div>
+                  <div class="wca-inc-col2">Sem contrato</div>
+                  <div class="wca-inc-col3">Contrato mínimo de 12 meses</div>
+                </div>
+
+                <div class="wca-inc-line" style="border-bottom: solid 1px;">
+                  <div class="wca-inc-col1">Manutenção e desenvolvimento</div>
+                  <div class="wca-inc-col2">2h mensais por 3 meses</div>
+                  <div class="wca-inc-col3">2h mensais enquanto o contrato estiver ativo</div>
+                </div>
+            </div>
 
 
 

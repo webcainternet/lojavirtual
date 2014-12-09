@@ -14,8 +14,23 @@
     <?php $class = 'col-sm-12'; ?>
     <?php } ?>
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
-      <h1><?php echo $heading_title; ?></h1>
-      <?php echo $description; ?><?php echo $content_bottom; ?></div>
+    
+      <?php
+        switch ($heading_title) {
+          case "Modelos":
+              include "information_modelos.tpl";
+              break;
+          case "Demonstração":
+              include "information_demonstracao.tpl";
+              break;
+          default:
+              echo "<h1>".$heading_title."</h1>";
+              echo $description;
+              break;
+        }
+      ?>
+
+      <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
 </div>
 <?php echo $footer; ?> 

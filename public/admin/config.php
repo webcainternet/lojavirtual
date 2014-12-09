@@ -1,4 +1,6 @@
 <?php
+ini_set('memory_limit', '-1');
+
 // HTTP
 define('HTTP_SERVER', 'http://lojavirtual.digital/admin/');
 define('HTTP_CATALOG', 'http://lojavirtual.digital/');

@@ -44,6 +44,17 @@
             <li><a href="#tab-review" data-toggle="tab"><?php echo $tab_review; ?></a></li>
             <?php } ?>
           </ul>
+
+          <?php 
+            if ($model == "WebLoja Profissional") {
+              include "product_professional.tpl";
+            } 
+            if ($model == "WebLoja Service") {
+              include "product_service.tpl";
+            }
+          ?>
+
+
           <div class="tab-content">
             <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
             <?php if ($attribute_groups) { ?>
