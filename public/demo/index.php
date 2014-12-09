@@ -8,8 +8,8 @@
 	<title>LojaVirtual .digital - Demonstração</title>
 </head>
 
-<frameset rows="85,*" frameborder="0">
-  <frame src="header.php?<?php echo $tmid; ?>"  noresize="noresize" scrolling="no">
+<frameset rows="50,*" frameborder="0">
+  <frame src="header.php?tmid=<?php echo $tmid; ?>"  noresize="noresize" scrolling="no">
   <frame src="http://livedemo00.template-help.com/opencart_<?php echo $tmid; ?>">
 </frameset>
 
