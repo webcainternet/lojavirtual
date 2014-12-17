@@ -1,5 +1,10 @@
 <footer>
   <div class="container">
+  <div class="fb-like-box" data-href="https://www.facebook.com/lojavirtual.digital" data-width="1130" data-height="300" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="false"></div>
+  </div>
+
+
+  <div class="container">
     <div class="footer-contato wca-font">
       <img src="/image/catalog/webca/icon-tel.png" width="50">
       &nbsp;Central de atendimento: 11 2376-0583
