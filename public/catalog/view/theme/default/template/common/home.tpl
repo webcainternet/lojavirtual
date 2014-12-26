@@ -8,88 +8,80 @@
     /* background-size: auto 576px; */
     background-size: 100%;
     /* background-image: url('/image/catalog/webca/shutterstock_99076997.jpg'); */
-    background-image: url('/image/catalog/webca/background.jpg');
+    background-image: url('/image/catalog/webca/background-4.3.jpg');
     background-position-y: 130px;
     background-position-x: center;
     background-position: 0px 130px, center;
+  }
+  .wca-iconshome {
+    text-align: center;
+    display: inline-block;
+    width: 176px;
+    height: 85px;
+    margin: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding-top: 15px;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  .wca-iconshome:hover {
+    background-color: white;
   }
 </style>
 
 <?php echo $header; ?>
 
 
-<div style="background-color: rgba(242,242,242,0.90); height: 125px; opacity: 0.8; filter: alpha(opacity=80); margin-top: 6px;">
+<div style="background-color: rgba(242,242,242,0.9); height: 115px; margin-top: 6px;">
   <div class="container"> 
     
-    <div style="float: left; width: 36%;">
-      <div style="font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">Aqui sua loja virtual tem qualidade</div>
-      <div style="text-align: center; display: inline-block; width: 33%; height: 40px;">
-        <a href="demonstracao">
+    <div style="float: left; width: 100%;">
+
+      <div class="wca-iconshome">
+        <a href="/profissional">
           <div><img src="/image/catalog/webca/home-nav-tools.png"></div>
-          <div style="margin-top: 5px; color: #666;">Conheça</div>
+          <div style="margin-top: 5px; color: #666;">Tudo incluso</div>
         </a>
       </div>
 
-      <div style="text-align: center; display: inline-block; width: 33%; height: 40px;">
+      <div class="wca-iconshome">
         <a href="/demonstracao">
           <div><img src="/image/catalog/webca/home-nav-opencart.png"></div>
-          <div style="margin-top: 5px; color: #666;">Demonstração</div>
+          <div style="margin-top: 5px; color: #666;">Plataforma</div>
         </a>
       </div>
 
-      <div style="text-align: center; display: inline-block; width: 30%; height: 40px;">
-        <a href="/index.php?route=account/login">
-          <div><img src="/image/catalog/webca/home-nav-pdf.png"></div>
-          <div style="margin-top: 5px; color: #666;">Manual</div>
-        </a>
-      </div>
-    </div>
-
-    <div style="float: left; width: 12%;">
-      <div style="font-weight: bold; margin-top: 15px; margin-bottom: 15px; padding-left: 20px;">Templates</div>
-      <div style="text-align: center; display: inline-block; width: 100%; height: 40px; border-left: #AAA dotted 1px;">
+      <div class="wca-iconshome">
         <a href="/modelos">
           <div><img src="/image/catalog/webca/home-nav-template.png"></div>
           <div style="margin-top: 5px; color: #666;">Modelos</div>
         </a>
       </div>
-    </div>
 
-    <div style="float: left; width: 24%;">
-      <div style="font-size: 16px; background-color: white; border-top-left-radius: 5px; border-bottom-left-radius: 5px; font-weight: bold; margin-top: 15px; margin-bottom: 5px; padding-left: 20px;">WebLoja <span class="wca-font wca-amarela">Profissional</span></div>
-      <div style="text-align: left; display: inline-block; width: 100%; height: 40px; border-left: #AAA dotted 1px;">
-        <div style="display: inline-block; width: 160px; font-size: 10px;">
-          <div>&nbsp;&nbsp;- Desenvolvimento completo</div>
-          <div>&nbsp;&nbsp;- 3 meses de manutenção</div>
-        </div>
+      <div class="wca-iconshome">
+        <a href="/index.php?route=account/login">
+          <div><img src="/image/catalog/webca/home-nav-acc.png"></div>
+          <div style="margin-top: 5px; color: #666;">Área do cliente</div>
+        </a>
+      </div>
 
-        <div style="display: inline-block; width: 105px;">
-          <div style="font-size: 10px;">12x de</div>
-            <div style="display: inline-block; font-size: 10px; margin-left: 0px;">R$</div>
-            <div style="display: inline-block; font-weight: bold; font-size: 20px; color: #111;">199<span style="font-size: 10px;">,99</span></div>
-        </div>
-        <a href="/profissional"><div style="margin-top: 5px; text-align: center; background-color: #f08c00; border-radius: 4px; color: #111; font-weight: bold; width: 95px; margin-left: 160px;">saiba mais</div></a>
+      <div class="wca-iconshome">
+        <a href="#planos">
+          <div><img src="/image/catalog/webca/home-nav-plan.png"></div>
+          <div style="margin-top: 5px; color: #666;">Nossos planos</div>
+        </a>
+      </div>
 
+      <div class="wca-iconshome">
+        <a href="/profissional">
+          <div><img src="/image/catalog/webca/home-nav-cart.png"></div>
+          <div style="margin-top: 5px; color: #666;">Comprar Loja Virtual</div>
+        </a>
       </div>
     </div>
 
-    <div style="float: left; width: 24%;">
-      <div style="font-size: 16px; background-color: white; border-top-right-radius: 5px; border-bottom-right-radius: 5px; font-weight: bold; margin-top: 15px; margin-bottom: 5px; padding-left: 20px;">WebLoja <span class="wca-font wca-amarela">Service</span></div>
-      <div style="text-align: left; display: inline-block; width: 100%; height: 40px; border-left: #AAA dotted 1px;">
-        <div style="display: inline-block; width: 160px; font-size: 10px;">
-          <div>&nbsp;&nbsp;- Desenvolvimento completo</div>
-          <div>&nbsp;&nbsp;- Pagamento mensal</div>          
-        </div>
-
-        <div style="display: inline-block; width: 105px;">
-          <div style="font-size: 10px;">Apenas</div>
-            <div style="display: inline-block; font-size: 10px; margin-left: 0px;">R$</div>
-            <div style="display: inline-block; font-weight: bold; font-size: 20px; color: #111;">299<span style="font-size: 10px;">,00</span></div>
-        </div>
-        <a href="/service"><div style="margin-top: 5px; text-align: center; background-color: #f08c00; border-radius: 4px; color: #111; font-weight: bold; width: 95px; margin-left: 160px;">saiba mais</div></a>
-
-      </div>
-    </div>
+    
 
   </div>
 </div>
@@ -280,7 +272,7 @@
 
 
 
-<!-- Planos -->
+<!-- Planos --><a name="planos"></a>
 <div class="container-plan">
   <div class="row" style="margin-left: 0px;background-color: white;margin-right: 0px;">
     <div id="content" class="<?php echo $class; ?>" style="min-height: 10px;">

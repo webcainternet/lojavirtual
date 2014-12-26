@@ -3,7 +3,7 @@
         
         <div class="newsletter">
           <div class="newsletter-col newsletter-col-1">
-            <span class="title" style="color: #FFFFFF"><b>Precisa</b> de algo mais <br />ou <b>maiores informações</b>?</span>
+            <span class="title" style="color: #FFFFFF">Caso tenha <b>preferência</b><br />nós <b>entramos em contato</b>!</span>
           </div>
           <form method="get" action="/contato-efetuado">
           <div class="newsletter-col newsletter-col-2">

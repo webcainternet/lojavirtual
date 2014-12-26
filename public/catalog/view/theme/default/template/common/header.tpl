@@ -77,7 +77,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
     <?php echo $currency; ?>
     <?php echo $language; ?>
     
-    <div id="top-links" class="nav pull-right wca-navtop">
+    <div id="top-links" class="nav pull-right wca-navtop" style="width: 215px;">
       <ul class="list-inline">
         <li class="dropdown"><a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_account; ?></span> <span class="caret"></span></a>
           <ul class="dropdown-menu dropdown-menu-right">
@@ -99,13 +99,13 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
       </ul>
     </div>
 
-    <div id="top-links" class="nav pull-right wca-navtop">
+    <div id="top-links" class="nav pull-right wca-navtop" style="width: 420px;">
       <ul class="list-inline" style="padding-right: 310px;">
         <li><a href="<?php echo $contact; ?>"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md"><?php echo $telephone; ?></span></li>
       </ul>
     </div>
 
-    <div id="top-links" class="nav pull-right wca-navtop">
+    <div id="top-links" class="nav pull-right wca-navtop" style="width: 105px;">
       <ul class="list-inline">
         <li>Precisa de ajuda? </li>
       </ul>
