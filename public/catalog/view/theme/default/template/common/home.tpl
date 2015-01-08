@@ -41,7 +41,7 @@
       <div class="wca-iconshome">
         <a href="/profissional">
           <div><img src="/image/catalog/webca/home-nav-tools.png"></div>
-          <div style="margin-top: 5px; color: #666;">Tudo incluso</div>
+          <div style="margin-top: 5px; color: #666;">Conheça nossa loja</div>
         </a>
       </div>
 
