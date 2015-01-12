@@ -128,9 +128,9 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
       <div class="col-sm-4">
         <div id="logo">
           <?php if ($logo) { ?>
-          <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" height="70" style="height: 70px; margin-top: -20px;" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
+          <a href="//lojavirtual.digital/"><img src="<?php echo $logo; ?>" height="70" style="height: 70px; margin-top: -20px;" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
           <?php } else { ?>
-          <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
+          <h1><a href="//lojavirtual.digital/"><?php echo $name; ?></a></h1>
           <?php } ?>
         </div>
       </div>
