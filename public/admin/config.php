@@ -6,8 +6,8 @@ define('HTTP_SERVER', 'http://lojavirtual.digital/admin/');
 define('HTTP_CATALOG', 'http://lojavirtual.digital/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://lojavirtual.digital/admin/');
-define('HTTPS_CATALOG', 'http://lojavirtual.digital/');
+define('HTTPS_SERVER', 'https://lojavirtual.digital/admin/');
+define('HTTPS_CATALOG', 'https://lojavirtual.digital/');
 
 
 

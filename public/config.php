@@ -3,7 +3,7 @@
 define('HTTP_SERVER', 'http://lojavirtual.digital/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://lojavirtual.digital/');
+define('HTTPS_SERVER', 'https://lojavirtual.digital/');
 
 switch ($_SERVER['SERVER_ADDR'])
     {
