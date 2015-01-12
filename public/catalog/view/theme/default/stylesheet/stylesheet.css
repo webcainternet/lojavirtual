@@ -1019,24 +1019,24 @@ h2.price {
 	display: inline-block; 
 	width: 79px;
 	height: 15px;
-	background-image: url('http://lojavirtual.digital/image/catalog/webca/logo_nb_gray.png');
+	background-image: url('//lojavirtual.digital/image/catalog/webca/logo_nb_gray.png');
 	background-size: 79px 15px;
 	font-size: 1px;
 }
 .wca-logo-gray:hover {
-	background-image: url('http://lojavirtual.digital/image/catalog/webca/logo_nb.png');
+	background-image: url('//lojavirtual.digital/image/catalog/webca/logo_nb.png');
 }
 
 .wca-logo-white {
 	display: inline-block; 
 	width: 105px;
 	height: 20px;
-	background-image: url('http://lojavirtual.digital/image/catalog/webca/logo_nb_white.png');
+	background-image: url('//lojavirtual.digital/image/catalog/webca/logo_nb_white.png');
 	background-size: 105px 20px;
 	font-size: 1px;
 }
 .wca-logo-white:hover {
-	background-image: url('http://lojavirtual.digital/image/catalog/webca/logo_nb.png');
+	background-image: url('//lojavirtual.digital/image/catalog/webca/logo_nb.png');
 }
 
 .wca-footer-mid {
