@@ -284,7 +284,7 @@
               <li class="bullet-item">Sem limites de produtos</li>
               <li class="bullet-item">Loja com seu endereço na internet</li>
               <li class="bullet-item">Desenvolvimento completo</li>
-              <li class="bullet-item">Suporte de 3 meses</li>
+              <li class="bullet-item">Manutenção de 3 meses</li>
               <li class="prices">
                 <div class="price-inline">
                   <div class="pricetag">
@@ -308,7 +308,7 @@
               <li class="bullet-item">Sem limites de produtos</li>
               <li class="bullet-item">Loja com seu endereço na internet</li>
               <li class="bullet-item">Desenvolvimento completo</li>
-              <li class="bullet-item">* Contrato/Suporte de 1 ano</li>
+              <li class="bullet-item">* Contrato/Manutenção de 1 ano</li>
               <li class="prices">
                 <div class="price-inline">
                   <div class="pricetag">
