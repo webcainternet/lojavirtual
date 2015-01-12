@@ -23,7 +23,7 @@
 <?php foreach ($links as $link) { ?>
 <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
 <?php } ?>
-<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
 <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
 <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
@@ -148,11 +148,11 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
     </div>
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav">
-        <li class="dropdown"><a href="http://lojavirtual.digital/desktops" class="dropdown-toggle" data-toggle="dropdown">Loja Virtual</a></li>
-        <li class="dropdown"><a href="http://lojavirtual.digital/desktops" class="dropdown-toggle" data-toggle="dropdown">Desenvolvimento Web</a></li>
-        <li class="dropdown"><a href="http://lojavirtual.digital/desktops" class="dropdown-toggle" data-toggle="dropdown">Cases e Clientes</a></li>
-        <li class="dropdown"><a href="http://lojavirtual.digital/desktops" class="dropdown-toggle" data-toggle="dropdown">Infraestrutura</a></li>
-        <li class="dropdown"><a href="http://lojavirtual.digital/desktops" class="dropdown-toggle" data-toggle="dropdown">Sobre nós</a></li>
+        <li class="dropdown"><a href="//lojavirtual.digital/" class="dropdown-toggle" data-toggle="dropdown">Loja Virtual</a></li>
+        <li class="dropdown"><a href="//lojavirtual.digital/" class="dropdown-toggle" data-toggle="dropdown">Desenvolvimento Web</a></li>
+        <li class="dropdown"><a href="//lojavirtual.digital/" class="dropdown-toggle" data-toggle="dropdown">Cases e Clientes</a></li>
+        <li class="dropdown"><a href="//lojavirtual.digital/" class="dropdown-toggle" data-toggle="dropdown">Infraestrutura</a></li>
+        <li class="dropdown"><a href="//lojavirtual.digital/" class="dropdown-toggle" data-toggle="dropdown">Sobre nós</a></li>
       </ul>
       <?php /*
       <ul class="nav navbar-nav">
