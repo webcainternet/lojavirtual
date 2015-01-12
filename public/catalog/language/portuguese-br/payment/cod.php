@@ -1,3 +1,3 @@
 <?php
 // Text
-$_['text_title'] = 'Pagamento direto com a loja (Transferência ou boleto)';
+$_['text_title'] = 'Direto com a lojavirtual.digital (Transferência ou boleto)';
