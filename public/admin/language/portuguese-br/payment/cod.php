@@ -1,11 +1,11 @@
 <?php
 // Heading
-$_['heading_title']                 = 'Pagamento na Entrega';
+$_['heading_title']                 = 'Pagamento direto com a loja (Transferência ou boleto)';
 
 // Text
 $_['text_payment']                  = 'Formas de Pagamento';
-$_['text_success']                  = 'Módulo Pagamento na Entrega modificado com sucesso!';
-$_['text_edit']                     = 'Editar Módulo Pagamento na Entrega';
+$_['text_success']                  = 'Módulo Pagamento direto com a loja modificado com sucesso!';
+$_['text_edit']                     = 'Editar Módulo Pagamento direto com a loja';
 
 // Entry
 $_['entry_total']					= 'Total Mínimo';
@@ -18,4 +18,4 @@ $_['entry_sort_order']              = 'Ordem:';
 $_['help_total']					= 'O check-out total de pedido deve chegar antes de este método de pagamento se tornar ativa.';
 
 // Error
-$_['error_permission']				= 'Atenção: Você não possui permissão para modificar o módulo Pagamento na Entrega!';
+$_['error_permission']				= 'Atenção: Você não possui permissão para modificar o módulo Pagamento direto com a loja!';
