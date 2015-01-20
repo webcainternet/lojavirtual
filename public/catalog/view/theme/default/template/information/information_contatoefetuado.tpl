@@ -1,4 +1,6 @@
 <?php
+      ini_set('display_errors', 0);
+
       $nome = $_GET["nome"];
       $ddd  = $_GET["ddd"];
       $tel  = $_GET["telefone"];
