@@ -1,5 +1,5 @@
 <?php
-      ini_set('display_errors', 0);
+      error_reporting(error_reporting() & ~E_NOTICE);
 
       $nome = $_GET["nome"];
       $ddd  = $_GET["ddd"];
