@@ -28,7 +28,7 @@ class ModelAccountCustomer extends Model {
 		$subject = sprintf($this->language->get('text_subject'), $this->config->get('config_name'));
 
 		$message = '<a href="https://lojavirtual.digital" title="LojaVirtual .digital"><img src="https://lojavirtual.digital/image/catalog/lojalogo_1_mail.png" alt="LojaVirtual .digital" style="margin-bottom: 20px; border: none;" /></a><br>';
-		$message += sprintf($this->language->get('text_welcome'), $this->config->get('config_name')) . "\n\n";
+		$message = sprintf($message . $this->language->get('text_welcome'), $this->config->get('config_name')) . "\n\n";
 
 		if (!$customer_group_info['approval']) {
 			$message .= $this->language->get('text_login') . "\n";
