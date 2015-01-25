@@ -20,7 +20,7 @@
   <div class="container" style="background-color: #f6ae3b; padding-top: 30px; padding-bottom: 15px; border-top-left-radius: 15px; border-top-right-radius: 15px;">
     
     <div class="wca-footer-mid">
-      <p><?php //echo $powered; ?>LojaVirtual .digital - WebCA Internet &copy; 2011 - <?php echo date("Y"); ?></p> 
+      <p><?php //echo $powered; ?>Loja Virtual .digital - WebCA Internet &copy; 2011 - <?php echo date("Y"); ?></p> 
     </div>
     <div class="wca-footer-mid" style="text-align: right;">
       <a href="//webca.com.br/"><div class="wca-logo-white">&nbsp;</div></a>

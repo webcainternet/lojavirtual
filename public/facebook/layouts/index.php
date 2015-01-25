@@ -2444,7 +2444,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
   <div class="container" style="background-color: #f6ae3b; padding-top: 30px; padding-bottom: 15px; border-top-left-radius: 15px; border-top-right-radius: 15px; padding: 10px;">
     
     <div class="wca-footer-mid">
-      <p>LojaVirtual .digital - WebCA Internet &copy; 2011 - 2015</p> 
+      <p>Loja Virtual .digital - WebCA Internet &copy; 2011 - 2015</p> 
     </div>
     <div class="wca-footer-mid" style="text-align: right;">
       <a href="//webca.com.br/" target="_blank"><div class="wca-logo-white">&nbsp;</div></a>

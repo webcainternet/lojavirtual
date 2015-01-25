@@ -5,8 +5,8 @@
 <html>
 
 <head>
-	<title>LojaVirtual .digital - Demonstração</title>
-
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Loja Virtual .digital - Demonstração</title>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -19,7 +19,7 @@
 </script>
 </head>
 
-<frameset rows="50,*" frameborder="0">
+<frameset rows="59,*" frameborder="0">
   <frame src="header.php?tmid=<?php echo $tmid; ?>"  noresize="noresize" scrolling="no">
   <frame src="http://livedemo00.template-help.com/opencart_<?php echo $tmid; ?>">
 </frameset>
