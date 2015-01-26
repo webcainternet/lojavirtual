@@ -47,7 +47,7 @@
 
           <?php 
             if ($model == "WebLoja Profissional") {
-              include "product_professional.tpl";
+              include "product_profissional.tpl";
             } 
             if ($model == "WebLoja Service") {
               include "product_service.tpl";
@@ -142,7 +142,20 @@
             <button type="button" data-toggle="tooltip" class="btn btn-default" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product_id; ?>');"><i class="fa fa-heart"></i></button>
             <button type="button" data-toggle="tooltip" class="btn btn-default" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product_id; ?>');"><i class="fa fa-exchange"></i></button>
           </div>
-          <h1><?php echo $heading_title; ?></h1>
+          <?php switch ($heading_title) {
+            case 'Loja Virtual Profissional':
+              ?><h1><b>WebLoja</b> <span class="wca-font wca-amarela">Profissional</span></h1><?php
+              break;
+            
+            case 'Loja Virtual Service':
+              ?><h1><b>WebLoja</b> <span class="wca-font wca-amarela">Service</span></h1><?php
+              break;
+            
+
+            default:
+              ?><h1><?php echo $heading_title; ?></h1><?php
+              break;
+          } ?>
           <ul class="list-unstyled">
             <?php if ($manufacturer) { ?>
             <li><?php echo $text_manufacturer; ?> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a></li>

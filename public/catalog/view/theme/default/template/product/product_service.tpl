@@ -1,4 +1,22 @@
 <style type="text/css">
+  .texto-infra-service {
+    display: block;
+  }
+  .texto-infra-profissional {
+    display: none;
+  }
+  .texto-manutencao-service {
+    display: block;
+  }
+  .texto-manutencao-profissional {
+    display: none;
+  }
+  .wca-titulo-product-service {
+    display: block;
+  }
+  .wca-titulo-product-profissional {
+    display: none;
+  }
   .wca-inc-col2 {
     display: none;
   }
