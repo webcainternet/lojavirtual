@@ -165,7 +165,7 @@
         <ul id="coverflowData">
           <ul data-cat=" ">
             <ul>
-              <li data-type="link" data-url="http://lojavirtual.digital/demo/?tmid=50480" data-target="_blank"></li>
+              <li data-type="link" data-url="http://demo.lojavirtual.digital/demo/?tmid=50480" data-target="_blank"></li>
               <li data-thumbnail-path="/image/catalog/webca/tm/50480-med.jpg"></li>
               <li data-thumbnail-text="">
                 <p class="largeLabel"></p>
@@ -177,7 +177,7 @@
               </li>
             </ul>
             <ul>
-              <li data-type="link" data-url="http://lojavirtual.digital/demo/?tmid=52157" data-target="_blank"></li>
+              <li data-type="link" data-url="http://demo.lojavirtual.digital/demo/?tmid=52157" data-target="_blank"></li>
               <li data-thumbnail-path="/image/catalog/webca/tm/52157-med.jpg"></li>
               <li data-thumbnail-text="">
                 <p class="largeLabel"></p>
@@ -189,7 +189,7 @@
               </li>
             </ul>
             <ul>
-              <li data-type="link" data-url="http://lojavirtual.digital/demo/?tmid=52156" data-target="_blank"></li>
+              <li data-type="link" data-url="http://demo.lojavirtual.digital/demo/?tmid=52156" data-target="_blank"></li>
               <li data-thumbnail-path="/image/catalog/webca/tm/52156-med.jpg"></li>
               <li data-thumbnail-text="">
                 <p class="largeLabel"></p>
@@ -201,7 +201,7 @@
               </li>
             </ul>
             <ul>
-              <li data-type="link" data-url="http://lojavirtual.digital/demo/?tmid=52109" data-target="_blank"></li>
+              <li data-type="link" data-url="http://demo.lojavirtual.digital/demo/?tmid=52109" data-target="_blank"></li>
               <li data-thumbnail-path="/image/catalog/webca/tm/52109-med.jpg"></li>
                 <li data-thumbnail-text="">
                 <p class="largeLabel"></p>
@@ -209,7 +209,7 @@
               </li>
             </ul>
             <ul>
-              <li data-type="link" data-url="http://lojavirtual.digital/demo/?tmid=52047" data-target="_blank"></li>
+              <li data-type="link" data-url="http://demo.lojavirtual.digital/demo/?tmid=52047" data-target="_blank"></li>
               <li data-thumbnail-path="/image/catalog/webca/tm/52047-med.jpg"></li>
               <li data-thumbnail-text="">
                 <p class="largeLabel"></p>
@@ -221,7 +221,7 @@
               </li>
             </ul>
             <ul>
-              <li data-type="link" data-url="http://lojavirtual.digital/demo/?tmid=51996" data-target="_blank"></li>
+              <li data-type="link" data-url="http://demo.lojavirtual.digital/demo/?tmid=51996" data-target="_blank"></li>
               <li data-thumbnail-path="/image/catalog/webca/tm/51996-med.jpg"></li>
               <li data-thumbnail-text="">
                 <p class="largeLabel"></p>
@@ -233,7 +233,7 @@
               </li>
             </ul>
             <ul>
-              <li data-type="link" data-url="http://lojavirtual.digital/demo/?tmid=51838" data-target="_blank"></li>
+              <li data-type="link" data-url="http://demo.lojavirtual.digital/demo/?tmid=51838" data-target="_blank"></li>
               <li data-thumbnail-path="/image/catalog/webca/tm/51838-med.jpg"></li>
               <li data-thumbnail-text="">
                 <p class="largeLabel"></p>
@@ -245,7 +245,7 @@
               </li>
             </ul>
             <ul>
-              <li data-type="link" data-url="http://lojavirtual.digital/demo/?tmid=51774" data-target="_blank"></li>
+              <li data-type="link" data-url="http://demo.lojavirtual.digital/demo/?tmid=51774" data-target="_blank"></li>
               <li data-thumbnail-path="/image/catalog/webca/tm/51774-med.jpg"></li>
               <li data-thumbnail-text="">
                 <p class="largeLabel"></p>
