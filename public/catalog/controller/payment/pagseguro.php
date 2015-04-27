@@ -216,7 +216,7 @@ class ControllerPaymentPagseguro extends Controller {
               $url = $this->session->data['pagseguro_url'];
               $pagamento  = "
                   Se não tiver pago, acesse a sua fatura do PagSeguro para efetuar o Pagamento<br>
-                  <a href='$url' rel='nofollow' target='_blank'><img src='https://lojavirtual.digital/image/pagseguro/segundavia.png'></a>
+                  <a href='$url' rel='nofollow' target='_blank' alt='Abrir Fatura'><img alt='Abrir Fatura' src='https://lojavirtual.digital/image/pagseguro/segundavia.png'></a>
               ";
               unset($this->session->data['pagseguro_url']);
             }else {
