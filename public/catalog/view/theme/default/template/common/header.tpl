@@ -92,8 +92,8 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
     <div style="font-size: 36px;">Atenção:</div>
     <div style="
     margin-top: 22px;
-    font-size: 24px;
-">Os valores ofertados em nosso site são válidos apenas para os orçamentos criados até 31/05/2015</div>
+    font-size: 20px;
+">Os valores ofertados em nosso site são válidos apenas para os orçamentos efetuados até 31/05/2015</div>
   </div>
 </div>
 
