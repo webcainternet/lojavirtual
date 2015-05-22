@@ -89,7 +89,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 
 <div class="promocao">
   <div style="width: 1170px; padding: 30px; margin: auto;">
-    <div style="font-size: 36px;">Atenção: Promoção esta acabando</div>
+    <div style="font-size: 36px;">Atenção:</div>
     <div style="
     margin-top: 22px;
     font-size: 24px;
