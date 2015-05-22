@@ -72,6 +72,31 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 </script>
 </head>
 <body class="<?php echo $class; ?>">
+
+<style type="text/css">
+  .promocao {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: red;
+  z-index: 100;
+  color: #FFFFFF;
+  }
+  body {
+    margin-bottom: 120px;
+  }
+</style>
+
+<div class="promocao">
+  <div style="width: 1170px; padding: 30px; margin: auto;">
+    <div style="font-size: 36px;">Atenção: Promoção esta acabando</div>
+    <div style="
+    margin-top: 22px;
+    font-size: 24px;
+">Os valores ofertados em nosso site são válidos apenas para os orçamentos criados até 31/05/2015</div>
+  </div>
+</div>
+
 <nav id="top">
   <div class="container">
     <?php echo $currency; ?>
