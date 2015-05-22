@@ -1,4 +1,4 @@
-<div class="container" style="margin-bottom: 10px;">
+<div class="container" style="margin-bottom: 20px; padding-top: 0px; margin-top: 50px;">
   <div class="fb-like" data-href="https://www.facebook.com/lojavirtual.digital" data-width="1130" data-height="300" data-layout="standard" data-colorscheme="light" data-action="like" data-show-faces="true" data-share="true" data-header="false" data-stream="false" data-show-border="false"></div>
 </div>
 
