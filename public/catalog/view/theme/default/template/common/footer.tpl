@@ -1,6 +1,6 @@
 <footer>
   <div class="container">
-  <div class="fb-like-box" data-href="https://www.facebook.com/lojavirtual.digital" data-width="1130" data-height="300" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+  <div class="fb-like" data-href="https://www.facebook.com/lojavirtual.digital" data-width="1130" data-height="300" data-layout="standard" data-colorscheme="light" data-action="like" data-show-faces="true" data-share="true" data-header="false" data-stream="false" data-show-border="false"></div>
   </div>
 
 
