@@ -1,14 +1,14 @@
 <?php
-// HTTP
-define('HTTP_SERVER', 'http://lojavirtual.digital/');
-
-// HTTPS
-define('HTTPS_SERVER', 'https://lojavirtual.digital/');
-
 switch ($_SERVER['SERVER_ADDR'])
     {
         //Ambiente Local
         case '127.0.0.1':
+        	// HTTP
+			define('HTTP_SERVER', 'http://lojavirtual.digital/');
+
+			// HTTPS
+			define('HTTPS_SERVER', 'http://lojavirtual.digital/');
+
 			// DIR
 			define('DIR_APPLICATION', '/Users/fernandomendes/github/lojavirtual/public/catalog/');
 			define('DIR_SYSTEM', '/Users/fernandomendes/github/lojavirtual/public/system/');
@@ -32,6 +32,12 @@ switch ($_SERVER['SERVER_ADDR'])
 			break;
 
 		default:
+			// HTTP
+			define('HTTP_SERVER', 'http://lojavirtual.digital/');
+
+			// HTTPS
+			define('HTTPS_SERVER', 'https://lojavirtual.digital/');
+
 			// DIR
 			define('DIR_APPLICATION', '/srv/httpd/lojavirtual.digital/lojavirtual/public/catalog/');
 			define('DIR_SYSTEM', '/srv/httpd/lojavirtual.digital/lojavirtual/public/system/');
