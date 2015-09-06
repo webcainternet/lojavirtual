@@ -82,20 +82,20 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
   z-index: 100;
   color: #FFFFFF;
   }
-  body {
-    margin-bottom: 120px;
-  }
 </style>
 
+<?php /*
 <div class="promocao">
   <div style="width: 1170px; padding: 30px; margin: auto;">
     <div style="font-size: 36px;">Atenção:</div>
     <div style="
     margin-top: 22px;
     font-size: 20px;
-">Os valores ofertados em nosso site são válidos apenas para os orçamentos efetuados até 31/05/2015</div>
+">Os valores ofertados em nosso site são válidos apenas para os orçamentos efetuados até 30/06/2015</div>
   </div>
 </div>
+
+*/ ?>
 
 <nav id="top">
   <div class="container">
