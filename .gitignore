@@ -3,3 +3,5 @@ public/.htpasswd
 public/vqmod/mods.cache
 public/vqmod/vqcache/*
 public/system/cache/*
+public/system/logs/*
+public/vqmod/checked.cache
