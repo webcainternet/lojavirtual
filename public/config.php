@@ -27,7 +27,7 @@ switch ($_SERVER['SERVER_ADDR'])
 			define('DB_HOSTNAME', 'localhost');
 			define('DB_USERNAME', 'root');
 			define('DB_PASSWORD', 'root');
-			define('DB_DATABASE', 'lojavirtual');
+			define('DB_DATABASE', 'lojavirtual4');
 			define('DB_PREFIX', 'oc_');
 			break;
 

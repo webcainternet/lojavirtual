@@ -1,3 +1,5 @@
+</div></div></div>
+
 
 <div id="slideshow<?php echo $module; ?>" class="flexslider">
   <ul class="slides">
@@ -20,3 +22,14 @@ $('#slideshow<?php echo $module; ?>').flexslider({
   itemWidth: <?php echo $width; ?>
 });
 --></script>
+
+
+<?php /*
+
+<div class="container">
+  <div class="row">
+    <div id="content" class="col-sm-12">
+
+    </div></div></div>
+
+    */ ?>

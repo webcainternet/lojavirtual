@@ -10,7 +10,7 @@ FWDS3DCovUtils.onReady(function(){
 					skinPath:"load/skin_white",
 					
 					//main settings
-					backgroundColor:"#EEEEEE",
+					backgroundColor:"#F8F8F8",
 					backgroundImagePath:"",
 					backgroundRepeat:"repeat-x",
 					showDisplay2DAlways:"no",

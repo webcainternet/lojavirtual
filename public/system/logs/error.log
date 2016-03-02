@@ -1060,3 +1060,24 @@
 2016-02-26 2:59:41 - PHP Notice:  Undefined index: 52925 in /srv/httpd/lojavirtual.digital/lojavirtual/public/catalog/view/theme/default/template/product/product_webloja.tpl on line 148
 2016-02-26 22:42:33 - PHP Notice:  Undefined index: 52694 in /srv/httpd/lojavirtual.digital/lojavirtual/public/catalog/view/theme/default/template/product/product_webloja.tpl on line 148
 2016-02-29 0:05:36 - PHP Notice:  Undefined index: 52684 in /srv/httpd/lojavirtual.digital/lojavirtual/public/catalog/view/theme/default/template/product/product_webloja.tpl on line 148
+2016-02-29 4:15:38 - PHP Warning:  fopen(/Users/fernandomendes/github/lojavirtual/public/system/cache/cache.language.1456733738) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /Users/fernandomendes/github/lojavirtual/public/system/library/cache/file.php on line 49
+2016-02-29 4:15:38 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /Users/fernandomendes/github/lojavirtual/public/system/library/cache/file.php on line 51
+2016-02-29 4:15:38 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /Users/fernandomendes/github/lojavirtual/public/system/library/cache/file.php on line 53
+2016-02-29 4:15:38 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /Users/fernandomendes/github/lojavirtual/public/system/library/cache/file.php on line 55
+2016-02-29 4:15:38 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /Users/fernandomendes/github/lojavirtual/public/system/library/cache/file.php on line 57
+2016-02-29 4:15:38 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /Users/fernandomendes/github/lojavirtual/public/system/library/cache/file.php on line 59
+2016-02-29 4:15:38 - PHP Warning:  fopen(/Users/fernandomendes/github/lojavirtual/public/system/cache/cache.currency.1456733738) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /Users/fernandomendes/github/lojavirtual/public/system/library/cache/file.php on line 49
+2016-02-29 4:15:38 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /Users/fernandomendes/github/lojavirtual/public/system/library/cache/file.php on line 51
+2016-02-29 4:15:38 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /Users/fernandomendes/github/lojavirtual/public/system/library/cache/file.php on line 53
+2016-02-29 4:15:38 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /Users/fernandomendes/github/lojavirtual/public/system/library/cache/file.php on line 55
+2016-02-29 4:15:38 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /Users/fernandomendes/github/lojavirtual/public/system/library/cache/file.php on line 57
+2016-02-29 4:15:38 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /Users/fernandomendes/github/lojavirtual/public/system/library/cache/file.php on line 59
+2016-02-29 4:54:35 - PHP Notice:  Undefined variable: class in /Users/fernandomendes/github/lojavirtual/public/catalog/view/theme/default/template/common/home.tpl on line 29
+2016-02-29 4:54:35 - PHP Notice:  Undefined variable: class in /Users/fernandomendes/github/lojavirtual/public/catalog/view/theme/default/template/common/home.tpl on line 144
+2016-02-29 4:54:35 - PHP Notice:  Undefined variable: class in /Users/fernandomendes/github/lojavirtual/public/catalog/view/theme/default/template/common/home.tpl on line 253
+2016-02-29 4:54:35 - PHP Notice:  Undefined variable: class in /Users/fernandomendes/github/lojavirtual/public/catalog/view/theme/default/template/common/home.tpl on line 29
+2016-02-29 4:54:35 - PHP Notice:  Undefined variable: class in /Users/fernandomendes/github/lojavirtual/public/catalog/view/theme/default/template/common/home.tpl on line 144
+2016-02-29 4:54:35 - PHP Notice:  Undefined variable: class in /Users/fernandomendes/github/lojavirtual/public/catalog/view/theme/default/template/common/home.tpl on line 253
+2016-02-29 4:54:35 - PHP Notice:  Undefined variable: class in /Users/fernandomendes/github/lojavirtual/public/catalog/view/theme/default/template/common/home.tpl on line 29
+2016-02-29 4:54:35 - PHP Notice:  Undefined variable: class in /Users/fernandomendes/github/lojavirtual/public/catalog/view/theme/default/template/common/home.tpl on line 144
+2016-02-29 4:54:35 - PHP Notice:  Undefined variable: class in /Users/fernandomendes/github/lojavirtual/public/catalog/view/theme/default/template/common/home.tpl on line 253
